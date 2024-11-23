@@ -1,0 +1,31 @@
+.fuel-range {
+  z-index: 10;
+  margin-top: 30px !important;
+  width: 400px;
+
+  -webkit-appearance: none;
+  height: 10px;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+  }
+
+  &::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,193 @@
+.Container_propriete {
+    position: relative;
+    left: 100px;
+    top: 52px;
+    height: fit-content;
+    width: 492px;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 6px 6px 0px 0px;
+    display: flex;
+
+    & input {
+        &:focus {
+            outline: none;
+        }
+    }
+
+    & .Infos {
+        padding-left: 20px;
+
+        .Proprio {
+            background: rgba(94, 108, 182, 0.5);
+            border-radius: 3px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 12px;
+            display: flex;
+            width: fit-content;
+            padding: 10px;
+            align-items: center;
+
+            color: #FFFFFF;
+
+            text-shadow: 0px 7.66667px 7.66667px rgba(0, 0, 0, 0.25);
+        }
+
+        & .Bouttons {
+            margin: 40px 0;
+        }
+    }
+
+
+}
+
+.Container_Propriete2 {
+    position: relative;
+    left: 100px;
+    top: 52px;
+    height: fit-content;
+    width: 492px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0px 0px 6px 6px;
+    display: flex;
+    box-shadow: 0px 3px 3px #00000029;
+
+    .Bar {
+        position: absolute;
+        bottom: 10px;
+        height: 3px;
+        width: 90px;
+        background-color: rgba(255, 255, 255, 0.364);
+    }
+
+    .Progress {
+        height: 100%;
+        background-color: white;
+        width: 0%;
+    }
+
+    & .item {
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 6px;
+        width: 115px;
+        height: 115px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        margin-right: 20px;
+
+        & img {
+            height: 95px;
+        }
+
+        &.selected,
+        &:hover {
+            background: linear-gradient(90deg, rgba(94, 108, 182, 0.3) 0%, rgba(94, 108, 182, 0.3) 100%);
+
+            & .name {
+                display: none;
+            }
+        }
+    }
+
+    & .name {
+        background: #5E6CB69E;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: #FFFFFF;
+
+    }
+
+    & .Complet {
+        position: absolute;
+        background: linear-gradient(180deg, rgba(253, 127, 127, 0.5) 0%, rgba(224, 31, 31, 0.5) 100%);
+        border-radius: 3px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+        right: 35px;
+        bottom: 150px;
+        padding: 2px 30px;
+        text-shadow: 0px 7.66667px 7.66667px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.text_title {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.text_adresse {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #BADAFF;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+
+}
+
+.text_input {
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: white;
+}
+
+.text_btn_propriete {
+    font-family: 'Lato', sans-serif;
+    font-size: 11.5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.text_boiteaulettre {
+    font-family: 'Lato', sans-serif;
+    font-size: 12.5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.div_btn_propriete:hover {
+    opacity: 0.7;
+}
+
+.div_btn:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.text_action_proriete {
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}

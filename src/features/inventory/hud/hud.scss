@@ -1,0 +1,41 @@
+.inventory-hud {
+	position: absolute;
+	right: 1.4%;
+	top: calc(50% - 110px);
+
+	.hud-item {
+		margin: 10px 0;
+		height: 60px;
+		width: 60px;
+		position: relative;
+		background-size: 28px 28px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: #00000088;
+		border-radius: 50%;
+
+		svg {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+
+		.weight {
+			display: flex;
+			flex-direction: column;
+
+			position: absolute;
+			top: 4px;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			font-family: Montserrat;
+			font-size: 12px;
+			font-weight: 600;
+			text-align: center;
+			color: white;
+		}
+	}
+}

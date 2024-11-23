@@ -1,0 +1,74 @@
+/* Container de l'UI */
+.Container_Television {
+	font-family: "Lato", sans-serif;
+	position: relative;
+	left: 70px;
+	top: 52px;
+	height: fit-content;
+	width: 490px;
+	background-color: rgba(0, 0, 0, 0.55);
+	border-radius: 6px;
+	display: flex;
+	box-shadow: 0px 3px 3px #00000029;
+
+	.Buttons {
+		// 2x2 grid
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-gap: 10px;
+
+		// center the grid
+		justify-content: center;
+		align-items: center;
+
+		// padding
+		padding-top: 10px;
+	}
+
+	.div_btn_television {
+		width: 100%;
+		height: 25px;
+		display: flex;
+		align-self: center;
+		justify-content: center;
+		align-items: center;
+		border-radius: 4px;
+	}
+
+	.div_btn_television:hover {
+		cursor: pointer;
+	}
+
+	/* animation des lignes en active */
+	.div_btn_television:after,
+	.div_btn_television:before {
+		backface-visibility: hidden;
+		border: 1px solid rgba(#fff, 0);
+		bottom: 0px;
+		content: " ";
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		transition: all 85ms ease-in-out;
+		width: 0;
+	}
+
+	.div_btn_television:active:after,
+	.div_btn_television:active:before {
+		backface-visibility: hidden;
+		border-color: #fff;
+		transition: width 100ms ease-in-out;
+		width: 15%;
+	}
+
+	.skip {
+		background: linear-gradient(180deg, rgba(251, 157, 4, 0.9) 6.56%, rgba(191, 132, 12, 0.9) 92.92%);
+	}
+
+	.skip:hover {
+		background: linear-gradient(180deg, rgba(251, 157, 4, 0.9) 0%, rgba(255, 167, 26, 0.9) 100%);
+	}
+}
+
+/* Style pour le play - pause - stop dans la Boombox → mêmes classes pas besoin de répétitions */

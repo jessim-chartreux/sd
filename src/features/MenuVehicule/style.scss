@@ -1,0 +1,161 @@
+.MenuVoiture {
+    width: 493px;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px;
+
+    & .header {
+        background: #000000CC;
+        display: flex;
+        height: 57px;
+        align-items: center;
+		position: relative;
+
+        &Name {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 25px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+
+            color: #BADAFF;
+            margin-left: 35px;
+        }
+    }
+
+    & .fuel {
+        color: white;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        position: absolute;
+        bottom: 12px;
+        right: 70px;
+    }
+
+    & .condition {
+        color: white;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        position: absolute;
+        bottom: 15px;
+        right: -60%;
+    }
+
+    & .main {
+
+        & .span {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 100%;
+            color: white;
+            margin-left: 35px;
+
+            & .key {
+                width: 14px;
+                height: 15px;
+                background: #FFFFFF;
+                border-radius: 1px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 14px;
+                display: flex;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: black;
+                margin-left: 5px;
+                transform: translateY(-1px);
+            }
+        }
+
+        & .plaque {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            margin-left: 35px;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(180deg, rgba(41, 41, 41, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+            border-radius: 3px;
+            width: 107px;
+            height: 25px;
+            color: white
+        }
+
+        & .buttons {
+            display: flex;
+            flex-wrap: wrap;
+
+            &>* {
+                margin: 4.5px;
+            }
+        }
+
+        & .cSlider {
+            background-color: none;
+            width: 415px;
+            margin-left: 34px;
+
+            & .MuiSlider-rail {
+                height: 10px;
+                border-radius: 1px;
+                background: #FFFFFF3B;
+
+            }
+
+            & .MuiSlider-track {
+                background: linear-gradient(180deg, rgba(253, 127, 127, 0.8) 0%, rgba(194, 26, 32, 0.8) 100%);
+                border: none;
+                height: 10px;
+                border-radius: 1px
+            }
+
+            & .MuiSlider-thumb {
+                box-shadow: none !important;
+                width: 33px;
+                height: 33px;
+                background: linear-gradient(180deg, #FD7F7F 0%, #C21A20 100%);
+
+            }
+
+            & .MuiSlider-valueLabelOpen {
+                &:before {
+                    display: none;
+                }
+
+                position: absolute;
+                transform: translateY(12px);
+                background-color: transparent;
+            }
+
+        }
+    }
+}

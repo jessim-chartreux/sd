@@ -1,0 +1,458 @@
+/* * {
+	outline: red solid 1px;
+} */
+
+.CaisseEnregistreuse {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 70vh;
+	width: 70vw;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding: 20px;
+
+	.Header {
+		img {
+			position: absolute;
+			top: 40px;
+			left: -75px;
+
+			border-radius: 5px;
+		}
+
+		.Header-Info {
+			position: absolute;
+			top: 50px;
+			right: 50px;
+
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+			justify-content: center;
+
+			h1 {
+				font-size: 2rem;
+				font-weight: 700;
+				color: white;
+				margin: 0;
+			}
+
+			h2 {
+				font-size: 0.8rem;
+				font-weight: 400;
+				color: #c2c2c2;
+			}
+		}
+	}
+
+	.Content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+
+		width: 100%;
+		height: 70%;
+
+		margin-top: 10px;
+
+		.Order {
+			width: 35%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+
+			gap: 20px;
+
+			h1 {
+				font-size: 1.5rem;
+				font-weight: 500;
+				color: white;
+				margin: 0;
+			}
+
+			.Order-Products {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				flex-direction: column;
+				gap: 10px;
+
+				width: 100%;
+
+				p {
+					font-size: 1rem;
+					font-weight: 400;
+					color: white;
+					margin: 0;
+				}
+
+				.Order-Product {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					width: 100%;
+
+					border-radius: 5px;
+					background-color: rgba(102, 102, 102, 0.5);
+
+					input {
+						width: 60px;
+						height: 35px;
+						border: none;
+						border-top-left-radius: 5px;
+						border-bottom-left-radius: 5px;
+						background-color: rgba(0, 0, 0, 0.492);
+						color: white;
+						font-size: 1rem;
+						font-weight: 400;
+						text-align: center;
+					}
+
+					.Order-Product-Remove {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						width: 60px;
+						height: 35px;
+						border-top-right-radius: 5px;
+						border-bottom-right-radius: 5px;
+						background-color: rgba(0, 0, 0, 0.492);
+						cursor: pointer;
+
+						color: white;
+
+						transition: background-color 0.2s;
+
+						svg {
+							width: 15px;
+							height: 15px;
+						}
+
+						&:hover {
+							background-color: #ff6d6d9d;
+						}
+					}
+
+					div {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						width: 100%;
+
+						padding: 0 10px;
+						color: white;
+
+						text-transform: uppercase;
+						font-size: 1rem;
+						font-weight: 300;
+
+						.Order-Product-Price {
+							color: #38dc66;
+						}
+					}
+				}
+			}
+		}
+
+		.Products {
+			width: 60%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: flex-start;
+
+			gap: 20px;
+			padding-right: 20px;
+			h1 {
+				font-size: 1.5rem;
+				font-weight: 500;
+				color: white;
+				margin: 0;
+			}
+
+			&-input {
+
+				&-imgbox {
+					position: absolute;
+					background: rgba(0, 0, 0, 0.37);
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 46px;
+					height: 30px;
+					&-img {
+						width: 16px;
+						height: 16px;
+					}
+
+				}
+
+				&-text {
+					width: 253px;
+					height: 30px;
+					background: rgba(102, 102, 102, 0.5);
+					border-radius: 5px;
+					font-family: 'Montserrat';
+					font-style: normal;
+					font-weight: 500;
+					font-size: 15px;
+					line-height: 18px;
+					color: #FFFFFF;
+					padding-left: 60px;
+
+				}
+			}
+			.Products-List {
+				/* 4x3 scrollable grid */
+				display: grid;
+				grid-template-columns: repeat(5, 1fr);
+				grid-template-rows: repeat(3, 1fr);
+				gap: 10px;
+
+				width: 100%;
+				height: 100%;
+				overflow-y: scroll;
+				scroll-behavior: smooth;
+
+				.Product {
+					position: relative;
+
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+
+					width: 150px;
+					height: 150px;
+
+					border-radius: 5px;
+					background-color: rgba(102, 102, 102, 0.5);
+
+					background-position: center;
+					background-size: 80%;
+					background-repeat: no-repeat;
+
+					cursor: pointer;
+
+					transition:
+						background-color 0.2s,
+						background-size 0.2s;
+
+					&:hover {
+						background-color: rgba(94, 108, 182, 0.8);
+						background-size: 90%;
+					}
+
+					h2 {
+						position: absolute;
+						bottom: 0;
+
+						font-size: 0.8rem;
+						color: white;
+
+						padding: 2.5px 0px;
+						width: 100%;
+						text-align: center;
+
+						background-color: rgba(94, 108, 182, 0.8);
+						border-bottom-left-radius: 5px;
+						border-bottom-right-radius: 5px;
+					}
+
+					h3 {
+						position: absolute;
+						top: 0;
+						right: 0;
+
+						font-size: 0.9rem;
+						color: #38dc66;
+						margin: 0;
+
+						padding: 7.5px 10px;
+						background-color: rgba(0, 0, 0, 0.3);
+
+						border-top-right-radius: 5px;
+						border-bottom-left-radius: 5px;
+					}
+				}
+			}
+		}
+	}
+
+	.Footer {
+		position: absolute;
+		bottom: 60px;
+
+		width: 95%;
+		height: 5%;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+
+		text-transform: uppercase;
+
+		.Left {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			gap: 100px;
+
+			.Footer-Reduction {
+				display: flex;
+				align-items: center;
+
+				width: 138px;
+				height: 35px;
+				background-color: rgba(102, 102, 102, 0.5);
+
+				h1 {
+					font-size: 1rem;
+					font-weight: 400;
+					color: white;
+					margin: 0;
+					padding: 0 40px;
+				}
+
+				.Footer-Reduction-Input {
+					width: 80px;
+					height: 35px;
+					border: none;
+					background-color: rgba(58, 58, 58, 0.5);
+					color: white;
+					font-size: 1rem;
+					font-weight: 400;
+					text-align: center;
+
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					input {
+						width: 80px;
+						height: 35px;
+						border: none;
+						background: none;
+						color: white;
+						font-size: 1rem;
+						font-weight: 400;
+						text-align: center;
+					}
+
+					span {
+						padding: 0 10px;
+					}
+				}
+			}
+
+			.Footer-Total {
+				display: flex;
+				align-items: center;
+
+				width: 128px;
+				height: 35px;
+
+				background-color: rgba(102, 102, 102, 0.5);
+
+				.Title {
+					font-size: 1rem;
+					font-weight: 400;
+					color: white;
+					margin: 0;
+					padding: 0 40px;
+				}
+
+				.Amount {
+					font-size: 1rem;
+					font-weight: 400;
+					color: #38dc66;
+					margin: 0;
+					padding: 0 10px;
+
+					width: 80px;
+					height: 35px;
+					padding: 0 40px;
+
+					background-color: rgba(58, 58, 58, 0.5);
+
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			}
+			
+			.Footer-Validate-Command {
+				margin-left: 39px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				width: 250px;
+				height: 35px;
+
+				background-color: #646464;
+
+				cursor: pointer;
+
+				transition: background-color 0.2s;
+
+				&:hover {
+					background-color: green;
+				}
+
+				h1 {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					width: 25%;
+					height: 100%;
+					font-size: 1.2rem;
+					font-weight: 600;
+					color: white;
+					margin: 0;
+
+					background: linear-gradient(180deg, rgba(2, 235, 25, 0.78) 0%, rgba(1, 248, 100, 0.39) 100%);
+				}
+
+				span {
+					width: 100%;
+					height: 100%;
+
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					font-size: 1rem;
+					font-weight: 400;
+					color: white;
+
+					background: linear-gradient(180deg, rgba(30, 180, 90, 0.52) 0%, rgba(48, 154, 63, 0.65) 34%);
+				}
+			}
+		}
+
+		.Right {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			gap: 10px;
+
+			
+		}
+	}
+}

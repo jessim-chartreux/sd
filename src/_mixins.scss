@@ -1,0 +1,74 @@
+@use "sass:list";
+/// Stroke font-character
+/// @param  {Integer} $stroke - Stroke width
+/// @param  {Color}   $color  - Stroke color
+/// @return {List}            - text-shadow list
+@function stroke($stroke, $color) {
+	$shadow: (
+	);
+$from: $stroke*-1;
+
+@for $i from $from through $stroke {
+	@for $j from $from through $stroke {
+		$shadow: list.append($shadow, $i*1px $j*1px 0 $color, comma);
+	}
+}
+
+@return $shadow;
+}
+
+/// Stroke font-character
+/// @param  {Integer} $stroke - Stroke width
+/// @param  {Color}   $color  - Stroke color
+/// @return {Style}           - text-shadow
+@mixin stroke($stroke, $color) {
+	text-shadow: stroke($stroke, $color);
+}
+
+/// Conic background
+/// @param  {Color}   $c1  - Stroke color
+/// @param  {Color}   $c2  - Stroke color
+@mixin conic-bg($c1, $c2) {
+	background:
+		conic-gradient(from 45deg at 50% 100%,
+			$c1 0%,
+			$c1 5%,
+			$c2 5%,
+			$c2 10%,
+			$c1 10%,
+			$c1 15%,
+			$c2 15%,
+			$c2 20%,
+			$c1 20%,
+			$c1 25%,
+			$c2 25%,
+			$c2 30%,
+			$c1 30%,
+			$c1 35%,
+			$c2 35%,
+			$c2 40%,
+			$c1 40%,
+			$c1 45%,
+			$c2 45%,
+			$c2 50%,
+			$c1 50%,
+			$c1 55%,
+			$c2 55%,
+			$c2 60%,
+			$c1 60%,
+			$c1 65%,
+			$c2 65%,
+			$c2 70%,
+			$c1 70%,
+			$c1 75%,
+			$c2 75%,
+			$c2 80%,
+			$c1 80%,
+			$c1 85%,
+			$c2 85%,
+			$c2 90%,
+			$c1 90%,
+			$c1 95%,
+			$c2 95%,
+			$c2 100%);
+}

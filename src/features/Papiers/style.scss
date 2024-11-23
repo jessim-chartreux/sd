@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+.Papiers {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    zoom: 66%;
+    .Content {
+        width: 857px;
+        height: 952px;
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        animation-delay: 0.7s;
+        &.Anim {
+            position: absolute;
+            left: 0;
+            top: 0;
+            &::before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                top: 3px;
+                background-color: #ffffff30 !important;
+                background-size: cover;
+                position: absolute;
+            }
+            &:first-of-type {
+                transform: rotate(3deg);
+                animation-delay: .1s;
+            }
+            &:not(:first-of-type) {
+                transform: rotate(-3deg);
+                animation-delay: 0.4s;
+            }
+        }
+    }
+    &.deposition, &.convocation {
+        & .Content {
+            & .Span,
+            & .Colored {
+                color: #001BAA !important
+            }
+            & input {
+                border-bottom: #001BAA 2px solid !important;
+                color: #001BAA;
+            }
+            &::before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                background-color: #ffffff6d;
+                position: absolute;
+            }
+            &>* {
+                position: relative;
+            }
+        }
+        & textarea {
+            padding: 10px;
+            border: none;
+            background-color: #0000001d;
+            border-radius: 6px;
+            width: 100%;
+            height: 80px;
+            resize: none;
+            outline: none;
+            font-size: 30px;
+            color: #001BAA;
+        }
+    }
+    & textarea {
+        padding: 10px;
+        border: none;
+        background-color: #0000001d;
+        border-radius: 6px;
+        width: 100%;
+        height: 80px;
+        resize: none;
+        outline: none;
+        font-size: 30px;
+        color: #33963C;
+    }
+    &.certificat {
+        & .Content {
+            &::before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                background-color: #ffffff6d;
+                position: absolute;
+            }
+            &>* {
+                position: relative;
+            }
+        }
+        & textarea {
+            padding: 10px;
+            border: none;
+            background-color: #0000001d;
+            border-radius: 6px;
+            width: 100%;
+            height: 100px;
+            resize: none;
+            outline: none;
+            font-size: 30px;
+            color: #33963C;
+        }
+    }
+    & .Logo {
+        width: 120px;
+        height: 120px;
+        position: absolute !important;
+        right: 60px;
+        top: 60px;
+    }
+    input {
+        color: #33963C;
+        background: none;
+        border: none;
+        outline: none;
+        margin: 0 5px;
+        border-bottom: #33963C 2px solid;
+    }
+    & .Title {
+        padding-left: 50px;
+        padding-top: 50px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        max-width: 550px;
+        color: #000000;
+        & input {
+            font-size: 40px;
+            width: 290px;
+            font-weight: bold;
+        }
+    }
+    & .Main,
+    & .Price,
+    & .Nature {
+        width: 100%;
+        box-sizing: border-box;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 32px;
+        color: #000000;
+        padding: 30px 50px;
+        & input {
+            font-size: 31px;
+            width: 250px;
+        }
+    }
+    & .Price,
+    & .Nature {
+        & input {
+            font-size: 31px;
+            width: 150px;
+        }
+    }
+    & .Date {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 33px;
+        line-height: 45px;
+        color: #000000;
+        padding: 15px 50px 0;
+    }
+    & .Signatures {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 90px;
+        margin-top: auto;
+        & .Signature {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            height: 140px;
+        }
+        & .Colored {
+            font-family: 'Rock Salt' !important;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 45px;
+            /* identical to box height, or 144% */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #33963C;
+            margin-top: auto;
+        }
+        & .Bar {
+            width: 300px;
+            height: 3px;
+            background-color: #727272;
+            margin: 10px 0;
+        }
+        & .Signator {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            /* identical to box height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #727272;
+        }
+    }
+    & .Submit {
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+        padding-bottom: 50px;
+        & .Button {
+            background: #727272;
+            border-radius: 9.61719px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            width: 367.86px;
+            height: 57.22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: auto;
+            position: relative;
+            cursor: pointer;
+            color: #FFFFFF;
+            & .Disabled {
+                background: rgba(114, 114, 114, 0.3);
+                color: #727272;
+                pointer-events: none;
+            }
+        }
+        & .Receipt {
+            position: absolute;
+            right: 50px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            /* identical to box height */
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #727272;
+            & .Label {
+                background: linear-gradient(0deg, rgba(203, 203, 203, 0.27), rgba(203, 203, 203, 0.27));
+                border: 5px solid #727272;
+                border-radius: 9.61719px;
+                width: 52px;
+                height: 46px;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &.ReadOnly {
+                    pointer-events: none;
+                }
+            }
+            & input {
+                display: none;
+            }
+        }
+    }
+    & .Span {
+        width: fit-content;
+        color: #33963C;
+        margin: 0 7px;
+    }
+    &.facture,
+    &.contrat {
+        & .Date {
+            position: absolute;
+            right: 10px;
+            top: 40px;
+        }
+    }
+    & div.Span {
+        max-height: 110px;
+        overflow: auto;
+        width: 100%;
+    }
+}

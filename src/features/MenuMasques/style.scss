@@ -1,0 +1,21 @@
+.MenuMasques {
+    .VisionMenu-listContainer {
+        max-height: 400px !important;
+        min-height: 400px !important;
+        margin-bottom: 5px;
+        width: 430px !important;
+        margin-left: 35px !important;
+    }
+
+    & .VisionMenu {
+        height: auto !important;
+        position: relative;
+    }
+
+    .overrideBinco.VisionMenu-listContainer {
+        max-height: 365px !important;
+        min-height: 365px !important;
+        width: 437px !important;
+        margin-left: 30px !important;
+    }
+}

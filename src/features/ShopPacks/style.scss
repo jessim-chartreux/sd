@@ -1,0 +1,85 @@
+
+
+.ShopPacks {
+	width: fit-content;
+	margin: 0 auto;
+
+	&Container {
+		display: flex;
+		flex-direction: column;
+
+		.Main {
+			color: #fff;
+			font-family: Lato;
+			font-size: 45px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			margin-top: 5vh;
+		}
+
+		.Sub {
+			color: #fff;
+			font-family: Lato;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: normal;
+			margin-bottom: 2vh;
+			display: flex;
+			justify-content: space-between;
+
+			& > span {
+				border-radius: 4px;
+				background: rgba(0, 0, 0, 0.55);
+				box-shadow: 0px 1.3386px 1.3386px 0px rgba(0, 0, 0, 0.25);
+				display: flex;
+				align-items: center;
+
+				color: #fff;
+				font-family: Lato;
+				font-size: 15px;
+				font-style: normal;
+				line-height: normal;
+				padding-right: 20px;
+				text-transform: uppercase;
+
+				& > p {
+					background: linear-gradient(180deg, rgba(94, 108, 182, 0.55) 0%, rgba(94, 108, 182, 0.34) 100%);
+					box-shadow: 0px 1.3386px 1.3386px 0px rgba(0, 0, 0, 0.25);
+					margin: 0 20px 0 0;
+					padding: 7px 15px;
+					font-weight: 900;
+				}
+			}
+		}
+
+		.TurnAroundButton {
+			div {
+				width: fit-content;
+			}
+			.Button {
+				font-size: 13px !important;
+				width: 60px !important;
+				margin-left: 10px;
+			}
+		}
+	}
+
+	&SubContainer {
+		margin: 0 auto;
+		width: fit-content;
+		padding-top: 30px;
+		display: grid;
+		gap: 30px;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	& > * {
+		font-family: Lato !important;
+	}
+}
+
+.ShopPacks .BoutiquePack {
+	background-color: #fff !important;
+}

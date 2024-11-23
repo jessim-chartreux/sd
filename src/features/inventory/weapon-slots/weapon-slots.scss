@@ -1,0 +1,65 @@
+.weapon-slots {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 90px;
+	margin-top: 13px;
+	gap: 10px;
+
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	z-index: 2;
+
+	.slot {
+		height: 90px;
+		width: 90px;
+		border-radius: 10px;
+		background-color: rgba(255, 255, 255, 0.2);
+		display: flex;
+
+		&.drop-effect:hover {
+			transform: scale(1.05);
+			background-color: rgba(255, 255, 255, 0.3);
+		}
+
+		&:hover {
+			transform: scale(1.05);
+			background-color: rgba(94, 108, 182, 0.5);
+		}
+
+		.placeholder {
+			width: 26px;
+			height: 26px;
+			border-radius: 0px 10px 0px 10px;
+			color: white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: linear-gradient(180deg, rgba(0, 0, 0, 0.1875) 0%, rgba(0, 0, 0, 0.25) 100%);
+
+			position: absolute;
+			bottom: 0;
+		}
+	}
+
+	.item-image {
+		flex: 1;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: 6px;
+	}
+}
+
+.weapon-slots-background {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	z-index: 1;
+	background-color: #00000088;
+
+	border-radius: 10px;
+	width: 510px;
+	height: 110px;
+}

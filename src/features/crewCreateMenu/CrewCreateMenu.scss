@@ -1,0 +1,172 @@
+#bgc {
+	position: absolute;
+	width: 492px;
+	height: 472px;
+	left: 100px;
+	top: 238px;
+	background: rgba(0, 0, 0, 0.55);
+	border-radius: 6px;
+}
+
+#header {
+	position: absolute;
+	width: 338px;
+	height: 85px;
+	left: 79px;
+	top: 262px;
+	//background: url(/https://cdn.sacul.cloud/v2/vision-cdn/crew/crewMenuBanniere.webp);
+	opacity: 1; //0.9 -> 1 plus beau
+	border-radius: 6px;
+}
+
+#logo {
+	position: absolute;
+	width: 13px;
+	height: 15px;
+	left: 500px;
+	top: 292px;
+	background: url("https://cdn.sacul.cloud/v2/vision-cdn/crew/logo.webp");
+}
+
+#circle {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 491px;
+	top: 285px;
+	border-radius: 0px;
+	border: 1.5px solid;
+	border-image-source: linear-gradient(0deg, #ffffff, #ffffff);
+	background: linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0)), linear-gradient(0deg, #ffffff, #ffffff);
+	box-sizing: border-box;
+}
+
+#create_text {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	opacity: 1;
+}
+
+#crewNameMenu label {
+	position: absolute;
+	width: 429px;
+	height: 27px;
+	left: 132px;
+	top: 385px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	opacity: 1;
+}
+
+.crew {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+#input_crewNameMenu {
+	position: absolute;
+	width: 429px;
+	height: 30px;
+	left: 133px;
+	top: 412px;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.3) 66.32%, rgba(255, 255, 255, 0) 90.68%);
+	border: 0; //no border
+	border-radius: 3px;
+	color: #ffffff;
+	padding-left: 10px;
+}
+
+#deviseMenu label {
+	position: absolute;
+	width: 429px;
+	height: 27px;
+	left: 133px;
+	top: 465px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	opacity: 1;
+}
+
+#input_deviseMenu {
+	position: absolute;
+	width: 429px;
+	height: 30px;
+	left: 132px;
+	top: 492px;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.3) 66.32%, rgba(255, 255, 255, 0) 90.68%);
+	border-radius: 3px;
+	border: 0; //no border
+	color: #ffffff;
+	padding-left: 10px;
+}
+
+#colorCrew label {
+	position: absolute;
+	width: 429px;
+	height: 27px;
+	left: 133px;
+	top: 545px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	opacity: 1;
+}
+
+#slider {
+	position: absolute;
+	width: 398px;
+	height: 30px;
+	left: 133px;
+	top: 572px;
+	background: linear-gradient(
+		90.02deg,
+		rgba(255, 255, 255, 0) 3.78%,
+		rgba(255, 255, 255, 0.12) 34.05%,
+		rgba(255, 255, 255, 0.122) 64.32%,
+		rgba(255, 255, 255, 0) 94.59%
+	);
+	opacity: 1;
+	border-radius: 3px;
+	margin-top: 3px; //add
+}
+
+#sendButton button {
+	position: absolute;
+	width: 266px;
+	height: 30px;
+	left: 216px;
+	top: 649px;
+	background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.58) 100%);
+	border-radius: 4px;
+	color: #ffffff;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 30px;
+}

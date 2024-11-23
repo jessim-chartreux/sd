@@ -1,0 +1,5138 @@
+{
+	"orga": {
+		"autre": {
+			"ammobox_pistol": {
+				"level": "3",
+				"spawnName": "ammobox_pistol",
+				"active": true,
+				"stock": 10,
+				"price": "500",
+				"image": "assets/inventory/items/ammobox_pistol.png",
+				"type": "utils",
+				"name": "Munition d'arme de poing",
+				"cooldown": 172800
+			},
+			"keville9": {
+				"level": 1,
+				"spawnName": "keville9",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville9.webp",
+				"type": "utils",
+				"name": "KevlarMoyen1",
+				"cooldown": 172800
+			},
+			"perceuse": {
+				"level": 1,
+				"spawnName": "drill",
+				"active": false,
+				"stock": 10,
+				"price": 800,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Perceuse.webp",
+				"type": "utils",
+				"name": "Perceuse",
+				"cooldown": 172800
+			},
+			"keville1": {
+				"level": 1,
+				"spawnName": "keville1",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville1.webp",
+				"type": "utils",
+				"name": "KevlarLéger1",
+				"cooldown": 172800
+			},
+			"ammobox_sub": {
+				"level": 1,
+				"spawnName": "ammobox_sub",
+				"active": true,
+				"stock": 10,
+				"price": "650",
+				"image": "assets/inventory/items/ammobox_sub.png",
+				"type": "utils",
+				"name": "Munition légére",
+				"cooldown": 172800
+			},
+			"spray": {
+				"level": 1,
+				"spawnName": "spray",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville1.webp",
+				"type": "utils",
+				"name": "Spray",
+				"cooldown": 172800
+			},
+			"plate": {
+				"level": 1,
+				"spawnName": "plate",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/plate.webp",
+				"type": "utils",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"keville7": {
+				"level": 1,
+				"spawnName": "keville7",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville7.webp",
+				"type": "utils",
+				"name": "KevlarLourd3",
+				"cooldown": 172800
+			},
+			"keville6": {
+				"level": 1,
+				"spawnName": "keville6",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville6.webp",
+				"type": "utils",
+				"name": "KevlarLourd2",
+				"cooldown": 172800
+			},
+			"serflex": {
+				"level": 1,
+				"spawnName": "serflex",
+				"active": false,
+				"stock": 10,
+				"price": 30,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Serflex.webp",
+				"type": "utils",
+				"name": "Serflex",
+				"cooldown": 172800
+			},
+			"forreuse": {
+				"level": 1,
+				"spawnName": "forreuse",
+				"active": false,
+				"stock": 10,
+				"price": 2100,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Forreuse.webp",
+				"type": "utils",
+				"name": "Forreuse",
+				"cooldown": 518400
+			},
+			"ammobox_rifle": {
+				"level": 1,
+				"spawnName": "ammobox_rifle",
+				"active": false,
+				"stock": 10,
+				"price": "1450",
+				"image": "assets/inventory/items/ammobox_rifle.png",
+				"type": "utils",
+				"name": "munition lourde",
+				"cooldown": 172800
+			},
+			"keville3": {
+				"level": 1,
+				"spawnName": "keville3",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville3.webp",
+				"type": "utils",
+				"name": "KevlarLéger3",
+				"cooldown": 172800
+			},
+			"keville5": {
+				"level": 1,
+				"spawnName": "keville5",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville5.webp",
+				"type": "utils",
+				"name": "KevlarLourd1",
+				"cooldown": 172800
+			},
+			"keville4": {
+				"level": 1,
+				"spawnName": "keville4",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville4.webp",
+				"type": "utils",
+				"name": "KevlarLéger4",
+				"cooldown": 172800
+			},
+			"keville11": {
+				"level": "4",
+				"spawnName": "keville11",
+				"active": false,
+				"stock": "3",
+				"price": "60000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville11.webp",
+				"type": "utils",
+				"name": "KevlarMoyen3",
+				"cooldown": 172800
+			},
+			"ammobox_heavy": {
+				"level": 1,
+				"spawnName": "ammobox_heavy",
+				"active": false,
+				"stock": 10,
+				"price": 800,
+				"image": "assets/inventory/items/ammobox_heavy.png",
+				"type": "utils",
+				"name": "Munitiond\"armelourde",
+				"cooldown": 172800
+			},
+			"pince": {
+				"level": 1,
+				"spawnName": "pincecoupante",
+				"active": false,
+				"stock": 10,
+				"price": 190,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Pince_coupante.webp",
+				"type": "utils",
+				"name": "Pincecoupante",
+				"cooldown": 172800
+			},
+			"keville8": {
+				"level": "4",
+				"spawnName": "keville8",
+				"active": false,
+				"stock": "2",
+				"price": "100000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville8.webp",
+				"type": "utils",
+				"name": "KevlarLourd4",
+				"cooldown": 172800
+			},
+			"ammobox_shotgun": {
+				"level": "3",
+				"spawnName": "ammobox_shotgun",
+				"active": false,
+				"stock": 10,
+				"price": "850",
+				"image": "3",
+				"type": "utils",
+				"name": "Munitiondefusilapompe",
+				"cooldown": 172800
+			},
+			"laptop": {
+				"level": 1,
+				"spawnName": "laptop",
+				"active": false,
+				"stock": 10,
+				"price": 1200,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/ordinateur_portable.webp",
+				"type": "utils",
+				"name": "Ordinateur",
+				"cooldown": 172800
+			},
+			"hook": {
+				"level": 1,
+				"spawnName": "crochet",
+				"active": false,
+				"stock": 10,
+				"price": 28,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Outils_crochetage.webp",
+				"type": "utils",
+				"name": "Outilsdecrochetage",
+				"cooldown": 172800
+			},
+			"keville10": {
+				"level": 1,
+				"spawnName": "keville10",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville10.webp",
+				"type": "utils",
+				"name": "KevlarMoyen2",
+				"cooldown": 172800
+			},
+			"keville2": {
+				"level": "2",
+				"spawnName": "keville2",
+				"active": "true",
+				"stock": "4",
+				"price": "40000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville2.webp",
+				"type": "utils",
+				"name": "Kevlar leger",
+				"cooldown": 172800
+			},
+			"meuleuse": {
+				"level": 1,
+				"spawnName": "meuleuse",
+				"active": false,
+				"stock": 10,
+				"price": 800,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Meuleuse.webp",
+				"type": "utils",
+				"name": "Meuleuse",
+				"cooldown": 172800
+			},
+			"keville12": {
+				"level": 1,
+				"spawnName": "keville12",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville12.webp",
+				"type": "utils",
+				"name": "KevlarMoyen4",
+				"cooldown": 172800
+			}
+		},
+		"drogues": {
+			"chlorure": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002110756126730/chlorureammonium.png?ex=65de0f50&is=65cb9a50&hm=409f2a276beb4d6a47d569a625b7d95f4c2a9ac3c3986cd06506dbc37f4a5a6e&=&format=webp&quality=lossless&width=960&height=540",
+				"price": 50,
+				"spawnName": "chlorureammonium",
+				"type": "drugs",
+				"active": false,
+				"name": "ChlorureAmmonium"
+			},
+			"anhydride": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002109615280228/anhydrideacetique.png?ex=65de0f4f&is=65cb9a4f&hm=24851674304d1c0458fb40dbc65f5b5e2d189d652c5d4c03964a566259732b58&=&format=webp&quality=lossless&width=960&height=540",
+				"price": 50,
+				"spawnName": "anhydrideacetique",
+				"type": "drugs",
+				"active": false,
+				"name": "Anhydrideacetique"
+			},
+			"weed": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/weed.webp",
+				"price": 20,
+				"spawnName": "weed",
+				"type": "drugs",
+				"active": false,
+				"name": "Weed"
+			},
+			"phenylacetone": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "phenylacetone",
+				"type": "drugs",
+				"active": false,
+				"name": "Phenylacetone"
+			},
+			"pavo": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002110181515285/pavosomnifere.png?ex=65de0f50&is=65cb9a50&hm=2a9d91c09a4201ce1ffbe1aa410b6f529898bb266ec46f76c121057745b2041e&=&format=webp&quality=lossless&width=960&height=540",
+				"price": 50,
+				"spawnName": "pavosomnifere",
+				"type": "drugs",
+				"active": false,
+				"name": "PavoSomnifère"
+			},
+			"grainecannabis": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "grainecannabis",
+				"type": "drugs",
+				"active": false,
+				"name": "Grainedecannabis"
+			},
+			"kerosene": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": "400",
+				"spawnName": "kerosene",
+				"type": "drugs",
+				"active": true,
+				"name": "Kerosene"
+			},
+			"meth": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/methamphetamine.webp",
+				"price": "100",
+				"spawnName": "meth",
+				"type": "drugs",
+				"active": false,
+				"name": "Methamphetamine"
+			},
+			"fertilisant": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "fertilisant",
+				"type": "drugs",
+				"active": false,
+				"name": "Fertilisant"
+			},
+			"feuilledecoca": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": "350",
+				"spawnName": "feuilledecoca",
+				"type": "drugs",
+				"active": true,
+				"name": "Feuille de coca"
+			},
+			"methylamine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "methylamine",
+				"type": "drugs",
+				"active": false,
+				"name": "Methylamine"
+			},
+			"fentanyl": {
+				"image": "",
+				"price": 50,
+				"spawnName": "fentanyl",
+				"type": "drugs",
+				"active": false,
+				"name": "Fentanyl"
+			},
+			"ephedrine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "ephedrine",
+				"type": "drugs",
+				"active": false,
+				"name": "Ephédrine"
+			},
+			"acidesulfurique": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": "400",
+				"spawnName": "acidesulfurique",
+				"type": "drugs",
+				"active": true,
+				"name": "Acide sulfurique"
+			},
+			"engrais": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "engrais",
+				"type": "drugs",
+				"active": false,
+				"name": "Engrais"
+			},
+			"cocaine": {
+				"image": "https://cdn.discordapp.com/attachments/1172183320109535253/1185290813199089764/istockphoto-931938792-612x612-removebg-preview.png?ex=658f1317&is=657c9e17&hm=5803af8ff3739b47c01af5d3e8b0b7a87c59cfc4d017e9f7f7cd416ec20bf31a&",
+				"price": "70",
+				"spawnName": "coke",
+				"type": "drugs",
+				"active": false,
+				"name": "Cocaine"
+			}
+		},
+		"armes": {
+			"weapon_machete": {
+				"level": 1,
+				"spawnName": "weapon_machete",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_machete.webp",
+				"type": "weapons",
+				"name": "Machette",
+				"cooldown": 172800
+			},
+			"weapon_pumpshotgun": {
+				"level": 1,
+				"spawnName": "weapon_pumpshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pumpshotgun.webp",
+				"type": "weapons",
+				"name": "Remington870E",
+				"cooldown": 172800
+			},
+			"weapon_heavypistol": {
+				"level": "4",
+				"spawnName": "weapon_heavypistol",
+				"active": true,
+				"stock": "4",
+				"price": "50000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_heavypistol.webp",
+				"type": "weapons",
+				"name": "ColtM45A1",
+				"cooldown": 172800
+			},
+			"weapon_snspistol": {
+				"level": 1,
+				"spawnName": "weapon_snspistol",
+				"active": false,
+				"stock": 10,
+				"price": "20480",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_snspistol.webp",
+				"type": "weapons",
+				"name": "Glock26",
+				"cooldown": "20480"
+			},
+			"weapon_minismg": {
+				"level": "1",
+				"spawnName": "weapon_minismg",
+				"active": true,
+				"stock": "5",
+				"price": "136000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_minismg.webp",
+				"type": "weapons",
+				"name": "Skorpion",
+				"cooldown": ""
+			},
+			"weapon_sledgehammer": {
+				"level": 1,
+				"spawnName": "weapon_sledgehammer",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_sledgehammer.webp",
+				"type": "weapons",
+				"name": "Masse",
+				"cooldown": 172800
+			},
+			"weapon_compactrifle": {
+				"level": "4",
+				"spawnName": "weapon_compactrifle",
+				"active": "true",
+				"stock": "2",
+				"price": "382000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_compactrifle.webp",
+				"type": "weapons",
+				"name": "AKS-74u",
+				"cooldown": 172800
+			},
+			"weapon_bottle": {
+				"level": 1,
+				"spawnName": "weapon_bottle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bottle.webp",
+				"type": "weapons",
+				"name": "Bouteilleenverre",
+				"cooldown": 172800
+			},
+			"weapon_nightstick": {
+				"level": 1,
+				"spawnName": "weapon_nightstick",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_nightstick.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_knuckle": {
+				"level": 1,
+				"spawnName": "weapon_knuckle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_knuckle.webp",
+				"type": "weapons",
+				"name": "Poingaméricain",
+				"cooldown": 172800
+			},
+			"weapon_golfclub": {
+				"level": 1,
+				"spawnName": "weapon_golfclub",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_golfclub.webp",
+				"type": "weapons",
+				"name": "ClubdeGolf",
+				"cooldown": 172800
+			},
+			"weapon_battleaxe": {
+				"level": 1,
+				"spawnName": "weapon_battleaxe",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_battleaxe.webp",
+				"type": "weapons",
+				"name": "Hachedeguerre",
+				"cooldown": 172800
+			},
+			"weapon_pickaxe": {
+				"level": 1,
+				"spawnName": "weapon_pickaxe",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pickaxe.webp",
+				"type": "weapons",
+				"name": "Pioche",
+				"cooldown": 172800
+			},
+			"weapon_katana": {
+				"level": "2",
+				"spawnName": "weapon_katana",
+				"active": true,
+				"stock": "5",
+				"price": "7500",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_katana.webp",
+				"type": "weapons",
+				"name": "Katana",
+				"cooldown": 172800
+			},
+			"weapon_vintagepistol": {
+				"level": 1,
+				"spawnName": "weapon_vintagepistol",
+				"active": false,
+				"stock": 10,
+				"price": "26400",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_vintagepistol.webp",
+				"type": "weapons",
+				"name": "Glock41gen4",
+				"cooldown": 172800
+			},
+			"weapon_heavyshotgun": {
+				"level": 1,
+				"spawnName": "1",
+				"active": false,
+				"stock": "1",
+				"price": "370000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_heavyshotgun.webp",
+				"type": "weapons",
+				"name": "Saiga12K",
+				"cooldown": 172800
+			},
+			"weapon_sawnoffshotgun": {
+				"level": "4",
+				"spawnName": "weapon_sawnoffshotgun",
+				"active": true,
+				"stock": "4",
+				"price": "160000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_sawnoffshotgun.webp",
+				"type": "weapons",
+				"name": "Mossberg",
+				"cooldown": 172800
+			},
+			"weapon_pistol": {
+				"level": "2",
+				"spawnName": "weapon_pistol",
+				"active": false,
+				"stock": "5",
+				"price": "38000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pistol.webp",
+				"type": "weapons",
+				"name": "Beretta92FS",
+				"cooldown": 172800
+			},
+			"weapon_pelle": {
+				"level": 1,
+				"spawnName": "weapon_pelle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pelle.webp",
+				"type": "weapons",
+				"name": "Pelle",
+				"cooldown": 172800
+			},
+			"weapon_switchblade": {
+				"level": 1,
+				"spawnName": "weapon_switchblade",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_switchblade.webp",
+				"type": "weapons",
+				"name": "Couteauàcrandarrêt",
+				"cooldown": 172800
+			},
+			"weapon_dbshotgun": {
+				"level": 1,
+				"spawnName": "weapon_dbshotgun",
+				"active": true,
+				"stock": 10,
+				"price": "100000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_dbshotgun.webp",
+				"type": "weapons",
+				"name": "Double canon",
+				"cooldown": "100000"
+			},
+			"weapon_assaultshotgun": {
+				"level": 1,
+				"spawnName": "weapon_assaultshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_assaultshotgun.webp",
+				"type": "weapons",
+				"name": "UTASUTS-15",
+				"cooldown": 172800
+			},
+			"weapon_molotov": {
+				"level": 1,
+				"spawnName": "weapon_molotov",
+				"active": true,
+				"stock": 10,
+				"price": "12000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_molotov.webp",
+				"type": "weapons",
+				"name": "CocktailMolotov",
+				"cooldown": 172800
+			},
+			"weapon_pistol50": {
+				"level": 1,
+				"spawnName": "weapon_pistol50",
+				"active": false,
+				"stock": 10,
+				"price": "70000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pistol50.webp",
+				"type": "weapons",
+				"name": "DesertEagle.50",
+				"cooldown": 172800
+			},
+			"weapon_combatshotgun": {
+				"level": "4",
+				"spawnName": "weapon_combatshotgun",
+				"active": false,
+				"stock": "3",
+				"price": "320000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_combatshotgun.webp",
+				"type": "weapons",
+				"name": "FranchiSPAS-12",
+				"cooldown": 172800
+			},
+			"weapon_crowbar": {
+				"level": 1,
+				"spawnName": "weapon_crowbar",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_crowbar.webp",
+				"type": "weapons",
+				"name": "PieddeBiche",
+				"cooldown": 172800
+			},
+			"weapon_hatchet": {
+				"level": 1,
+				"spawnName": "weapon_hatchet",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_hatchet.webp",
+				"type": "weapons",
+				"name": "Hachette",
+				"cooldown": 172800
+			},
+			"weapon_specialcarbine": {
+				"level": 1,
+				"spawnName": "weapon_specialcarbine",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_specialcarbine.webp",
+				"type": "weapons",
+				"name": "H&KG36C",
+				"cooldown": 172800
+			},
+			"weapon_assaultrifle": {
+				"level": "5",
+				"spawnName": "weapon_assaultrifle",
+				"active": false,
+				"stock": "1",
+				"price": "473000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_assaultrifle.webp",
+				"type": "weapons",
+				"name": "AK-47",
+				"cooldown": 172800
+			},
+			"weapon_machinepistol": {
+				"level": "60000",
+				"spawnName": "weapon_machinepistol.spawnname",
+				"active": true,
+				"stock": 10,
+				"price": "120000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_machinepistol.webp",
+				"type": "weapons",
+				"name": "tec9",
+				"cooldown": 172800
+			},
+			"weapon_dagger": {
+				"level": 1,
+				"spawnName": "weapon_dagger",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_dagger.webp",
+				"type": "weapons",
+				"name": "DagueAntique",
+				"cooldown": 172800
+			},
+			"weapon_combatpistol": {
+				"level": 1,
+				"spawnName": "weapon_combatpistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_combatpistol.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_gusenberg": {
+				"level": "3",
+				"spawnName": "weapon_gusenberg",
+				"active": false,
+				"stock": "1",
+				"price": "382000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_gusenberg.webp",
+				"type": "weapons",
+				"name": "M1928A1Thompson",
+				"cooldown": 172800
+			},
+			"weapon_doubleaction": {
+				"level": 1,
+				"spawnName": "",
+				"active": false,
+				"stock": 10,
+				"price": "42000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_doubleaction.webp",
+				"type": "weapons",
+				"name": "ColtM1892",
+				"cooldown": 172800
+			},
+			"weapon_autoshotgun": {
+				"level": 1,
+				"spawnName": "weapon_autoshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_autoshotgun.webp",
+				"type": "weapons",
+				"name": "ArmselStriker",
+				"cooldown": 172800
+			},
+			"weapon_bouteille": {
+				"level": 1,
+				"spawnName": "weapon_bouteille",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bouteille.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_wrench": {
+				"level": 1,
+				"spawnName": "weapon_wrench",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_wrench.webp",
+				"type": "weapons",
+				"name": "Cléanglaise",
+				"cooldown": 172800
+			},
+			"weapon_revolver": {
+				"level": 1,
+				"spawnName": "weapon_revolver",
+				"active": true,
+				"stock": "1",
+				"price": "50400",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_revolver.webp",
+				"type": "weapons",
+				"name": "Revolver",
+				"cooldown": "172800"
+			},
+			"weapon_canette": {
+				"level": 1,
+				"spawnName": "weapon_canette",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_canette.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_bat": {
+				"level": 1,
+				"spawnName": "weapon_bat",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bat.webp",
+				"type": "weapons",
+				"name": "Battedebaseball",
+				"cooldown": 172800
+			},
+			"weapon_poolcue": {
+				"level": 1,
+				"spawnName": "weapon_poolcue",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_poolcue.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_carbinerifle": {
+				"level": 1,
+				"spawnName": "weapon_carbinerifle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_carbinerifle.webp",
+				"type": "weapons",
+				"name": "M4A1",
+				"cooldown": 172800
+			},
+			"weapon_knife": {
+				"level": 1,
+				"spawnName": "weapon_knife",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_knife.webp",
+				"type": "weapons",
+				"name": "Couteau",
+				"cooldown": 172800
+			},
+			"weapon_smg": {
+				"level": 1,
+				"spawnName": "weapon_smg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_smg.webp",
+				"type": "weapons",
+				"name": "H&KMP5A5",
+				"cooldown": 172800
+			},
+			"weapon_microsmg": {
+				"level": 1,
+				"spawnName": "weapon_microsmg",
+				"active": false,
+				"stock": "3",
+				"price": "100000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_microsmg.webp",
+				"type": "weapons",
+				"name": "IMIUZI",
+				"cooldown": 172800
+			}
+		}
+	},
+	"jobcenter": {
+		"eats": {
+			"maxPlayers": 1,
+			"instructions": {
+				"3": ".",
+				"1": "",
+				"2": ""
+			},
+			"location": "",
+			"reward": "",
+			"available": false,
+			"duration": "",
+			"position": {
+				"x": -1868.1,
+				"y": 2088.8,
+				"z": 139.5
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205343666000896020/facteur2.png?ex=65fcf0c4&is=65ea7bc4&hm=4a20519f83c6375a3c31096760550e04592140aa5dfa893232444f1ca5bb6ebe&=&format=webp&quality=lossless",
+			"thumbnail": "",
+			"name": "Pompier",
+			"limit": "0"
+		},
+		"peche": {
+			"maxPlayers": "4",
+			"instructions": {
+				"3": "Loue un bateau de pêche auprès de Jean.",
+				"1": "Rends le bateau et vends ton poisson. ",
+				"2": "Prend le bateau et rend toi dans la zone de pêche."
+			},
+			"location": "Elysian Island",
+			"reward": "550",
+			"available": true,
+			"duration": "15",
+			"position": {
+				"x": -290.1618347167969,
+				"y": -2769.6845703125,
+				"z": 2.19870591163635
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205342169616089108/peche.png?ex=65fcef5f&is=65ea7a5f&hm=d75542286427a935b55117b9941c98b4f3e239a6b5a2ea43ed12df71f24c325b&=&format=webp&quality=lossless",
+			"thumbnail": "https://media.discordapp.net/attachments/1205341880590794882/1205345194128445461/image_2221.png?ex=65fcf230&is=65ea7d30&hm=fe934e1deba6618bd9df0f0969a5da1cca32404221a44631b8d538c1cbaa65b6&=&format=webp&quality=lossless",
+			"name": "Pêche",
+			"limit": "3"
+		},
+		"pompiste": {
+			"maxPlayers": "2",
+			"instructions": {
+				"3": "Retourne voir Félix pour déposer ton camion-citerne et récupérer ta paye.",
+				"1": "Munis toi d'un camion-citerne auprès de Félix.",
+				"2": "Remplir les stations essence de la ville."
+			},
+			"location": "Greenwich",
+			"reward": "1750",
+			"available": true,
+			"duration": "15",
+			"position": {
+				"x": -1053.1346435546876,
+				"y": -2033.916259765625,
+				"z": 13.16157913208007
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205342531802505226/pompiste.png?ex=65fcefb5&is=65ea7ab5&hm=083d4a75b69df9bbb9ad2818dbcf4b46fd62de54eaa24d2a6ca1abbcbf422d08&=&format=webp&quality=lossless",
+			"thumbnail": "https://media.discordapp.net/attachments/1205341880590794882/1205345561193222204/image_304.png?ex=65fcf288&is=65ea7d88&hm=19cab006c909c8067f09c360c26100add8f849ddfa161891e0240d57000bb636&=&format=webp&quality=lossless",
+			"name": "Pompiste",
+			"limit": "3"
+		},
+		"routier": {
+			"maxPlayers": "2",
+			"instructions": {
+				"3": "Livre ta remorque au client et retourne voir Jp pour rendre ton camion.",
+				"1": "Munis toi d'un camion auprès de Jp.",
+				"2": "Va t'équiper de ta remorque avec ton camion."
+			},
+			"location": "Terminal",
+			"reward": "1750",
+			"available": true,
+			"duration": "30",
+			"position": {
+				"x": 861.5391235351563,
+				"y": -3185.076416015625,
+				"z": 6.03495693206787
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205342382812430386/sacs3.png?ex=65fcef92&is=65ea7a92&hm=6a19cd27d346606569fd68df548df87c7296109d9751314614a56f714788918e&=&format=webp&quality=lossless",
+			"thumbnail": "https://media.discordapp.net/attachments/1205341880590794882/1205345403021692928/image_2225.png?ex=65fcf262&is=65ea7d62&hm=eb57b5379614f15d90f0e851077c568aa5a349bf49d0ef2998e87cbe6e9d4652&=&format=webp&quality=lossless",
+			"name": "Routier",
+			"limit": "3"
+		},
+		"bagage": {
+			"maxPlayers": 1,
+			"instructions": {
+				"3": ".",
+				"1": "",
+				"2": ""
+			},
+			"location": "",
+			"reward": "",
+			"available": false,
+			"duration": "",
+			"position": {
+				"x": -1868.1,
+				"y": 2088.8,
+				"z": 139.5
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205512428172091402/facteur_2.png?ex=65fd8df0&is=65eb18f0&hm=0852a34f1364ecdf24bec3c0b779acc579eaf8139c0847655addad75380ceca2&=&format=webp&quality=lossless",
+			"thumbnail": "",
+			"name": "Tramway",
+			"limit": "0"
+		},
+		"pizza": {
+			"maxPlayers": "1",
+			"instructions": {
+				"3": "Retourne auprès de Lucas pour déposer ton scooter.",
+				"1": "Munis toi d'un scooter auprès de Lucas.",
+				"2": "Va livrer tes pizzas"
+			},
+			"location": "Mission row",
+			"reward": "300",
+			"available": true,
+			"duration": "5",
+			"position": {
+				"x": 287.50872802734377,
+				"y": -963.984375,
+				"z": 29.41863632202148
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205342572386586724/pompiste1.png?ex=65fcefbf&is=65ea7abf&hm=d9645970b4ac9a8710ccd381e646efbb632870a3b172644e21b4ea7d183238f4&=&format=webp&quality=lossless",
+			"thumbnail": "https://media.discordapp.net/attachments/1205341880590794882/1215684562680676362/pizza_1.png?ex=65fda57a&is=65eb307a&hm=e31396e1c6a1b120bfaec80ecb89d959ebdd95ee7170b0a3d1551a6d950d7d8e&=&format=webp&quality=lossless",
+			"name": "Livreur de pizza",
+			"limit": "3"
+		},
+		"farm": {
+			"maxPlayers": 1,
+			"instructions": {
+				"3": "Vends tes légumes chez Flo, le traiteur de légumes.",
+				"1": "Récupère un tracteur auprès de Thomas ",
+				"2": "Plante, récolte et transforme tes légumes."
+			},
+			"location": "Grapeseed",
+			"reward": "1750",
+			"available": true,
+			"duration": "30",
+			"position": {
+				"x": 1969.0621337890626,
+				"y": 5168.427734375,
+				"z": 47.63909912109375
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205342716746006589/haut2.png?ex=65fcefe1&is=65ea7ae1&hm=95a745183748bb275567ce4ab724f57fecaf7c0e8ca9fd01c8a3c066d8034b7e&=&format=webp&quality=lossless",
+			"thumbnail": "https://media.discordapp.net/attachments/1205341880590794882/1205345297392209970/image_222.png?ex=65fcf249&is=65ea7d49&hm=06ebe2e6be593beda47d3e1cafcad7ea5e5c9d1a7d0a52535d5dbb94fed253dc&=&format=webp&quality=lossless",
+			"name": "Ferme",
+			"limit": "3"
+		},
+		"avion": {
+			"maxPlayers": 1,
+			"instructions": {
+				"3": "",
+				"1": "",
+				"2": ""
+			},
+			"location": "",
+			"reward": "",
+			"available": false,
+			"duration": "",
+			"position": {
+				"x": -1868.1,
+				"y": 2088.8,
+				"z": 139.5
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205512244490797136/facteur.png?ex=65fd8dc4&is=65eb18c4&hm=3aa040941a878e11fa3c6a5c53196da07373a7acc77744b420bca068ea26be30&=&format=webp&quality=lossless",
+			"thumbnail": "",
+			"name": "Pilote",
+			"limit": "0"
+		},
+		"facteur": {
+			"maxPlayers": "1",
+			"instructions": {
+				"3": "Retourne voir Dorian pour déposer ton scooter et récupérer ta paye.",
+				"1": "Munis toi d'un scooter auprès de Dorian.",
+				"2": "Récupére le courrier auprès de dorian et livre-le dans les boîtes aux lettres."
+			},
+			"location": "Pillbox Hill ",
+			"reward": "580",
+			"available": true,
+			"duration": "10",
+			"position": {
+				"x": -258.8317565917969,
+				"y": -843.0755004882813,
+				"z": 31.4254035949707
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205342681346080879/facteur.png?ex=65fcefd9&is=65ea7ad9&hm=4ab7a949a8cf9d50053f52fd0d0c6ef3f0d39eb348bc21f6435950d19bfbd3a2&=&format=webp&quality=lossless",
+			"thumbnail": "https://media.discordapp.net/attachments/1205341880590794882/1205345497498255462/image_303.png?ex=65fcf278&is=65ea7d78&hm=0b4ceaa55fd52023193f2534e205e7e44e5a584c9e636d04b5b66d8a76f13101&=&format=webp&quality=lossless",
+			"name": "Facteur",
+			"limit": "3"
+		},
+		"chasse": {
+			"maxPlayers": 1,
+			"instructions": {
+				"3": "",
+				"1": "",
+				"2": ""
+			},
+			"location": "Mont chiliad",
+			"reward": "",
+			"available": false,
+			"duration": "",
+			"position": {
+				"x": -1868.1,
+				"y": 2088.8,
+				"z": 139.5
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205344059967930428/chasse.png?ex=65fcf122&is=65ea7c22&hm=ad7d31002ad572bbfba15e54ee7973e9ff8ebd0ad75224775332d2afbe048b29&=&format=webp&quality=lossless",
+			"thumbnail": "",
+			"name": "Chasse",
+			"limit": "0"
+		},
+		"gopostal": {
+			"maxPlayers": "2",
+			"instructions": {
+				"3": "Ramène le camion auprès de Dylan pour recevoir ta paye.",
+				"1": "Munis-toi d'un camion et récupère tes colis auprès de Dylan.",
+				"2": "Livres les colis dans les entreprises de Los Santos."
+			},
+			"location": "Vinewood",
+			"reward": "800",
+			"available": true,
+			"duration": "15",
+			"position": {
+				"x": 60.2,
+				"y": 129.7,
+				"z": 78.2
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205342426374610964/livreur.png?ex=65fcef9c&is=65ea7a9c&hm=fd88160fe0177c4f89d8d429f8c399d9ee224ea1a223ae45ac43a5bcf3b26091&=&format=webp&quality=lossless",
+			"thumbnail": "https://media.discordapp.net/attachments/1205341880590794882/1205345267222716456/image_2223.png?ex=65fcf241&is=65ea7d41&hm=91d4bcf192f37d7afbd6942b19dfcfeeffbae16f38110f9b186ebcf8683f720f&=&format=webp&quality=lossless",
+			"name": "GO POSTAL",
+			"limit": "3"
+		},
+		"bucheron": {
+			"maxPlayers": 1,
+			"instructions": {
+				"3": ".",
+				"1": "",
+				"2": ""
+			},
+			"location": "",
+			"reward": "",
+			"available": false,
+			"duration": "",
+			"position": {
+				"x": -429.2845153808594,
+				"y": -1727.710205078125,
+				"z": 19.78386116027832
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205343985867034724/bucheron_1.png?ex=65fcf110&is=65ea7c10&hm=c5a755ebc237622e3c57613fd94f5d2f2352f633d69f96b54764488bbde74edf&=&format=webp&quality=lossless",
+			"thumbnail": "",
+			"name": "Bûcheron",
+			"limit": ""
+		},
+		"metro": {
+			"maxPlayers": 1,
+			"instructions": {
+				"3": "Dès que tu as fini de remplir les stations essence, retourne voir félix pour déposer ton camion-citerne et récupérer ta paye.",
+				"1": ".",
+				"2": ""
+			},
+			"location": "",
+			"reward": "",
+			"available": false,
+			"duration": "",
+			"position": {
+				"x": -1051.8033447265626,
+				"y": -2033.356201171875,
+				"z": 13.16157817840576
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205512365093691442/bucheron_2.png?ex=65fd8de1&is=65eb18e1&hm=b0567840b47bd2d405481fa2c4eede48c667eac081e68a682fafb3e7e7ffb09c&=&format=webp&quality=lossless",
+			"thumbnail": "",
+			"name": "Train",
+			"limit": "0"
+		},
+		"sawmill": {
+			"maxPlayers": 1,
+			"instructions": {
+				"3": "",
+				"1": ".",
+				"2": ""
+			},
+			"location": "pillbox hill ",
+			"reward": "",
+			"available": false,
+			"duration": "",
+			"position": {
+				"x": 60.31016540527344,
+				"y": 128.76681518554688,
+				"z": 79.22352600097656
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205343699912105985/facteur1.png?ex=65fcf0cc&is=65ea7bcc&hm=5ac1832421df45285e84ecdee6bd7ae53d686ecd99dc4edc13e125738e8b4745&=&format=webp&quality=lossless",
+			"thumbnail": "",
+			"name": "Ambulancier",
+			"limit": ""
+		},
+		"bus": {
+			"maxPlayers": 1,
+			"instructions": {
+				"3": ".",
+				"1": "",
+				"2": ""
+			},
+			"location": "",
+			"reward": "",
+			"available": false,
+			"duration": "",
+			"position": {
+				"x": -1868.1,
+				"y": 2088.8,
+				"z": 139.5
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205512302623719544/facteur_1.png?ex=65fd8dd2&is=65eb18d2&hm=da7e9473e23cf99fc69b461d9d1babe6645bb7eec70115611fc7f2c3c045cf8b&=&format=webp&quality=lossless",
+			"thumbnail": "",
+			"name": "Chauffeur de bus",
+			"limit": "0"
+		},
+		"taxi": {
+			"maxPlayers": 1,
+			"instructions": {
+				"3": "",
+				"1": ".",
+				"2": "."
+			},
+			"location": "Terminal",
+			"reward": "",
+			"available": false,
+			"duration": "5",
+			"position": {
+				"x": 287.4776611328125,
+				"y": -963.151611328125,
+				"z": 29.41863632202148
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205512482672611419/facteur_3.png?ex=65fd8dfd&is=65eb18fd&hm=f4a83d4b2028f8245c3e883a5c203379bce17ef98bb25d1295f4cb86983ddb5c&=&format=webp&quality=lossless",
+			"thumbnail": "",
+			"name": "Conteneurs",
+			"limit": ""
+		},
+		"mine": {
+			"maxPlayers": 1,
+			"instructions": {
+				"3": "Vend tes minerais à Guy le mineur.",
+				"1": "Munis toi d'une pioche à l'ammunation.",
+				"2": "Récupère ton camion chez Adil."
+			},
+			"location": "Davis quartz",
+			"reward": "600",
+			"available": true,
+			"duration": "10",
+			"position": {
+				"x": 2828.95263671875,
+				"y": 2809.71875,
+				"z": 57.40174102783203
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205342963992100925/bucheron.png?ex=65fcf01c&is=65ea7b1c&hm=c5ae4a7b4078ac113b566d487615cc8cacbd9f25afecd5def522d7730cdb6b11&=&format=webp&quality=lossless",
+			"thumbnail": "https://media.discordapp.net/attachments/1205341880590794882/1205345433350832248/image_2226.png?ex=65fcf269&is=65ea7d69&hm=8116cadef0d4e07b89453dc2f933c49f693930027ecaae73bf4e408cb9aec9d4&=&format=webp&quality=lossless",
+			"name": "Mineur",
+			"limit": "3"
+		},
+		"eboueur": {
+			"maxPlayers": "4",
+			"instructions": {
+				"3": "Retourne au dépôt pour déposer ton camion, puis retourne voir Nicolas pour être payé.",
+				"1": "Munis toi d'un camion auprès de Nicolas.",
+				"2": "Ramasse les poubelles des habitants."
+			},
+			"location": "La casse",
+			"reward": "900",
+			"available": true,
+			"duration": "15",
+			"position": {
+				"x": -428.9,
+				"y": -1728.0,
+				"z": 18.8
+			},
+			"image": "https://media.discordapp.net/attachments/1205341788823355432/1205342269323092058/sacs2.png?ex=65fcef77&is=65ea7a77&hm=07d50dc6e9fe84d43de89277d61ce07312ab71a5530e8cf81f8cc312d8347337&=&format=webp&quality=lossless",
+			"thumbnail": "https://media.discordapp.net/attachments/1205341880590794882/1205345355680587776/image_2224.png?ex=65fcf257&is=65ea7d57&hm=56dc1cb50ec0af2134122e3d54409588f79278c290784afcc0bb145eff4e13f4&=&format=webp&quality=lossless",
+			"name": "Eboueur",
+			"limit": "3"
+		}
+	},
+	"houseHeist": {
+		"objet": {
+			"weapon_poolcue": 40,
+			"champagne": 70,
+			"weapon_dagger": 10,
+			"consolejv": 70,
+			"guitar": 40,
+			"champagne_pack": 70,
+			"manettejv": "50",
+			"perfume": 70,
+			"enceinte": 40,
+			"tv": 35,
+			"jewel": 40,
+			"tv2": 40,
+			"weapon_bouteille": 40,
+			"golf_bag": 70,
+			"bouteille2": 40,
+			"camera": 70
+		},
+		"cops": "4",
+		"active": "true",
+		"xp": "200"
+	},
+	"gang": {
+		"autre": {
+			"ammobox_pistol": {
+				"level": 1,
+				"spawnName": "ammobox_pistol",
+				"active": false,
+				"stock": 10,
+				"price": 200,
+				"image": "assets/inventory/items/ammobox_pistol.png",
+				"type": "utils",
+				"name": "Munitiond\"Armedepoing",
+				"cooldown": 172800
+			},
+			"keville9": {
+				"level": 1,
+				"spawnName": "keville9",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville9.webp",
+				"type": "utils",
+				"name": "KevlarMoyen1",
+				"cooldown": 172800
+			},
+			"keville11": {
+				"level": 1,
+				"spawnName": "keville11",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville11.webp",
+				"type": "utils",
+				"name": "KevlarMoyen3",
+				"cooldown": 172800
+			},
+			"keville1": {
+				"level": 1,
+				"spawnName": "keville1",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville1.webp",
+				"type": "utils",
+				"name": "KevlarLéger1",
+				"cooldown": 172800
+			},
+			"ammobox_sub": {
+				"level": 1,
+				"spawnName": "ammobox_sub",
+				"active": false,
+				"stock": 10,
+				"price": 400,
+				"image": "assets/inventory/items/ammobox_sub.png",
+				"type": "utils",
+				"name": "Munitiondemitraillette&mitrailleuselégère",
+				"cooldown": 172800
+			},
+			"laptop": {
+				"level": 1,
+				"spawnName": "laptop",
+				"active": false,
+				"stock": 10,
+				"price": 1200,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/ordinateur_portable.webp",
+				"type": "utils",
+				"name": "Ordinateur",
+				"cooldown": 172800
+			},
+			"plate": {
+				"level": 1,
+				"spawnName": "plate",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/plate.webp",
+				"type": "utils",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"keville7": {
+				"level": 1,
+				"spawnName": "keville7",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville7.webp",
+				"type": "utils",
+				"name": "KevlarLourd3",
+				"cooldown": 172800
+			},
+			"keville8": {
+				"level": 1,
+				"spawnName": "keville8",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville8.webp",
+				"type": "utils",
+				"name": "KevlarLourd4",
+				"cooldown": 172800
+			},
+			"serflex": {
+				"level": 1,
+				"spawnName": "serflex",
+				"active": "true",
+				"stock": 10,
+				"price": "120",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Serflex.webp",
+				"type": "utils",
+				"name": "Serflex",
+				"cooldown": 172800
+			},
+			"meuleuse": {
+				"level": 1,
+				"spawnName": "meuleuse",
+				"active": false,
+				"stock": 10,
+				"price": 800,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Meuleuse.webp",
+				"type": "utils",
+				"name": "Meuleuse",
+				"cooldown": 172800
+			},
+			"forreuse": {
+				"level": 1,
+				"spawnName": "forreuse",
+				"active": false,
+				"stock": 10,
+				"price": 2100,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Forreuse.webp",
+				"type": "utils",
+				"name": "Forreuse",
+				"cooldown": 518400
+			},
+			"keville5": {
+				"level": 1,
+				"spawnName": "keville5",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville5.webp",
+				"type": "utils",
+				"name": "KevlarLourd1",
+				"cooldown": 172800
+			},
+			"hook": {
+				"level": 1,
+				"spawnName": "crochet",
+				"active": "true",
+				"stock": 10,
+				"price": "90",
+				"image": "https://media.discordapp.net/attachments/1210380763585847337/1213883900796080128/Outils_crochetage.webp?ex=65f7187a&is=65e4a37a&hm=a81593e997139b23929253a4091ea00f1b69e56655d65034691b08f2dee931fc&=&format=webp",
+				"type": "utils",
+				"name": "Outil de crochetage ",
+				"cooldown": 172800
+			},
+			"ammobox_heavy": {
+				"level": 1,
+				"spawnName": "ammobox_heavy",
+				"active": false,
+				"stock": 10,
+				"price": 800,
+				"image": "assets/inventory/items/ammobox_heavy.png",
+				"type": "utils",
+				"name": "Munitiond\"armelourde",
+				"cooldown": 172800
+			},
+			"keville3": {
+				"level": 1,
+				"spawnName": "keville3",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville3.webp",
+				"type": "utils",
+				"name": "KevlarLéger3",
+				"cooldown": 172800
+			},
+			"pince": {
+				"level": 1,
+				"spawnName": "pincecoupante",
+				"active": false,
+				"stock": 10,
+				"price": 190,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Pince_coupante.webp",
+				"type": "utils",
+				"name": "Pincecoupante",
+				"cooldown": 172800
+			},
+			"keville10": {
+				"level": 1,
+				"spawnName": "keville10",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville10.webp",
+				"type": "utils",
+				"name": "KevlarMoyen2",
+				"cooldown": 172800
+			},
+			"keville4": {
+				"level": 1,
+				"spawnName": "keville4",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville4.webp",
+				"type": "utils",
+				"name": "KevlarLéger4",
+				"cooldown": 172800
+			},
+			"keville2": {
+				"level": 1,
+				"spawnName": "keville2",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville2.webp",
+				"type": "utils",
+				"name": "KevlarLéger2",
+				"cooldown": 172800
+			},
+			"ammobox_shotgun": {
+				"level": 1,
+				"spawnName": "ammobox_shotgun",
+				"active": false,
+				"stock": 10,
+				"price": 600,
+				"image": "assets/inventory/items/ammobox_shotgun.webp",
+				"type": "utils",
+				"name": "Munitiondefusilapompe",
+				"cooldown": 172800
+			},
+			"ammobox_rifle": {
+				"level": 1,
+				"spawnName": "ammobox_rifle",
+				"active": false,
+				"stock": 10,
+				"price": 700,
+				"image": "assets/inventory/items/ammobox_rifle.png",
+				"type": "utils",
+				"name": "Munitiondefusild\"assaut",
+				"cooldown": 172800
+			},
+			"perceuse": {
+				"level": 1,
+				"spawnName": "drill",
+				"active": false,
+				"stock": 10,
+				"price": 800,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Perceuse.webp",
+				"type": "utils",
+				"name": "Perceuse",
+				"cooldown": 172800
+			},
+			"keville6": {
+				"level": 1,
+				"spawnName": "keville6",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville6.webp",
+				"type": "utils",
+				"name": "KevlarLourd2",
+				"cooldown": 172800
+			},
+			"keville12": {
+				"level": 1,
+				"spawnName": "keville12",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville12.webp",
+				"type": "utils",
+				"name": "KevlarMoyen4",
+				"cooldown": 172800
+			}
+		},
+		"drogues": {
+			"chlorure": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002110756126730/chlorureammonium.png?ex=65de0f50&is=65cb9a50&hm=409f2a276beb4d6a47d569a625b7d95f4c2a9ac3c3986cd06506dbc37f4a5a6e&=&format=webp&quality=lossless&width=960&height=540",
+				"price": 50,
+				"spawnName": "chlorureammonium",
+				"type": "drugs",
+				"active": false,
+				"name": "ChlorureAmmonium"
+			},
+			"anhydride": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002109615280228/anhydrideacetique.png?ex=65de0f4f&is=65cb9a4f&hm=24851674304d1c0458fb40dbc65f5b5e2d189d652c5d4c03964a566259732b58&=&format=webp&quality=lossless&width=960&height=540",
+				"price": 50,
+				"spawnName": "anhydrideacetique",
+				"type": "drugs",
+				"active": false,
+				"name": "Anhydrideacetique"
+			},
+			"phenylacetone": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "phenylacetone",
+				"type": "drugs",
+				"active": false,
+				"name": "Phenylacetone"
+			},
+			"meth": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/methamphetamine.webp",
+				"price": 70,
+				"spawnName": "meth",
+				"type": "drugs",
+				"active": false,
+				"name": "Methamphetamine"
+			},
+			"pavo": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002110181515285/pavosomnifere.png?ex=65de0f50&is=65cb9a50&hm=2a9d91c09a4201ce1ffbe1aa410b6f529898bb266ec46f76c121057745b2041e&=&format=webp&quality=lossless&width=960&height=540",
+				"price": 50,
+				"spawnName": "pavosomnifere",
+				"type": "drugs",
+				"active": false,
+				"name": "PavoSomnifère"
+			},
+			"kerosene": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "kerosene",
+				"type": "drugs",
+				"active": false,
+				"name": "Kerosene"
+			},
+			"grainecannabis": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": "250",
+				"spawnName": "grainecannabis",
+				"type": "drugs",
+				"active": true,
+				"name": "Graine de cannabis"
+			},
+			"fertilisant": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": "140",
+				"spawnName": "fertilisant",
+				"type": "drugs",
+				"active": true,
+				"name": "Fertilisant"
+			},
+			"ephedrine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "ephedrine",
+				"type": "drugs",
+				"active": false,
+				"name": "Ephédrine"
+			},
+			"feuilledecoca": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "feuilledecoca",
+				"type": "drugs",
+				"active": false,
+				"name": "FeuilledeCoca"
+			},
+			"methylamine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "methylamine",
+				"type": "drugs",
+				"active": false,
+				"name": "Methylamine"
+			},
+			"fentanyl": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/Heroine.webp",
+				"price": 50,
+				"spawnName": "fentanyl",
+				"type": "drugs",
+				"active": false,
+				"name": "Fentanyl"
+			},
+			"weed": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/weed.webp",
+				"price": "30",
+				"spawnName": "weed",
+				"type": "drugs",
+				"active": false,
+				"name": "Weed"
+			},
+			"acidesulfurique": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "acidesulfurique",
+				"type": "drugs",
+				"active": false,
+				"name": "AcideSulfurique"
+			},
+			"engrais": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": "140",
+				"spawnName": "engrais",
+				"type": "drugs",
+				"active": true,
+				"name": "Engrais"
+			},
+			"cocaine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "coke",
+				"type": "drugs",
+				"active": false,
+				"name": "Cocaine"
+			}
+		},
+		"armes": {
+			"weapon_specialcarbine": {
+				"level": 1,
+				"spawnName": "weapon_specialcarbine",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_specialcarbine.webp",
+				"type": "weapons",
+				"name": "H&KG36C",
+				"cooldown": 172800
+			},
+			"weapon_pumpshotgun": {
+				"level": 1,
+				"spawnName": "weapon_pumpshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pumpshotgun.webp",
+				"type": "weapons",
+				"name": "Remington",
+				"cooldown": 172800
+			},
+			"weapon_heavypistol": {
+				"level": 1,
+				"spawnName": "weapon_heavypistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_heavypistol.webp",
+				"type": "weapons",
+				"name": "ColtM45A1",
+				"cooldown": 172800
+			},
+			"weapon_snspistol": {
+				"level": "4",
+				"spawnName": "weapon_snspistol",
+				"active": false,
+				"stock": "4",
+				"price": "20480",
+				"image": "https://cdn.discordapp.com/attachments/1183933579412123698/1192251147793203342/pi-petoire.png?ex=65a86568&is=6595f068&hm=bfbfe8cf8923ad2f7ba603c23620885e8950c1c0c5231bfebb86c0076d73d1c0&",
+				"type": "weapons",
+				"name": "Glock26",
+				"cooldown": 172800
+			},
+			"weapon_minismg": {
+				"level": 1,
+				"spawnName": "weapon_minismg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_minismg.webp",
+				"type": "weapons",
+				"name": "Skorpion",
+				"cooldown": 172800
+			},
+			"weapon_sledgehammer": {
+				"level": "2650",
+				"spawnName": "weapon_sledgehammer",
+				"active": "true",
+				"stock": "2",
+				"price": "2",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_sledgehammer.webp",
+				"type": "weapons",
+				"name": "Masse",
+				"cooldown": 172800
+			},
+			"weapon_compactrifle": {
+				"level": 1,
+				"spawnName": "weapon_compactrifle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_compactrifle.webp",
+				"type": "weapons",
+				"name": "AKS-74u",
+				"cooldown": 172800
+			},
+			"weapon_bottle": {
+				"level": 1,
+				"spawnName": "weapon_bottle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bottle.webp",
+				"type": "weapons",
+				"name": "Bouteille en verre",
+				"cooldown": 172800
+			},
+			"weapon_nightstick": {
+				"level": 1,
+				"spawnName": "weapon_nightstick",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_nightstick.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_knuckle": {
+				"level": 1,
+				"spawnName": "weapon_knuckle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_knuckle.webp",
+				"type": "weapons",
+				"name": "Poing Américain",
+				"cooldown": 172800
+			},
+			"weapon_golfclub": {
+				"level": 1,
+				"spawnName": "weapon_golfclub",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_golfclub.webp",
+				"type": "weapons",
+				"name": "Club de golf",
+				"cooldown": 172800
+			},
+			"weapon_battleaxe": {
+				"level": 1,
+				"spawnName": "weapon_battleaxe",
+				"active": "true",
+				"stock": "5",
+				"price": "5500",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_battleaxe.webp",
+				"type": "weapons",
+				"name": "Hache de guerre",
+				"cooldown": 172800
+			},
+			"weapon_pickaxe": {
+				"level": 1,
+				"spawnName": "weapon_pickaxe",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pickaxe.webp",
+				"type": "weapons",
+				"name": "Pioche",
+				"cooldown": 172800
+			},
+			"weapon_katana": {
+				"level": 1,
+				"spawnName": "weapon_katana",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_katana.webp",
+				"type": "weapons",
+				"name": "Katana",
+				"cooldown": 172800
+			},
+			"weapon_vintagepistol": {
+				"level": "3",
+				"spawnName": "weapon_vintagepistol",
+				"active": false,
+				"stock": "4",
+				"price": "26400",
+				"image": "4",
+				"type": "weapons",
+				"name": "Glock41",
+				"cooldown": 172800
+			},
+			"weapon_heavyshotgun": {
+				"level": 1,
+				"spawnName": "weapon_heavyshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_heavyshotgun.webp",
+				"type": "weapons",
+				"name": "Saiga12K",
+				"cooldown": 172800
+			},
+			"weapon_sawnoffshotgun": {
+				"level": 1,
+				"spawnName": "weapon_sawnoffshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_sawnoffshotgun.webp",
+				"type": "weapons",
+				"name": "Mossberg500",
+				"cooldown": 172800
+			},
+			"weapon_pistol": {
+				"level": "4",
+				"spawnName": "",
+				"active": true,
+				"stock": "5",
+				"price": "38000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pistol.webp",
+				"type": "weapons",
+				"name": "Beretta ",
+				"cooldown": "172800"
+			},
+			"weapon_pelle": {
+				"level": 1,
+				"spawnName": "weapon_pelle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pelle.webp",
+				"type": "weapons",
+				"name": "Pelle",
+				"cooldown": 172800
+			},
+			"weapon_switchblade": {
+				"level": 1,
+				"spawnName": "weapon_switchblade",
+				"active": "true",
+				"stock": "4",
+				"price": "3650",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_switchblade.webp",
+				"type": "weapons",
+				"name": "Cran d'arrêt",
+				"cooldown": 172800
+			},
+			"weapon_dbshotgun": {
+				"level": 1,
+				"spawnName": "weapon_dbshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_dbshotgun.webp",
+				"type": "weapons",
+				"name": "Double Canon",
+				"cooldown": 172800
+			},
+			"weapon_assaultshotgun": {
+				"level": 1,
+				"spawnName": "weapon_assaultshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_assaultshotgun.webp",
+				"type": "weapons",
+				"name": "UTASUTS-15",
+				"cooldown": 172800
+			},
+			"weapon_molotov": {
+				"level": 1,
+				"spawnName": "weapon_molotov",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_molotov.webp",
+				"type": "weapons",
+				"name": "CocktailMolotov",
+				"cooldown": 172800
+			},
+			"weapon_pistol50": {
+				"level": 1,
+				"spawnName": "weapon_pistol50",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "Desert Eagle",
+				"type": "weapons",
+				"name": "Desert Eagle",
+				"cooldown": 172800
+			},
+			"weapon_knife": {
+				"level": "2",
+				"spawnName": "weapon_knife",
+				"active": true,
+				"stock": "4",
+				"price": "4000",
+				"image": "4000",
+				"type": "weapons",
+				"name": "Couteau",
+				"cooldown": 172800
+			},
+			"weapon_crowbar": {
+				"level": 1,
+				"spawnName": "weapon_crowbar",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_crowbar.webp",
+				"type": "weapons",
+				"name": "PieddeBiche",
+				"cooldown": 172800
+			},
+			"weapon_hatchet": {
+				"level": 1,
+				"spawnName": "weapon_hatchet",
+				"active": false,
+				"stock": "4",
+				"price": "4500",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_hatchet.webp",
+				"type": "weapons",
+				"name": "Hachette",
+				"cooldown": 172800
+			},
+			"weapon_dagger": {
+				"level": 1,
+				"spawnName": "weapon_dagger",
+				"active": false,
+				"stock": "3",
+				"price": "3500",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_dagger.webp",
+				"type": "weapons",
+				"name": "Dague antique",
+				"cooldown": 172800
+			},
+			"weapon_machete": {
+				"level": 1,
+				"spawnName": "weapon_machete",
+				"active": "true",
+				"stock": "4",
+				"price": "5000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_machete.webp",
+				"type": "weapons",
+				"name": "Machette",
+				"cooldown": 172800
+			},
+			"weapon_poolcue": {
+				"level": 1,
+				"spawnName": "weapon_poolcue",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_poolcue.webp",
+				"type": "weapons",
+				"name": "Queue de billard ",
+				"cooldown": 172800
+			},
+			"weapon_assaultrifle": {
+				"level": 1,
+				"spawnName": "weapon_assaultrifle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_assaultrifle.webp",
+				"type": "weapons",
+				"name": "AK-47",
+				"cooldown": 172800
+			},
+			"weapon_canette": {
+				"level": 1,
+				"spawnName": "weapon_canette",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_canette.webp",
+				"type": "weapons",
+				"name": "Canette vide",
+				"cooldown": 172800
+			},
+			"weapon_combatpistol": {
+				"level": "4",
+				"spawnName": "weapon_combatpistol",
+				"active": true,
+				"stock": "5",
+				"price": "42000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_combatpistol.webp",
+				"type": "weapons",
+				"name": "Glock 17",
+				"cooldown": 172800
+			},
+			"weapon_doubleaction": {
+				"level": 1,
+				"spawnName": "weapon_doubleaction",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_doubleaction.webp",
+				"type": "weapons",
+				"name": "ColtM1892",
+				"cooldown": 172800
+			},
+			"weapon_autoshotgun": {
+				"level": 1,
+				"spawnName": "weapon_autoshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_autoshotgun.webp",
+				"type": "weapons",
+				"name": "Armsel Strike",
+				"cooldown": 172800
+			},
+			"weapon_bouteille": {
+				"level": 1,
+				"spawnName": "weapon_bouteille",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bouteille.webp",
+				"type": "weapons",
+				"name": "Bouteille",
+				"cooldown": 172800
+			},
+			"weapon_wrench": {
+				"level": 1,
+				"spawnName": "weapon_wrench",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_wrench.webp",
+				"type": "weapons",
+				"name": "Clé anglaise",
+				"cooldown": 172800
+			},
+			"weapon_revolver": {
+				"level": 1,
+				"spawnName": "weapon_revolver",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_revolver.webp",
+				"type": "weapons",
+				"name": "Revolver",
+				"cooldown": 172800
+			},
+			"weapon_gusenberg": {
+				"level": 1,
+				"spawnName": "weapon_gusenberg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_gusenberg.webp",
+				"type": "weapons",
+				"name": "M1928A1Thompson",
+				"cooldown": 172800
+			},
+			"weapon_bat": {
+				"level": 1,
+				"spawnName": "weapon_bat",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bat.webp",
+				"type": "weapons",
+				"name": "Batte de baseball",
+				"cooldown": 172800
+			},
+			"weapon_machinepistol": {
+				"level": 1,
+				"spawnName": "weapon_machinepistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_machinepistol.webp",
+				"type": "weapons",
+				"name": "TEC9",
+				"cooldown": 172800
+			},
+			"weapon_carbinerifle": {
+				"level": 1,
+				"spawnName": "weapon_carbinerifle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_carbinerifle.webp",
+				"type": "weapons",
+				"name": "M4A1",
+				"cooldown": 172800
+			},
+			"weapon_combatshotgun": {
+				"level": 1,
+				"spawnName": "weapon_combatshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_combatshotgun.webp",
+				"type": "weapons",
+				"name": "SPAS 12 ",
+				"cooldown": 172800
+			},
+			"weapon_smg": {
+				"level": 1,
+				"spawnName": "weapon_smg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_smg.webp",
+				"type": "weapons",
+				"name": "H&KMP5A5",
+				"cooldown": 172800
+			},
+			"weapon_microsmg": {
+				"level": 1,
+				"spawnName": "weapon_microsmg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_microsmg.webp",
+				"type": "weapons",
+				"name": "UZI",
+				"cooldown": 172800
+			}
+		}
+	},
+	"mafia": {
+		"autre": {
+			"ammobox_pistol": {
+				"level": 1,
+				"spawnName": "ammobox_pistol",
+				"active": false,
+				"stock": 10,
+				"price": 200,
+				"image": "assets/inventory/items/ammobox_pistol.png",
+				"type": "utils",
+				"name": "Munitiond\"Armedepoing",
+				"cooldown": 172800
+			},
+			"keville9": {
+				"level": "3",
+				"spawnName": "keville9",
+				"active": true,
+				"stock": 10,
+				"price": "60000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville9.webp",
+				"type": "utils",
+				"name": "Kevlar moyen",
+				"cooldown": 172800
+			},
+			"keville11": {
+				"level": 1,
+				"spawnName": "keville11",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville11.webp",
+				"type": "utils",
+				"name": "KevlarMoyen3",
+				"cooldown": 172800
+			},
+			"forreuse": {
+				"level": 1,
+				"spawnName": "forreuse",
+				"active": false,
+				"stock": 10,
+				"price": 2100,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Forreuse.webp",
+				"type": "utils",
+				"name": "Forreuse",
+				"cooldown": 518400
+			},
+			"ammobox_sub": {
+				"level": "3",
+				"spawnName": "ammobox_sub",
+				"active": false,
+				"stock": 10,
+				"price": "650",
+				"image": "assets/inventory/items/ammobox_sub.png",
+				"type": "utils",
+				"name": "Munitiondemitraillette&mitrailleuselégère",
+				"cooldown": 172800
+			},
+			"meuleuse": {
+				"level": 1,
+				"spawnName": "meuleuse",
+				"active": false,
+				"stock": 10,
+				"price": 800,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Meuleuse.webp",
+				"type": "utils",
+				"name": "Meuleuse",
+				"cooldown": 172800
+			},
+			"plate": {
+				"level": 1,
+				"spawnName": "plate",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/plate.webp",
+				"type": "utils",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"keville7": {
+				"level": "3",
+				"spawnName": "keville7",
+				"active": true,
+				"stock": 10,
+				"price": "100000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville7.webp",
+				"type": "utils",
+				"name": "Kevlar lourd",
+				"cooldown": 172800
+			},
+			"keville6": {
+				"level": "3",
+				"spawnName": "keville6",
+				"active": true,
+				"stock": 10,
+				"price": "100000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville6.webp",
+				"type": "utils",
+				"name": "Kevlar lourd",
+				"cooldown": 172800
+			},
+			"serflex": {
+				"level": 1,
+				"spawnName": "serflex",
+				"active": false,
+				"stock": 10,
+				"price": 30,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Serflex.webp",
+				"type": "utils",
+				"name": "Serflex",
+				"cooldown": 172800
+			},
+			"keville8": {
+				"level": 1,
+				"spawnName": "keville8",
+				"active": true,
+				"stock": 10,
+				"price": "100000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville8.webp",
+				"type": "utils",
+				"name": "Kevlar lourd",
+				"cooldown": 172800
+			},
+			"keville10": {
+				"level": "3",
+				"spawnName": "keville10",
+				"active": true,
+				"stock": "4",
+				"price": "60000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville10.webp",
+				"type": "utils",
+				"name": "Kevlar moyen",
+				"cooldown": 172800
+			},
+			"keville3": {
+				"level": 1,
+				"spawnName": "keville3",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville3.webp",
+				"type": "utils",
+				"name": "KevlarLéger3",
+				"cooldown": 172800
+			},
+			"keville5": {
+				"level": "3",
+				"spawnName": "keville5",
+				"active": true,
+				"stock": 10,
+				"price": "100000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville5.webp",
+				"type": "utils",
+				"name": "Kevlar lourd",
+				"cooldown": 172800
+			},
+			"hook": {
+				"level": 1,
+				"spawnName": "crochet",
+				"active": false,
+				"stock": 10,
+				"price": 28,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Outils_crochetage.webp",
+				"type": "utils",
+				"name": "Outilsdecrochetage",
+				"cooldown": 172800
+			},
+			"keville4": {
+				"level": 1,
+				"spawnName": "keville4",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville4.webp",
+				"type": "utils",
+				"name": "KevlarLéger4",
+				"cooldown": 172800
+			},
+			"ammobox_shotgun": {
+				"level": 1,
+				"spawnName": "ammobox_shotgun",
+				"active": true,
+				"stock": 10,
+				"price": "850",
+				"image": "assets/inventory/items/ammobox_shotgun.webp",
+				"type": "utils",
+				"name": "Munitiondefusilapompe",
+				"cooldown": 172800
+			},
+			"keville2": {
+				"level": 1,
+				"spawnName": "keville2",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville2.webp",
+				"type": "utils",
+				"name": "KevlarLéger2",
+				"cooldown": 172800
+			},
+			"ammobox_heavy": {
+				"level": 1,
+				"spawnName": "ammobox_heavy",
+				"active": false,
+				"stock": 10,
+				"price": 800,
+				"image": "assets/inventory/items/ammobox_heavy.png",
+				"type": "utils",
+				"name": "Munitiond\"armelourde",
+				"cooldown": 172800
+			},
+			"pince": {
+				"level": 1,
+				"spawnName": "pincecoupante",
+				"active": false,
+				"stock": 10,
+				"price": 190,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Pince_coupante.webp",
+				"type": "utils",
+				"name": "Pincecoupante",
+				"cooldown": 172800
+			},
+			"keville1": {
+				"level": 1,
+				"spawnName": "keville1",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville1.webp",
+				"type": "utils",
+				"name": "KevlarLéger1",
+				"cooldown": 172800
+			},
+			"spray": {
+				"level": 1,
+				"spawnName": "spray",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville1.webp",
+				"type": "utils",
+				"name": "Spray",
+				"cooldown": 172800
+			},
+			"ammobox_rifle": {
+				"level": "3",
+				"spawnName": "ammobox_rifle",
+				"active": true,
+				"stock": 10,
+				"price": "1600",
+				"image": "assets/inventory/items/ammobox_rifle.png",
+				"type": "utils",
+				"name": "Munition de fusil d'assaut ",
+				"cooldown": 172800
+			},
+			"laptop": {
+				"level": 1,
+				"spawnName": "laptop",
+				"active": false,
+				"stock": 10,
+				"price": 1200,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/ordinateur_portable.webp",
+				"type": "utils",
+				"name": "Ordinateur",
+				"cooldown": 172800
+			},
+			"perceuse": {
+				"level": 1,
+				"spawnName": "drill",
+				"active": false,
+				"stock": 10,
+				"price": 800,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Perceuse.webp",
+				"type": "utils",
+				"name": "Perceuse",
+				"cooldown": 172800
+			},
+			"keville12": {
+				"level": "2",
+				"spawnName": "keville12",
+				"active": true,
+				"stock": 10,
+				"price": "60000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville12.webp",
+				"type": "utils",
+				"name": "Kevlar moyen",
+				"cooldown": 172800
+			}
+		},
+		"drogues": {
+			"chlorure": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002110756126730/chlorureammonium.png?ex=65de0f50&is=65cb9a50&hm=409f2a276beb4d6a47d569a625b7d95f4c2a9ac3c3986cd06506dbc37f4a5a6e&=&format=webp&quality=lossless&width=960&height=540",
+				"price": 50,
+				"spawnName": "chlorureammonium",
+				"type": "drugs",
+				"active": false,
+				"name": "ChlorureAmmonium"
+			},
+			"anhydride": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002109615280228/anhydrideacetique.png?ex=65de0f4f&is=65cb9a4f&hm=24851674304d1c0458fb40dbc65f5b5e2d189d652c5d4c03964a566259732b58&=&format=webp&quality=lossless&width=960&height=540",
+				"price": 50,
+				"spawnName": "anhydrideacetique",
+				"type": "drugs",
+				"active": false,
+				"name": "Anhydrideacetique"
+			},
+			"weed": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/weed.webp",
+				"price": 20,
+				"spawnName": "weed",
+				"type": "drugs",
+				"active": false,
+				"name": "Weed"
+			},
+			"phenylacetone": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": "500",
+				"spawnName": "phenylacetone",
+				"type": "drugs",
+				"active": true,
+				"name": "Phenylacetone"
+			},
+			"pavo": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002110181515285/pavosomnifere.png?ex=65de0f50&is=65cb9a50&hm=2a9d91c09a4201ce1ffbe1aa410b6f529898bb266ec46f76c121057745b2041e&=&format=webp&quality=lossless&width=960&height=540",
+				"price": 50,
+				"spawnName": "pavosomnifere",
+				"type": "drugs",
+				"active": false,
+				"name": "PavoSomnifère"
+			},
+			"grainecannabis": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "grainecannabis",
+				"type": "drugs",
+				"active": false,
+				"name": "Grainedecannabis"
+			},
+			"kerosene": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "kerosene",
+				"type": "drugs",
+				"active": false,
+				"name": "Kerosene"
+			},
+			"meth": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/methamphetamine.webp",
+				"price": 70,
+				"spawnName": "meth",
+				"type": false,
+				"active": false,
+				"name": "Methamphetamine"
+			},
+			"fertilisant": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "fertilisant",
+				"type": "drugs",
+				"active": false,
+				"name": "Fertilisant"
+			},
+			"feuilledecoca": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "feuilledecoca",
+				"type": "drugs",
+				"active": false,
+				"name": "FeuilledeCoca"
+			},
+			"methylamine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": "500",
+				"spawnName": "methylamine",
+				"type": "drugs",
+				"active": true,
+				"name": "Methylamine"
+			},
+			"fentanyl": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/Heroine.webp",
+				"price": 50,
+				"spawnName": "fentanyl",
+				"type": "drugs",
+				"active": false,
+				"name": "Fentanyl"
+			},
+			"ephedrine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": "400",
+				"spawnName": "ephedrine",
+				"type": "drugs",
+				"active": true,
+				"name": "Ephédrine"
+			},
+			"acidesulfurique": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "acidesulfurique",
+				"type": "drugs",
+				"active": false,
+				"name": "AcideSulfurique"
+			},
+			"engrais": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "engrais",
+				"type": "drugs",
+				"active": false,
+				"name": "Engrais"
+			},
+			"cocaine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "coke",
+				"type": "drugs",
+				"active": false,
+				"name": "Cocaine"
+			}
+		},
+		"armes": {
+			"weapon_machete": {
+				"level": 1,
+				"spawnName": "weapon_machete",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_machete.webp",
+				"type": "weapons",
+				"name": "Machette",
+				"cooldown": 172800
+			},
+			"weapon_pumpshotgun": {
+				"level": 1,
+				"spawnName": "weapon_pumpshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pumpshotgun.webp",
+				"type": "weapons",
+				"name": "Remington870E",
+				"cooldown": 172800
+			},
+			"weapon_heavypistol": {
+				"level": 1,
+				"spawnName": "weapon_heavypistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_heavypistol.webp",
+				"type": "weapons",
+				"name": "ColtM45A1",
+				"cooldown": 172800
+			},
+			"weapon_snspistol": {
+				"level": 1,
+				"spawnName": "weapon_snspistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_snspistol.webp",
+				"type": "weapons",
+				"name": "Glock26",
+				"cooldown": 172800
+			},
+			"weapon_minismg": {
+				"level": 1,
+				"spawnName": "weapon_minismg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_minismg.webp",
+				"type": "weapons",
+				"name": "ŠkorpionVz.61",
+				"cooldown": 172800
+			},
+			"weapon_sledgehammer": {
+				"level": 1,
+				"spawnName": "weapon_sledgehammer",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_sledgehammer.webp",
+				"type": "weapons",
+				"name": "Masse",
+				"cooldown": 172800
+			},
+			"weapon_compactrifle": {
+				"level": 1,
+				"spawnName": "weapon_compactrifle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_compactrifle.webp",
+				"type": "weapons",
+				"name": "AKS-74u",
+				"cooldown": 172800
+			},
+			"weapon_bottle": {
+				"level": 1,
+				"spawnName": "weapon_bottle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bottle.webp",
+				"type": "weapons",
+				"name": "Bouteilleenverre",
+				"cooldown": 172800
+			},
+			"weapon_nightstick": {
+				"level": 1,
+				"spawnName": "weapon_nightstick",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_nightstick.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_knuckle": {
+				"level": 1,
+				"spawnName": "weapon_knuckle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_knuckle.webp",
+				"type": "weapons",
+				"name": "Poingaméricain",
+				"cooldown": 172800
+			},
+			"weapon_golfclub": {
+				"level": 1,
+				"spawnName": "weapon_golfclub",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_golfclub.webp",
+				"type": "weapons",
+				"name": "ClubdeGolf",
+				"cooldown": 172800
+			},
+			"weapon_battleaxe": {
+				"level": 1,
+				"spawnName": "weapon_battleaxe",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_battleaxe.webp",
+				"type": "weapons",
+				"name": "Hachedeguerre",
+				"cooldown": 172800
+			},
+			"weapon_pickaxe": {
+				"level": 1,
+				"spawnName": "weapon_pickaxe",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pickaxe.webp",
+				"type": "weapons",
+				"name": "Pioche",
+				"cooldown": 172800
+			},
+			"weapon_katana": {
+				"level": 1,
+				"spawnName": "weapon_katana",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_katana.webp",
+				"type": "weapons",
+				"name": "Katana",
+				"cooldown": 172800
+			},
+			"weapon_vintagepistol": {
+				"level": 1,
+				"spawnName": "weapon_vintagepistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_vintagepistol.webp",
+				"type": "weapons",
+				"name": "Glock41gen4",
+				"cooldown": 172800
+			},
+			"weapon_heavyshotgun": {
+				"level": 1,
+				"spawnName": "weapon_heavyshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_heavyshotgun.webp",
+				"type": "weapons",
+				"name": "Saiga12K",
+				"cooldown": 172800
+			},
+			"weapon_bouteille": {
+				"level": 1,
+				"spawnName": "weapon_bouteille",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bouteille.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_pistol": {
+				"level": 1,
+				"spawnName": "weapon_pistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pistol.webp",
+				"type": "weapons",
+				"name": "Beretta92FS",
+				"cooldown": 172800
+			},
+			"weapon_pelle": {
+				"level": 1,
+				"spawnName": "weapon_pelle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pelle.webp",
+				"type": "weapons",
+				"name": "Pelle",
+				"cooldown": 172800
+			},
+			"weapon_switchblade": {
+				"level": 1,
+				"spawnName": "weapon_switchblade",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_switchblade.webp",
+				"type": "weapons",
+				"name": "Couteauàcrandarrêt",
+				"cooldown": 172800
+			},
+			"weapon_dbshotgun": {
+				"level": 1,
+				"spawnName": "weapon_dbshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_dbshotgun.webp",
+				"type": "weapons",
+				"name": "DoubleCanon",
+				"cooldown": 172800
+			},
+			"weapon_assaultshotgun": {
+				"level": "4",
+				"spawnName": "weapon_assaultshotgun",
+				"active": false,
+				"stock": "3",
+				"price": "350000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_assaultshotgun.webp",
+				"type": "weapons",
+				"name": "UTASUTS-15",
+				"cooldown": 172800
+			},
+			"weapon_molotov": {
+				"level": 1,
+				"spawnName": "weapon_molotov",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_molotov.webp",
+				"type": "weapons",
+				"name": "CocktailMolotov",
+				"cooldown": 172800
+			},
+			"weapon_pistol50": {
+				"level": "3",
+				"spawnName": "weapon_pistol50",
+				"active": true,
+				"stock": "4",
+				"price": "70000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pistol50.webp",
+				"type": "weapons",
+				"name": "Desert Eagle",
+				"cooldown": 172800
+			},
+			"weapon_combatshotgun": {
+				"level": "2",
+				"spawnName": "weapon_combatshotgun",
+				"active": true,
+				"stock": "2",
+				"price": "520000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_combatshotgun.webp",
+				"type": "weapons",
+				"name": "SPAS 12",
+				"cooldown": "172000"
+			},
+			"weapon_crowbar": {
+				"level": 1,
+				"spawnName": "weapon_crowbar",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_crowbar.webp",
+				"type": "weapons",
+				"name": "PieddeBiche",
+				"cooldown": 172800
+			},
+			"weapon_hatchet": {
+				"level": 1,
+				"spawnName": "weapon_hatchet",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_hatchet.webp",
+				"type": "weapons",
+				"name": "Hachette",
+				"cooldown": 172800
+			},
+			"weapon_specialcarbine": {
+				"level": 1,
+				"spawnName": "weapon_specialcarbine",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_specialcarbine.webp",
+				"type": "weapons",
+				"name": "H&KG36C",
+				"cooldown": 172800
+			},
+			"weapon_machinepistol": {
+				"level": 1,
+				"spawnName": "weapon_machinepistol",
+				"active": true,
+				"stock": "2",
+				"price": "120000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_machinepistol.webp",
+				"type": "weapons",
+				"name": "TEC9",
+				"cooldown": 172800
+			},
+			"weapon_poolcue": {
+				"level": 1,
+				"spawnName": "weapon_poolcue",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_poolcue.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_canette": {
+				"level": 1,
+				"spawnName": "weapon_canette",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_canette.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_autoshotgun": {
+				"level": 1,
+				"spawnName": "weapon_autoshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_autoshotgun.webp",
+				"type": "weapons",
+				"name": "ArmselStriker",
+				"cooldown": 172800
+			},
+			"weapon_combatpistol": {
+				"level": 1,
+				"spawnName": "weapon_combatpistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_combatpistol.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_doubleaction": {
+				"level": 1,
+				"spawnName": "weapon_doubleaction",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_doubleaction.webp",
+				"type": "weapons",
+				"name": "ColtM1892",
+				"cooldown": 172800
+			},
+			"weapon_assaultrifle": {
+				"level": "4",
+				"spawnName": "weapon_assaultrifle",
+				"active": true,
+				"stock": "2",
+				"price": "473000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_assaultrifle.webp",
+				"type": "weapons",
+				"name": "AK- 47",
+				"cooldown": "604800"
+			},
+			"weapon_dagger": {
+				"level": 1,
+				"spawnName": "weapon_dagger",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_dagger.webp",
+				"type": "weapons",
+				"name": "DagueAntique",
+				"cooldown": 172800
+			},
+			"weapon_wrench": {
+				"level": 1,
+				"spawnName": "weapon_wrench",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_wrench.webp",
+				"type": "weapons",
+				"name": "Cléanglaise",
+				"cooldown": 172800
+			},
+			"weapon_revolver": {
+				"level": 1,
+				"spawnName": "weapon_revolver",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_revolver.webp",
+				"type": "weapons",
+				"name": "TaurusRagingBull",
+				"cooldown": 172800
+			},
+			"weapon_sawnoffshotgun": {
+				"level": 1,
+				"spawnName": "weapon_sawnoffshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_sawnoffshotgun.webp",
+				"type": "weapons",
+				"name": "Mossberg500",
+				"cooldown": 172800
+			},
+			"weapon_gusenberg": {
+				"level": "4",
+				"spawnName": "weapon_gusenberg",
+				"active": true,
+				"stock": "4",
+				"price": "382000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_gusenberg.webp",
+				"type": "weapons",
+				"name": "Thompson",
+				"cooldown": "604800"
+			},
+			"weapon_knife": {
+				"level": 1,
+				"spawnName": "weapon_knife",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_knife.webp",
+				"type": "weapons",
+				"name": "Couteau",
+				"cooldown": 172800
+			},
+			"weapon_carbinerifle": {
+				"level": 1,
+				"spawnName": "weapon_carbinerifle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_carbinerifle.webp",
+				"type": "weapons",
+				"name": "M4A1",
+				"cooldown": 172800
+			},
+			"weapon_bat": {
+				"level": 1,
+				"spawnName": "weapon_bat",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bat.webp",
+				"type": "weapons",
+				"name": "Battedebaseball",
+				"cooldown": 172800
+			},
+			"weapon_smg": {
+				"level": 1,
+				"spawnName": "weapon_smg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_smg.webp",
+				"type": "weapons",
+				"name": "H&KMP5A5",
+				"cooldown": 172800
+			},
+			"weapon_microsmg": {
+				"level": 1,
+				"spawnName": "weapon_microsmg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_microsmg.webp",
+				"type": "weapons",
+				"name": "IMIUZI",
+				"cooldown": 172800
+			}
+		}
+	},
+	"mc": {
+		"autre": {
+			"ammobox_pistol": {
+				"level": "2",
+				"spawnName": "ammobox_pistol",
+				"active": false,
+				"stock": "6",
+				"price": "500",
+				"image": "assets/inventory/items/ammobox_pistol.png",
+				"type": "utils",
+				"name": "Munitiond\"Armedepoing",
+				"cooldown": 172800
+			},
+			"keville9": {
+				"level": 1,
+				"spawnName": "keville9",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville9.webp",
+				"type": "utils",
+				"name": "KevlarMoyen1",
+				"cooldown": 172800
+			},
+			"perceuse": {
+				"level": 1,
+				"spawnName": "drill",
+				"active": false,
+				"stock": "5",
+				"price": "5000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Perceuse.webp",
+				"type": "utils",
+				"name": "Perceuse",
+				"cooldown": 172800
+			},
+			"forreuse": {
+				"level": 1,
+				"spawnName": "forreuse",
+				"active": false,
+				"stock": 10,
+				"price": 2100,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Forreuse.webp",
+				"type": "utils",
+				"name": "Forreuse",
+				"cooldown": 518400
+			},
+			"ammobox_sub": {
+				"level": "3",
+				"spawnName": "ammobox_sub",
+				"active": false,
+				"stock": "10",
+				"price": "800",
+				"image": "assets/inventory/items/ammobox_sub.png",
+				"type": "utils",
+				"name": "Munitions légère",
+				"cooldown": 172800
+			},
+			"meuleuse": {
+				"level": 1,
+				"spawnName": "meuleuse",
+				"active": false,
+				"stock": "5",
+				"price": "5000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Meuleuse.webp",
+				"type": "utils",
+				"name": "Meuleuse",
+				"cooldown": 172800
+			},
+			"plate": {
+				"level": 1,
+				"spawnName": "plate",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/plate.webp",
+				"type": "utils",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"keville7": {
+				"level": 1,
+				"spawnName": "keville7",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville7.webp",
+				"type": "utils",
+				"name": "KevlarLourd3",
+				"cooldown": 172800
+			},
+			"keville8": {
+				"level": 1,
+				"spawnName": "keville8",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville8.webp",
+				"type": "utils",
+				"name": "KevlarLourd4",
+				"cooldown": 172800
+			},
+			"serflex": {
+				"level": 1,
+				"spawnName": "serflex",
+				"active": false,
+				"stock": 10,
+				"price": 30,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Serflex.webp",
+				"type": "utils",
+				"name": "Serflex",
+				"cooldown": 172800
+			},
+			"keville3": {
+				"level": 1,
+				"spawnName": "keville3",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville3.webp",
+				"type": "utils",
+				"name": "KevlarLéger3",
+				"cooldown": 172800
+			},
+			"ammobox_rifle": {
+				"level": 1,
+				"spawnName": "ammobox_rifle",
+				"active": false,
+				"stock": 10,
+				"price": 700,
+				"image": "assets/inventory/items/ammobox_rifle.png",
+				"type": "utils",
+				"name": "Munitiondefusild\"assaut",
+				"cooldown": 172800
+			},
+			"keville1": {
+				"level": 1,
+				"spawnName": "keville1",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville1.webp",
+				"type": "utils",
+				"name": "KevlarLéger1",
+				"cooldown": 172800
+			},
+			"keville5": {
+				"level": 1,
+				"spawnName": "keville5",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville5.webp",
+				"type": "utils",
+				"name": "KevlarLourd1",
+				"cooldown": 172800
+			},
+			"hook": {
+				"level": 1,
+				"spawnName": "crochet",
+				"active": false,
+				"stock": 10,
+				"price": 28,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Outils_crochetage.webp",
+				"type": "utils",
+				"name": "Outilsdecrochetage",
+				"cooldown": 172800
+			},
+			"ammobox_heavy": {
+				"level": 1,
+				"spawnName": "ammobox_heavy",
+				"active": false,
+				"stock": 10,
+				"price": 800,
+				"image": "assets/inventory/items/ammobox_heavy.png",
+				"type": "utils",
+				"name": "Munitiond\"armelourde",
+				"cooldown": 172800
+			},
+			"ammobox_shotgun": {
+				"level": "2",
+				"spawnName": "ammobox_shotgun",
+				"active": true,
+				"stock": "6",
+				"price": "850",
+				"image": "https://cdn.discordapp.com/attachments/1172183320109535253/1185295599751401492/1631528080_geco_slug_red_28_boite_de_25-removebg-preview.png?ex=658f178c&is=657ca28c&hm=1b44f604492e304ec203cff64ef3f5ee4104f9c299728fa0db4f08c32215e479&",
+				"type": "utils",
+				"name": "Munition de fusil à pompe",
+				"cooldown": 172800
+			},
+			"pince": {
+				"level": "2",
+				"spawnName": "pincecoupante",
+				"active": false,
+				"stock": 10,
+				"price": "700",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Pince_coupante.webp",
+				"type": "utils",
+				"name": "Pincecoupante",
+				"cooldown": 172800
+			},
+			"keville4": {
+				"level": 1,
+				"spawnName": "keville4",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville4.webp",
+				"type": "utils",
+				"name": "KevlarLéger4",
+				"cooldown": 172800
+			},
+			"spray": {
+				"level": 1,
+				"spawnName": "spray",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville1.webp",
+				"type": "utils",
+				"name": "Spray",
+				"cooldown": 172800
+			},
+			"keville11": {
+				"level": 1,
+				"spawnName": "keville11",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville11.webp",
+				"type": "utils",
+				"name": "KevlarMoyen3",
+				"cooldown": 172800
+			},
+			"keville6": {
+				"level": 1,
+				"spawnName": "keville6",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville6.webp",
+				"type": "utils",
+				"name": "KevlarLourd2",
+				"cooldown": 172800
+			},
+			"keville10": {
+				"level": 1,
+				"spawnName": "keville10",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville10.webp",
+				"type": "utils",
+				"name": "KevlarMoyen2",
+				"cooldown": 172800
+			},
+			"laptop": {
+				"level": 1,
+				"spawnName": "laptop",
+				"active": false,
+				"stock": 10,
+				"price": 1200,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/ordinateur_portable.webp",
+				"type": "utils",
+				"name": "Ordinateur",
+				"cooldown": 172800
+			},
+			"keville2": {
+				"level": 1,
+				"spawnName": "keville2",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville2.webp",
+				"type": "utils",
+				"name": "KevlarLéger2",
+				"cooldown": 172800
+			},
+			"keville12": {
+				"level": 1,
+				"spawnName": "keville12",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville12.webp",
+				"type": "utils",
+				"name": "KevlarMoyen4",
+				"cooldown": 172800
+			}
+		},
+		"drogues": {
+			"chlorure": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002110756126730/chlorureammonium.png?ex=65de0f50&is=65cb9a50&hm=409f2a276beb4d6a47d569a625b7d95f4c2a9ac3c3986cd06506dbc37f4a5a6e&=&format=webp&quality=lossless&width=960&height=540",
+				"price": "300",
+				"spawnName": "chlorureammonium",
+				"type": "drugs",
+				"active": true,
+				"name": "Chlorure Ammonium"
+			},
+			"anhydride": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002109615280228/anhydrideacetique.png?ex=65de0f4f&is=65cb9a4f&hm=24851674304d1c0458fb40dbc65f5b5e2d189d652c5d4c03964a566259732b58&=&format=webp&quality=lossless&width=960&height=540",
+				"price": "300",
+				"spawnName": "anhydrideacetique",
+				"type": "drugs",
+				"active": true,
+				"name": "Anhydrideacetique"
+			},
+			"engrais": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "engrais",
+				"type": "drugs",
+				"active": false,
+				"name": "Engrais"
+			},
+			"grainecannabis": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "grainecannabis",
+				"type": "drugs",
+				"active": false,
+				"name": "Grainedecannabis"
+			},
+			"pavo": {
+				"image": "",
+				"price": "250",
+				"spawnName": "pavosomnifere",
+				"type": "drugs",
+				"active": true,
+				"name": "Pavo Somnifère"
+			},
+			"phenylacetone": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "phenylacetone",
+				"type": "drugs",
+				"active": false,
+				"name": "Phenylacetone"
+			},
+			"ephedrine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "ephedrine",
+				"type": "drugs",
+				"active": false,
+				"name": "Ephédrine"
+			},
+			"meth": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/methamphetamine.webp",
+				"price": 70,
+				"spawnName": "meth",
+				"type": "drugs",
+				"active": false,
+				"name": "Methamphetamine"
+			},
+			"fertilisant": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "fertilisant",
+				"type": "drugs",
+				"active": false,
+				"name": "Fertilisant"
+			},
+			"feuilledecoca": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "feuilledecoca",
+				"type": "drugs",
+				"active": false,
+				"name": "FeuilledeCoca"
+			},
+			"methylamine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "methylamine",
+				"type": "drugs",
+				"active": false,
+				"name": "Methylamine"
+			},
+			"fentanyl": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/Heroine.webp",
+				"price": 50,
+				"spawnName": "fentanyl",
+				"type": "drugs",
+				"active": false,
+				"name": "Fentanyl"
+			},
+			"weed": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/weed.webp",
+				"price": 20,
+				"spawnName": "weed",
+				"type": "drugs",
+				"active": false,
+				"name": "Weed"
+			},
+			"acidesulfurique": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "acidesulfurique",
+				"type": "drugs",
+				"active": false,
+				"name": "AcideSulfurique"
+			},
+			"kerosene": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "kerosene",
+				"type": "drugs",
+				"active": false,
+				"name": "Kerosene"
+			},
+			"cocaine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "coke",
+				"type": "drugs",
+				"active": false,
+				"name": "Cocaine"
+			}
+		},
+		"armes": {
+			"weapon_machete": {
+				"level": 1,
+				"spawnName": "weapon_machete",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_machete.webp",
+				"type": "weapons",
+				"name": "Machette",
+				"cooldown": 172800
+			},
+			"weapon_pumpshotgun": {
+				"level": 1,
+				"spawnName": "weapon_pumpshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pumpshotgun.webp",
+				"type": "weapons",
+				"name": "Remington870E",
+				"cooldown": 172800
+			},
+			"weapon_heavypistol": {
+				"level": 1,
+				"spawnName": "weapon_heavypistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_heavypistol.webp",
+				"type": "weapons",
+				"name": "ColtM45A1",
+				"cooldown": 172800
+			},
+			"weapon_snspistol": {
+				"level": 1,
+				"spawnName": "weapon_snspistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_snspistol.webp",
+				"type": "weapons",
+				"name": "Glock26",
+				"cooldown": 172800
+			},
+			"weapon_minismg": {
+				"level": "4",
+				"spawnName": "weapon_minismg",
+				"active": true,
+				"stock": "3",
+				"price": "136000",
+				"image": "136000",
+				"type": "weapons",
+				"name": "Skorpion",
+				"cooldown": 172800
+			},
+			"weapon_sledgehammer": {
+				"level": 1,
+				"spawnName": "weapon_sledgehammer",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_sledgehammer.webp",
+				"type": "weapons",
+				"name": "Masse",
+				"cooldown": 172800
+			},
+			"weapon_compactrifle": {
+				"level": 1,
+				"spawnName": "weapon_compactrifle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_compactrifle.webp",
+				"type": "weapons",
+				"name": "AKS-74u",
+				"cooldown": 172800
+			},
+			"weapon_bottle": {
+				"level": 1,
+				"spawnName": "weapon_bottle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bottle.webp",
+				"type": "weapons",
+				"name": "Bouteilleenverre",
+				"cooldown": 172800
+			},
+			"weapon_nightstick": {
+				"level": 1,
+				"spawnName": "weapon_nightstick",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_nightstick.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_knuckle": {
+				"level": 1,
+				"spawnName": "weapon_knuckle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_knuckle.webp",
+				"type": "weapons",
+				"name": "Poingaméricain",
+				"cooldown": 172800
+			},
+			"weapon_golfclub": {
+				"level": 1,
+				"spawnName": "weapon_golfclub",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_golfclub.webp",
+				"type": "weapons",
+				"name": "ClubdeGolf",
+				"cooldown": 172800
+			},
+			"weapon_battleaxe": {
+				"level": 1,
+				"spawnName": "weapon_battleaxe",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_battleaxe.webp",
+				"type": "weapons",
+				"name": "Hachedeguerre",
+				"cooldown": 172800
+			},
+			"weapon_pickaxe": {
+				"level": 1,
+				"spawnName": "weapon_pickaxe",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pickaxe.webp",
+				"type": "weapons",
+				"name": "Pioche",
+				"cooldown": 172800
+			},
+			"weapon_katana": {
+				"level": 1,
+				"spawnName": "weapon_katana",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_katana.webp",
+				"type": "weapons",
+				"name": "Katana",
+				"cooldown": 172800
+			},
+			"weapon_vintagepistol": {
+				"level": "4",
+				"spawnName": "weapon_vintagepistol",
+				"active": "false",
+				"stock": "4",
+				"price": "26400",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_vintagepistol.webp",
+				"type": "weapons",
+				"name": "Glock41gen4",
+				"cooldown": 172800
+			},
+			"weapon_heavyshotgun": {
+				"level": 1,
+				"spawnName": "weapon_heavyshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_heavyshotgun.webp",
+				"type": "weapons",
+				"name": "Saiga12K",
+				"cooldown": 172800
+			},
+			"weapon_sawnoffshotgun": {
+				"level": "4",
+				"spawnName": false,
+				"active": true,
+				"stock": "2",
+				"price": "160000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_sawnoffshotgun.webp",
+				"type": "weapons",
+				"name": "Mossberg",
+				"cooldown": 172800
+			},
+			"weapon_pistol": {
+				"level": "4",
+				"spawnName": "weapon_pistol",
+				"active": "false",
+				"stock": 10,
+				"price": "19000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pistol.webp",
+				"type": "weapons",
+				"name": "Beretta92FS",
+				"cooldown": 172800
+			},
+			"weapon_pelle": {
+				"level": 1,
+				"spawnName": "weapon_pelle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pelle.webp",
+				"type": "weapons",
+				"name": "Pelle",
+				"cooldown": 172800
+			},
+			"weapon_switchblade": {
+				"level": 1,
+				"spawnName": "weapon_switchblade",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_switchblade.webp",
+				"type": "weapons",
+				"name": "Couteauàcrandarrêt",
+				"cooldown": 172800
+			},
+			"weapon_dbshotgun": {
+				"level": "4",
+				"spawnName": "weapon_dbshotgun",
+				"active": "true",
+				"stock": "2",
+				"price": "100000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_dbshotgun.webp",
+				"type": "weapons",
+				"name": "Double canon",
+				"cooldown": 172800
+			},
+			"weapon_assaultshotgun": {
+				"level": 1,
+				"spawnName": "weapon_assaultshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_assaultshotgun.webp",
+				"type": "weapons",
+				"name": "UTASUTS-15",
+				"cooldown": 172800
+			},
+			"weapon_molotov": {
+				"level": "4",
+				"spawnName": "weapon_molotov",
+				"active": "true",
+				"stock": "3",
+				"price": "12000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_molotov.webp",
+				"type": "weapons",
+				"name": "Cocktail molotov",
+				"cooldown": 172800
+			},
+			"weapon_pistol50": {
+				"level": "3",
+				"spawnName": "weapon_pistol50",
+				"active": false,
+				"stock": "5",
+				"price": "70000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pistol50.webp",
+				"type": "weapons",
+				"name": "DesertEagle.50",
+				"cooldown": 172800
+			},
+			"weapon_combatshotgun": {
+				"level": 1,
+				"spawnName": "weapon_combatshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_combatshotgun.webp",
+				"type": "weapons",
+				"name": "FranchiSPAS-12",
+				"cooldown": 172800
+			},
+			"weapon_crowbar": {
+				"level": 1,
+				"spawnName": "weapon_crowbar",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_crowbar.webp",
+				"type": "weapons",
+				"name": "PieddeBiche",
+				"cooldown": 172800
+			},
+			"weapon_hatchet": {
+				"level": 1,
+				"spawnName": "weapon_hatchet",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_hatchet.webp",
+				"type": "weapons",
+				"name": "Hachette",
+				"cooldown": 172800
+			},
+			"weapon_specialcarbine": {
+				"level": 1,
+				"spawnName": "weapon_specialcarbine",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_specialcarbine.webp",
+				"type": "weapons",
+				"name": "H&KG36C",
+				"cooldown": 172800
+			},
+			"weapon_canette": {
+				"level": 1,
+				"spawnName": "weapon_canette",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_canette.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_machinepistol": {
+				"level": "3",
+				"spawnName": "weapon_machinepistol",
+				"active": "true",
+				"stock": "2",
+				"price": "120000",
+				"image": "TEC9",
+				"type": "weapons",
+				"name": "TEC9",
+				"cooldown": 172800
+			},
+			"weapon_autoshotgun": {
+				"level": 1,
+				"spawnName": "weapon_autoshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_autoshotgun.webp",
+				"type": "weapons",
+				"name": "ArmselStriker",
+				"cooldown": 172800
+			},
+			"weapon_combatpistol": {
+				"level": "2",
+				"spawnName": "weapon_combatpistol",
+				"active": false,
+				"stock": "3",
+				"price": "42000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_combatpistol.webp",
+				"type": "weapons",
+				"name": "Glock17",
+				"cooldown": 172800
+			},
+			"weapon_bouteille": {
+				"level": 1,
+				"spawnName": "weapon_bouteille",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bouteille.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_doubleaction": {
+				"level": "2",
+				"spawnName": "weapon_doubleaction",
+				"active": "true",
+				"stock": "2",
+				"price": "42000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_doubleaction.webp",
+				"type": "weapons",
+				"name": "ColtM1892",
+				"cooldown": 172800
+			},
+			"weapon_assaultrifle": {
+				"level": 1,
+				"spawnName": "weapon_assaultrifle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_assaultrifle.webp",
+				"type": "weapons",
+				"name": "AK-47",
+				"cooldown": 172800
+			},
+			"weapon_dagger": {
+				"level": 1,
+				"spawnName": "weapon_dagger",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_dagger.webp",
+				"type": "weapons",
+				"name": "DagueAntique",
+				"cooldown": 172800
+			},
+			"weapon_wrench": {
+				"level": 1,
+				"spawnName": "weapon_wrench",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_wrench.webp",
+				"type": "weapons",
+				"name": "Cléanglaise",
+				"cooldown": 172800
+			},
+			"weapon_revolver": {
+				"level": "4",
+				"spawnName": "weapon_revolver",
+				"active": true,
+				"stock": "3",
+				"price": "43720",
+				"image": "4",
+				"type": "weapons",
+				"name": "Revolver",
+				"cooldown": 172800
+			},
+			"weapon_gusenberg": {
+				"level": 1,
+				"spawnName": "weapon_gusenberg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_gusenberg.webp",
+				"type": "weapons",
+				"name": "M1928A1Thompson",
+				"cooldown": 172800
+			},
+			"weapon_poolcue": {
+				"level": 1,
+				"spawnName": "weapon_poolcue",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_poolcue.webp",
+				"type": "weapons",
+				"name": "Plaqueillegal",
+				"cooldown": 172800
+			},
+			"weapon_knife": {
+				"level": 1,
+				"spawnName": "weapon_knife",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_knife.webp",
+				"type": "weapons",
+				"name": "Couteau",
+				"cooldown": 172800
+			},
+			"weapon_carbinerifle": {
+				"level": 1,
+				"spawnName": "weapon_carbinerifle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_carbinerifle.webp",
+				"type": "weapons",
+				"name": "M4A1",
+				"cooldown": 172800
+			},
+			"weapon_bat": {
+				"level": 1,
+				"spawnName": "weapon_bat",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bat.webp",
+				"type": "weapons",
+				"name": "Battedebaseball",
+				"cooldown": 172800
+			},
+			"weapon_smg": {
+				"level": 1,
+				"spawnName": "weapon_smg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_smg.webp",
+				"type": "weapons",
+				"name": "H&KMP5A5",
+				"cooldown": 172800
+			},
+			"weapon_microsmg": {
+				"level": 1,
+				"spawnName": "weapon_microsmg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_microsmg.webp",
+				"type": "weapons",
+				"name": "IMIUZI",
+				"cooldown": 172800
+			}
+		}
+	},
+	"pf": {
+		"autre": {
+			"ammobox_pistol": {
+				"level": 1,
+				"spawnName": "ammobox_pistol",
+				"active": false,
+				"stock": 10,
+				"price": 200,
+				"image": "assets/inventory/items/ammobox_pistol.png",
+				"type": "utils",
+				"name": "Munition d'arme de poing",
+				"cooldown": 172800
+			},
+			"keville9": {
+				"level": 1,
+				"spawnName": "keville9",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville9.webp",
+				"type": "utils",
+				"name": "Kevlar moyen",
+				"cooldown": 172800
+			},
+			"perceuse": {
+				"level": 1,
+				"spawnName": "drill",
+				"active": true,
+				"stock": 10,
+				"price": "1500",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Perceuse.webp",
+				"type": "utils",
+				"name": "Perceuse",
+				"cooldown": 172800
+			},
+			"keville1": {
+				"level": 1,
+				"spawnName": "keville1",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville1.webp",
+				"type": "utils",
+				"name": "Kevlar léger",
+				"cooldown": 172800
+			},
+			"ammobox_sub": {
+				"level": 1,
+				"spawnName": "ammobox_sub",
+				"active": false,
+				"stock": 10,
+				"price": 400,
+				"image": "assets/inventory/items/ammobox_sub.png",
+				"type": "utils",
+				"name": "Munition légére ",
+				"cooldown": 172800
+			},
+			"meuleuse": {
+				"level": 1,
+				"spawnName": "meuleuse",
+				"active": true,
+				"stock": 10,
+				"price": "2000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Meuleuse.webp",
+				"type": "utils",
+				"name": "Meuleuse",
+				"cooldown": 172800
+			},
+			"plate": {
+				"level": 1,
+				"spawnName": "plate",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/plate.webp",
+				"type": "utils",
+				"name": "Plaque",
+				"cooldown": 172800
+			},
+			"keville7": {
+				"level": 1,
+				"spawnName": "keville7",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "Kevlar lourd",
+				"type": "utils",
+				"name": "Kevlar lourd",
+				"cooldown": 172800
+			},
+			"keville8": {
+				"level": 1,
+				"spawnName": "keville8",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville8.webp",
+				"type": "utils",
+				"name": "Kevlar lourd",
+				"cooldown": 172800
+			},
+			"serflex": {
+				"level": 1,
+				"spawnName": "serflex",
+				"active": false,
+				"stock": 10,
+				"price": 30,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Serflex.webp",
+				"type": "utils",
+				"name": "Serflex",
+				"cooldown": 172800
+			},
+			"forreuse": {
+				"level": "2",
+				"spawnName": "forreuse",
+				"active": true,
+				"stock": "4",
+				"price": "1000",
+				"image": "https://cdn.discordapp.com/attachments/1172183320109535253/1192250750328385626/forreuse-removebg-preview.png?ex=65a86509&is=6595f009&hm=209b351bc4daa9d4377cdbb2da82e76c3d3b1ebee1836dda5d8029332d85202f&",
+				"type": "utils",
+				"name": "Forreuse",
+				"cooldown": 518400
+			},
+			"keville10": {
+				"level": 1,
+				"spawnName": "keville10",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville10.webp",
+				"type": "utils",
+				"name": "Kevlar moyen",
+				"cooldown": 172800
+			},
+			"laptop": {
+				"level": 1,
+				"spawnName": "laptop",
+				"active": "true",
+				"stock": 10,
+				"price": 1200,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/ordinateur_portable.webp",
+				"type": "utils",
+				"name": "Ordinateur",
+				"cooldown": 172800
+			},
+			"keville5": {
+				"level": 1,
+				"spawnName": "keville5",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "Kevlar lourd",
+				"type": "utils",
+				"name": "Kevlar lourd",
+				"cooldown": 172800
+			},
+			"hook": {
+				"level": 1,
+				"spawnName": "crochet",
+				"active": false,
+				"stock": 10,
+				"price": 28,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Utils/Outils_crochetage.webp",
+				"type": "utils",
+				"name": "Outils de crochetage",
+				"cooldown": 172800
+			},
+			"keville4": {
+				"level": 1,
+				"spawnName": "keville4",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville4.webp",
+				"type": "utils",
+				"name": "Kevlar léger",
+				"cooldown": 172800
+			},
+			"keville3": {
+				"level": 1,
+				"spawnName": "keville3",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "Kevlar léger",
+				"type": "utils",
+				"name": "Kevlar léger",
+				"cooldown": 172800
+			},
+			"pince": {
+				"level": 1,
+				"spawnName": "pincecoupante",
+				"active": true,
+				"stock": 10,
+				"price": "500",
+				"image": "Pince coupante",
+				"type": "utils",
+				"name": "Pince coupante",
+				"cooldown": 172800
+			},
+			"ammobox_heavy": {
+				"level": 1,
+				"spawnName": "ammobox_heavy",
+				"active": false,
+				"stock": 10,
+				"price": 800,
+				"image": "assets/inventory/items/ammobox_heavy.png",
+				"type": "utils",
+				"name": "Muntion d'arme lourde",
+				"cooldown": 172800
+			},
+			"keville2": {
+				"level": 1,
+				"spawnName": "keville2",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville2.webp",
+				"type": "utils",
+				"name": "Kevlar léger ",
+				"cooldown": 172800
+			},
+			"ammobox_shotgun": {
+				"level": 1,
+				"spawnName": "ammobox_shotgun",
+				"active": false,
+				"stock": 10,
+				"price": 600,
+				"image": "assets/inventory/items/ammobox_shotgun.webp",
+				"type": "utils",
+				"name": "Munition de fusil à pompe",
+				"cooldown": 172800
+			},
+			"keville11": {
+				"level": 1,
+				"spawnName": "keville11",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville11.webp",
+				"type": "utils",
+				"name": "Kevlar moyen",
+				"cooldown": 172800
+			},
+			"ammobox_rifle": {
+				"level": 1,
+				"spawnName": "ammobox_rifle",
+				"active": false,
+				"stock": 10,
+				"price": 700,
+				"image": "assets/inventory/items/ammobox_rifle.png",
+				"type": "utils",
+				"name": "Muntion de fusil d'assaut",
+				"cooldown": 172800
+			},
+			"keville6": {
+				"level": 1,
+				"spawnName": "keville6",
+				"active": false,
+				"stock": 10,
+				"price": 12870,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville6.webp",
+				"type": "utils",
+				"name": "Kevlar lourd",
+				"cooldown": 172800
+			},
+			"spray": {
+				"level": 1,
+				"spawnName": "spray",
+				"active": false,
+				"stock": 10,
+				"price": 8520,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville1.webp",
+				"type": "utils",
+				"name": "Spray",
+				"cooldown": 172800
+			},
+			"keville12": {
+				"level": 1,
+				"spawnName": "keville12",
+				"active": false,
+				"stock": 10,
+				"price": 10500,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/GPB/keville12.webp",
+				"type": "utils",
+				"name": "Kevlar moyen",
+				"cooldown": 172800
+			}
+		},
+		"drogues": {
+			"chlorure": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002110756126730/chlorureammonium.png?ex=65de0f50&is=65cb9a50&hm=409f2a276beb4d6a47d569a625b7d95f4c2a9ac3c3986cd06506dbc37f4a5a6e&=&format=webp&quality=lossless&width=960&height=540",
+				"price": 50,
+				"spawnName": "chlorureammonium",
+				"type": "drugs",
+				"active": false,
+				"name": "ChlorureAmmonium"
+			},
+			"anhydride": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002109615280228/anhydrideacetique.png?ex=65de0f4f&is=65cb9a4f&hm=24851674304d1c0458fb40dbc65f5b5e2d189d652c5d4c03964a566259732b58&=&format=webp&quality=lossless&width=960&height=540",
+				"price": 50,
+				"spawnName": "anhydrideacetique",
+				"type": "drugs",
+				"active": false,
+				"name": "Anhydrideacetique"
+			},
+			"feuilledecoca": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "feuilledecoca",
+				"type": "drugs",
+				"active": false,
+				"name": "FeuilledeCoca"
+			},
+			"meth": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/methamphetamine.webp",
+				"price": 70,
+				"spawnName": "meth",
+				"type": "drugs",
+				"active": false,
+				"name": "Methamphetamine"
+			},
+			"pavo": {
+				"image": "https://media.discordapp.net/attachments/1158819312526696520/1207002110181515285/pavosomnifere.png?ex=65de0f50&is=65cb9a50&hm=2a9d91c09a4201ce1ffbe1aa410b6f529898bb266ec46f76c121057745b2041e&=&format=webp&quality=lossless&width=960&height=540",
+				"price": 50,
+				"spawnName": "pavosomnifere",
+				"type": "drugs",
+				"active": false,
+				"name": "PavoSomnifère"
+			},
+			"kerosene": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "kerosene",
+				"type": "drugs",
+				"active": false,
+				"name": "Kerosene"
+			},
+			"grainecannabis": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "Graine de cannabis",
+				"type": "drugs",
+				"active": false,
+				"name": "Grainedecannabis"
+			},
+			"fertilisant": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "Fertilisant",
+				"type": "drugs",
+				"active": false,
+				"name": "Fertilisant"
+			},
+			"phenylacetone": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "phenylacetone",
+				"type": "drugs",
+				"active": false,
+				"name": "Phenylacetone"
+			},
+			"weed": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/weed.webp",
+				"price": 20,
+				"spawnName": "Weed",
+				"type": "Weed",
+				"active": false,
+				"name": "Weed"
+			},
+			"methylamine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "methylamine",
+				"type": "drugs",
+				"active": false,
+				"name": "Methylamine"
+			},
+			"fentanyl": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/Heroine.webp",
+				"price": 50,
+				"spawnName": "fentanyl",
+				"type": "drugs",
+				"active": false,
+				"name": "Fentanyl"
+			},
+			"engrais": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "engrais",
+				"type": "drugs",
+				"active": false,
+				"name": "Engrais"
+			},
+			"acidesulfurique": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "Acide sulfurique",
+				"type": "drugs",
+				"active": false,
+				"name": "AcideSulfurique"
+			},
+			"ephedrine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "ephedrine",
+				"type": "drugs",
+				"active": false,
+				"name": "Ephédrine"
+			},
+			"cocaine": {
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Drogues/cocaine.webp",
+				"price": 50,
+				"spawnName": "coke",
+				"type": "drugs",
+				"active": false,
+				"name": "Cocaine"
+			}
+		},
+		"armes": {
+			"weapon_specialcarbine": {
+				"level": 1,
+				"spawnName": "weapon_specialcarbine",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_specialcarbine.webp",
+				"type": "weapons",
+				"name": "H&KG36C",
+				"cooldown": 172800
+			},
+			"weapon_pumpshotgun": {
+				"level": 1,
+				"spawnName": "weapon_pumpshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pumpshotgun.webp",
+				"type": "weapons",
+				"name": "Remington",
+				"cooldown": 172800
+			},
+			"weapon_heavypistol": {
+				"level": 1,
+				"spawnName": "weapon_heavypistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_heavypistol.webp",
+				"type": "weapons",
+				"name": "ColtM45A1",
+				"cooldown": 172800
+			},
+			"weapon_canette": {
+				"level": 1,
+				"spawnName": "",
+				"active": true,
+				"stock": 10,
+				"price": "20",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_canette.webp",
+				"type": "weapons",
+				"name": "Canette",
+				"cooldown": 172800
+			},
+			"weapon_minismg": {
+				"level": 1,
+				"spawnName": "weapon_minismg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_minismg.webp",
+				"type": "weapons",
+				"name": "Skorpion",
+				"cooldown": 172800
+			},
+			"weapon_sledgehammer": {
+				"level": 1,
+				"spawnName": "weapon_sledgehammer",
+				"active": "false",
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_sledgehammer.webp",
+				"type": "weapons",
+				"name": "Masse",
+				"cooldown": 172800
+			},
+			"weapon_compactrifle": {
+				"level": 1,
+				"spawnName": "weapon_compactrifle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_compactrifle.webp",
+				"type": "weapons",
+				"name": "AKS-74u",
+				"cooldown": 172800
+			},
+			"weapon_bottle": {
+				"level": 1,
+				"spawnName": "30",
+				"active": "true",
+				"stock": "4",
+				"price": "30",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bottle.webp",
+				"type": "weapons",
+				"name": "Bouteille en verre",
+				"cooldown": 172800
+			},
+			"weapon_nightstick": {
+				"level": 1,
+				"spawnName": "",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_nightstick.webp",
+				"type": "weapons",
+				"name": "",
+				"cooldown": 172800
+			},
+			"weapon_knuckle": {
+				"level": 1,
+				"spawnName": "weapon_knuckle",
+				"active": false,
+				"stock": "5",
+				"price": "5000",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_knuckle.webp",
+				"type": "weapons",
+				"name": false,
+				"cooldown": 172800
+			},
+			"weapon_golfclub": {
+				"level": 1,
+				"spawnName": "weapon_golfclub",
+				"active": "true",
+				"stock": "5",
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_golfclub.webp",
+				"type": "weapons",
+				"name": "Club de golf",
+				"cooldown": 172800
+			},
+			"weapon_battleaxe": {
+				"level": 1,
+				"spawnName": "weapon_battleaxe",
+				"active": "false",
+				"stock": 10,
+				"price": "5500",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_battleaxe.webp",
+				"type": "weapons",
+				"name": "Hache de guerre",
+				"cooldown": 172800
+			},
+			"weapon_pickaxe": {
+				"level": 1,
+				"spawnName": "weapon_pickaxe",
+				"active": "true",
+				"stock": "3",
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pickaxe.webp",
+				"type": "weapons",
+				"name": "Pioche",
+				"cooldown": 172800
+			},
+			"weapon_katana": {
+				"level": 1,
+				"spawnName": "weapon_katana",
+				"active": "false",
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_katana.webp",
+				"type": "weapons",
+				"name": "Katana",
+				"cooldown": 172800
+			},
+			"weapon_vintagepistol": {
+				"level": 1,
+				"spawnName": "weapon_vintagepistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_vintagepistol.webp",
+				"type": "weapons",
+				"name": "Glock41",
+				"cooldown": 172800
+			},
+			"weapon_heavyshotgun": {
+				"level": 1,
+				"spawnName": "weapon_heavyshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_heavyshotgun.webp",
+				"type": "weapons",
+				"name": "Saiga12K",
+				"cooldown": 172800
+			},
+			"weapon_bouteille": {
+				"level": 1,
+				"spawnName": "weapon_bouteille",
+				"active": true,
+				"stock": "10",
+				"price": "25",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bouteille.webp",
+				"type": "weapons",
+				"name": "Bouteille",
+				"cooldown": 172800
+			},
+			"weapon_pistol": {
+				"level": 1,
+				"spawnName": "weapon_pistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pistol.webp",
+				"type": "weapons",
+				"name": "Beretta",
+				"cooldown": 172800
+			},
+			"weapon_pelle": {
+				"level": 1,
+				"spawnName": "weapon_pelle",
+				"active": "true",
+				"stock": "2",
+				"price": "1350",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pelle.webp",
+				"type": "weapons",
+				"name": "Pelle",
+				"cooldown": 172800
+			},
+			"weapon_switchblade": {
+				"level": 1,
+				"spawnName": "weapon_switchblade",
+				"active": true,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_switchblade.webp",
+				"type": "weapons",
+				"name": "Cran d'arrêt",
+				"cooldown": 172800
+			},
+			"weapon_dbshotgun": {
+				"level": 1,
+				"spawnName": "weapon_dbshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_dbshotgun.webp",
+				"type": "weapons",
+				"name": "Double Canon",
+				"cooldown": 172800
+			},
+			"weapon_assaultshotgun": {
+				"level": 1,
+				"spawnName": "weapon_assaultshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_assaultshotgun.webp",
+				"type": "weapons",
+				"name": "UTASUTS-15",
+				"cooldown": 172800
+			},
+			"weapon_molotov": {
+				"level": 1,
+				"spawnName": "weapon_molotov",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_molotov.webp",
+				"type": "weapons",
+				"name": "Cocktail molotov ",
+				"cooldown": 172800
+			},
+			"weapon_pistol50": {
+				"level": 1,
+				"spawnName": "weapon_pistol50",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_pistol50.webp",
+				"type": "weapons",
+				"name": "Desert Eagle",
+				"cooldown": 172800
+			},
+			"weapon_combatshotgun": {
+				"level": 1,
+				"spawnName": "weapon_combatshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_combatshotgun.webp",
+				"type": "weapons",
+				"name": "SPAS 12",
+				"cooldown": 172800
+			},
+			"weapon_hatchet": {
+				"level": 1,
+				"spawnName": "weapon_hatchet",
+				"active": "false",
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_hatchet.webp",
+				"type": "weapons",
+				"name": "Hachette",
+				"cooldown": 172800
+			},
+			"weapon_knife": {
+				"level": 1,
+				"spawnName": "weapon_knife",
+				"active": "false",
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_knife.webp",
+				"type": "weapons",
+				"name": "Couteau",
+				"cooldown": 172800
+			},
+			"weapon_dagger": {
+				"level": 1,
+				"spawnName": "weapon_dagger",
+				"active": "false",
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_dagger.webp",
+				"type": "weapons",
+				"name": "Dague antique",
+				"cooldown": 172800
+			},
+			"weapon_machete": {
+				"level": 1,
+				"spawnName": "weapon_machete",
+				"active": "false",
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_machete.webp",
+				"type": "weapons",
+				"name": "Machette",
+				"cooldown": 172800
+			},
+			"weapon_poolcue": {
+				"level": 1,
+				"spawnName": "weapon_poolcue",
+				"active": "true",
+				"stock": "4",
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_poolcue.webp",
+				"type": "weapons",
+				"name": "Queue de billard",
+				"cooldown": 172800
+			},
+			"weapon_bat": {
+				"level": 1,
+				"spawnName": "weapon_bat",
+				"active": "true",
+				"stock": "3",
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_bat.webp",
+				"type": "weapons",
+				"name": "Batte de baseball",
+				"cooldown": 172800
+			},
+			"weapon_snspistol": {
+				"level": 1,
+				"spawnName": "weapon_snspistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_snspistol.webp",
+				"type": "weapons",
+				"name": "Glock26",
+				"cooldown": 172800
+			},
+			"weapon_autoshotgun": {
+				"level": 1,
+				"spawnName": "weapon_autoshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_autoshotgun.webp",
+				"type": "weapons",
+				"name": "Armstel strike",
+				"cooldown": 172800
+			},
+			"weapon_doubleaction": {
+				"level": 1,
+				"spawnName": "weapon_doubleaction",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_doubleaction.webp",
+				"type": "weapons",
+				"name": "ColtM1892",
+				"cooldown": 172800
+			},
+			"weapon_assaultrifle": {
+				"level": 1,
+				"spawnName": "weapon_assaultrifle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_assaultrifle.webp",
+				"type": "weapons",
+				"name": "AK-47",
+				"cooldown": 172800
+			},
+			"weapon_combatpistol": {
+				"level": 1,
+				"spawnName": "weapon_combatpistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_combatpistol.webp",
+				"type": "weapons",
+				"name": "Combat pistol",
+				"cooldown": 172800
+			},
+			"weapon_wrench": {
+				"level": 1,
+				"spawnName": "weapon_wrench",
+				"active": "true",
+				"stock": "2",
+				"price": "1900",
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_wrench.webp",
+				"type": "weapons",
+				"name": "Clé anglaise",
+				"cooldown": 172800
+			},
+			"weapon_revolver": {
+				"level": 1,
+				"spawnName": "weapon_revolver",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_revolver.webp",
+				"type": "weapons",
+				"name": "Revolver",
+				"cooldown": 172800
+			},
+			"weapon_sawnoffshotgun": {
+				"level": 1,
+				"spawnName": "weapon_sawnoffshotgun",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_sawnoffshotgun.webp",
+				"type": "weapons",
+				"name": "Mossberg",
+				"cooldown": 172800
+			},
+			"weapon_gusenberg": {
+				"level": 1,
+				"spawnName": "weapon_gusenberg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_gusenberg.webp",
+				"type": "weapons",
+				"name": "Thompson",
+				"cooldown": 172800
+			},
+			"weapon_machinepistol": {
+				"level": 1,
+				"spawnName": "weapon_machinepistol",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_machinepistol.webp",
+				"type": "weapons",
+				"name": "TEC9",
+				"cooldown": 172800
+			},
+			"weapon_carbinerifle": {
+				"level": 1,
+				"spawnName": "weapon_carbinerifle",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_carbinerifle.webp",
+				"type": "weapons",
+				"name": "M4A1",
+				"cooldown": 172800
+			},
+			"weapon_crowbar": {
+				"level": 1,
+				"spawnName": "weapon_crowbar",
+				"active": "true",
+				"stock": "4",
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_crowbar.webp",
+				"type": "weapons",
+				"name": "Pied de biche",
+				"cooldown": 172800
+			},
+			"weapon_smg": {
+				"level": 1,
+				"spawnName": "weapon_smg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_smg.webp",
+				"type": "weapons",
+				"name": "MP5",
+				"cooldown": 172800
+			},
+			"weapon_microsmg": {
+				"level": 1,
+				"spawnName": "weapon_microsmg",
+				"active": false,
+				"stock": 10,
+				"price": 5000,
+				"image": "https://assets-vision-fa.cdn.purplemaze.net/assets/Tablette/Armes/weapon_microsmg.webp",
+				"type": "weapons",
+				"name": "UZI",
+				"cooldown": 172800
+			}
+		}
+	},
+	"xpTablette": {
+		"5": "200000",
+		"3": 80000,
+		"4": "120000",
+		"1": 0,
+		"2": "40000"
+	},
+	"heist": {
+		"brinks": {
+			"influence": "500",
+			"Players": "4",
+			"winMin": "1",
+			"xp": "7000",
+			"cops": "6",
+			"active": "true",
+			"winMax": "37000"
+		},
+		"fleeca": {
+			"influence": "1500",
+			"winMin": "400",
+			"xp": "5000",
+			"cops": "6",
+			"active": true,
+			"winMax": "500"
+		},
+		"volArrache": {
+			"influence": "10",
+			"winMin": "600",
+			"cops": "2",
+			"xp": "100",
+			"limit": "5",
+			"active": "true",
+			"winMax": "1000"
+		},
+		"superette": {
+			"cops": "3",
+			"winMin": "300",
+			"winMax": "450",
+			"influence": "50",
+			"xp": "1000",
+			"winMinCoffre": "400",
+			"active": "true",
+			"winMaxCoffre": "650"
+		},
+		"train": {
+			"cops": "6",
+			"xp": "",
+			"winMin": "1000",
+			"active": "",
+			"winMax": "2500"
+		},
+		"atm": {
+			"influence": "10",
+			"winMin": "200",
+			"xp": "150",
+			"cops": "1",
+			"active": "0",
+			"winMax": "300"
+		},
+		"binco": {
+			"influence": "50",
+			"winMin": "300",
+			"xp": "800",
+			"cops": "2",
+			"active": true,
+			"winMax": "550"
+		},
+		"gofast2": {
+			"xp": "400",
+			"cops": "4",
+			"active": "true",
+			"win": "5000"
+		},
+		"raquette": {
+			"influence": "1",
+			"winMin": "100",
+			"cops": "1",
+			"xp": "250",
+			"limit": "10",
+			"active": "true",
+			"winMax": "1100"
+		},
+		"entreprises": {
+			"influence": "0",
+			"winMin": "1200",
+			"xp": "2000",
+			"cops": "4",
+			"active": "true",
+			"winMax": "1700"
+		},
+		"vangelico": {
+			"influence": "1000",
+			"CaisseWinMin": "2000",
+			"xp": "3500",
+			"cops": "6",
+			"active": "true",
+			"CaisseWinMax": "3000"
+		},
+		"hook": {
+			"cops": "1",
+			"influence": "15",
+			"active": "false",
+			"xp": "10"
+		},
+		"atmScie": {
+			"influence": "80",
+			"winMin": "5700",
+			"xp": "1000",
+			"cops": "3",
+			"active": "true",
+			"winMax": "8700"
+		},
+		"gofast1": {
+			"xp": "400",
+			"cops": "4",
+			"active": "true",
+			"win": "4000"
+		}
+	},
+	"drugs": {
+		"influence": "10",
+		"weed": {
+			"xp": "10",
+			"winMin": "80",
+			"active": "true",
+			"winMax": "90"
+		},
+		"fentanyl": {
+			"xp": "110",
+			"winMin": "130",
+			"active": "true",
+			"winMax": "140"
+		},
+		"coke": {
+			"xp": "10",
+			"winMin": "180",
+			"active": true,
+			"winMax": "190"
+		},
+		"cops": "0",
+		"heroine": {
+			"xp": "10",
+			"winMin": 90,
+			"active": "false",
+			"winMax": "120"
+		},
+		"meth": {
+			"xp": "10",
+			"winMin": "200",
+			"active": "true",
+			"winMax": "220"
+		}
+	},
+	"hourly": {
+		"hourStop": "02",
+		"minStop": "30",
+		"minStart": "10",
+		"hourStart": "18"
+	}
+}

@@ -1,0 +1,115 @@
+.PinceACheveux {
+    width: 400px;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 6px;
+    margin: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: 460px;
+
+    & .Banner {
+        width: 100%;
+    }
+
+    & .Choice {
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 6px;
+        width: 160px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        cursor: pointer;
+
+        &>img {
+            height: 100%;
+        }
+
+        & .Id {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(94, 108, 182, 0.6196078431);
+            width: 100%;
+            color: white;
+            text-align: center;
+            font-size: 12px;
+            align-items: center;
+            display: flex;
+            text-align: center;
+            height: 15px;
+            position: relative;
+
+            & img {
+                position: absolute;
+                right: 5px;
+                height: 12px;
+                top: 2px;
+            }
+        }
+    }
+
+    & .Span {
+        color: white;
+        font-size: 13px;
+        width: 350px;
+        margin: 20px;
+        margin-bottom: 10px;
+    }
+
+    & .CoupeList {
+        margin-left: 15px;
+        width: 350px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        max-height: 250px;
+        overflow: auto;
+
+        & .Coupe {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            display: flex;
+            min-height: 30px;
+            align-items: center;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+
+            & .ShowId {
+                padding-right: 10px;
+                margin-left: 10px;
+                margin-right: 15px;
+                border-right: 2px solid white;
+            }
+
+            &.Selected {
+                background: linear-gradient(90deg, rgba(94, 108, 182, 0.3) 0%, rgba(94, 108, 182, 0.3) 100%);
+            }
+        }
+    }
+
+    & .Retour {
+        position: absolute;
+        display: flex;
+        font-size: 8px;
+        align-items: center;
+        color: white;
+        bottom: 20px;
+        left: 30px;
+        flex-direction: column;
+        cursor: pointer;
+
+        & img {
+            margin-right: 3px;
+            width: 10px;
+        }
+    }
+}

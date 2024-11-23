@@ -1,0 +1,181 @@
+.MenuK9 {
+    width: 600px;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 6px;
+    margin: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+    & .Banner {
+        width: 100%;
+        object-fit: cover;
+        aspect-ratio: 759 / 144;
+    }
+
+    .Span {
+        color: #FFF;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        width: 85%;
+        margin: 20px 0;
+    }
+
+    .Actions,
+    .Poses,
+    .Attaques {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        gap: 5px;
+        margin-bottom: 20px;
+
+        .SubSpan {
+            color: #FFF;
+            font-family: Lato;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            width: 100%;
+            line-height: 100%;
+        }
+
+        .List {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+
+            .Element {
+                width: 154px;
+                border-radius: 3.88px;
+                background: linear-gradient(180deg, rgba(94, 108, 182, 0.80) 0%, rgba(94, 108, 182, 0.50) 100%);
+                height: 28px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+        }
+    }
+
+    & .Choice {
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 6px;
+        width: 160px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        cursor: pointer;
+
+        &>img {
+            height: 100%;
+        }
+
+        & .Id {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(94, 108, 182, 0.6196078431);
+            width: 100%;
+            color: white;
+            text-align: center;
+            font-size: 12px;
+            align-items: center;
+            display: flex;
+            text-align: center;
+            height: 20px;
+            position: relative;
+
+            & img {
+                position: absolute;
+                right: 5px;
+                height: 12px;
+                top: 3px;
+            }
+        }
+    }
+
+    .ChoiceContainer {
+        background: rgba(0, 0, 0, 0.55);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .Buttons {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    & .CoupeList {
+        margin-left: 34px;
+        width: 480px;
+        padding-right: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 300px;
+        overflow: auto;
+        gap: 15px;
+
+        .Choice {
+            width: 140px;
+            height: 140px;
+            margin: 0;
+
+            &.Selected {
+                background: linear-gradient(90deg, rgba(94, 108, 182, 0.3) 0%, rgba(94, 108, 182, 0.3) 100%);
+            }
+        }
+
+        & .Coupe {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            display: flex;
+            min-height: 30px;
+            align-items: center;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+
+            & .ShowId {
+                padding-right: 10px;
+                margin-left: 10px;
+                margin-right: 15px;
+                border-right: 2px solid white;
+            }
+
+            &.Selected {
+                background: linear-gradient(90deg, rgba(94, 108, 182, 0.3) 0%, rgba(94, 108, 182, 0.3) 100%);
+            }
+        }
+    }
+
+    & .Retour {
+        position: absolute;
+        display: flex;
+        font-size: 8px;
+        align-items: center;
+        color: white;
+        bottom: 20px;
+        left: 30px;
+        flex-direction: column;
+        cursor: pointer;
+
+        & img {
+            margin-right: 3px;
+            width: 15px;
+        }
+    }
+}

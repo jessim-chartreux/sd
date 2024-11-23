@@ -1,0 +1,80 @@
+.colorPicker {
+    width: 490px;
+    height: fit-content;
+    flex-direction: column;
+    display: flex;
+    padding: 10px 80px 15px;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: -30px 80px;
+    position: relative;
+
+    & .span {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+
+        opacity: 0.9;
+        margin: 10px 0 5px 0;
+    }
+
+    & .color {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        min-width: 30px;
+    }
+
+    & .colorPick {
+        background: linear-gradient(90.02deg, rgba(0, 0, 0, 0) 3.78%, rgba(0, 0, 0, 0.389) 34.05%, rgba(0, 0, 0, 0.553) 64.32%, rgba(0, 0, 0, 0) 94.59%);
+        display: flex;
+        overflow: hidden;
+        flex-wrap: unset;
+        gap: 3px;
+        margin: 5px 0;
+    }
+
+    & .left,
+    & .right {
+        position: absolute;
+    }
+
+    & .opacityValue {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+
+        opacity: 1;
+
+        position: absolute;
+        right: 85px;
+        top: 48px;
+        pointer-events: none;
+    }
+
+    & .opacity {
+        position: relative;
+        background: linear-gradient(270.02deg, rgba(255, 255, 255, 0.08) 12.83%, rgba(255, 255, 255, 0.48) 37.9%, rgba(255, 255, 255, 0.488) 65.33%);
+        opacity: 0.5;
+        border-radius: 3px;
+        width: 330px;
+        height: 21px;
+    }
+
+    & .Container {
+        position: relative;
+    }
+}

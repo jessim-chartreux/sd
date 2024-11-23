@@ -1,0 +1,53 @@
+.grid-container {
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-right: 20px;
+	scroll-behavior: smooth;
+
+	&::-webkit-scrollbar {
+		width: 4px;
+		border-radius: 4px;
+	}
+	&::-webkit-scrollbar-track {
+		background: rgba(255, 255, 255, 0.2);
+	}
+	&::-webkit-scrollbar-thumb {
+		background: rgba(255, 255, 255, 0.4);
+		border-radius: 4px;
+	}
+	&::-webkit-scrollbar-thumb:hover {
+		background: rgba(255, 255, 255, 0.4);
+		border-radius: 4px;
+	}
+}
+
+.inventory-grid {
+	display: grid;
+	grid-auto-rows: 94px;
+	grid-auto-flow: row dense;
+	grid-gap: 15px;
+
+	&.drop-effect:hover {
+		background-color: rgba(255, 255, 255, 0.05);
+		border-radius: 10px;
+	}
+}
+
+.category {
+	&:first-child {
+		margin-top: -15px;
+	}
+
+	.category-name {
+		font-family: Montserrat;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 11px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: white;
+
+		padding-top: 20px;
+		padding-bottom: 5px;
+	}
+}

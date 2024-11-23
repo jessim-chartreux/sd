@@ -1,0 +1,284 @@
+.BoutiquePack {
+	min-width: 300px;
+	min-height: 300px;
+	cursor: pointer;
+	align-items: center;
+
+	&.buySubscription {
+		padding: 20px 40px;
+		border-radius: 10px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		transition: 0.3s;
+
+		&:hover {
+			transform: scale(1.05);
+			cursor: pointer;
+		}
+
+		.Title {
+			color: #fff;
+			text-align: center;
+			font-family: Montserrat;
+			font-size: 21.78px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+			width: fit-content;
+		}
+
+		.Level {
+			color: #fff;
+			text-align: center;
+			font-family: Montserrat;
+			font-size: 60px;
+			font-style: normal;
+			font-weight: 800;
+			line-height: normal;
+			text-transform: uppercase;
+			width: fit-content;
+		}
+
+		.Price {
+			position: absolute;
+			width: 100%;
+			margin-top: auto;
+			border-radius: 10.89px;
+			display: flex;
+			height: 80px;
+			color: #fff;
+			text-align: center;
+			font-family: Montserrat;
+			font-size: 43.56px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: normal;
+			justify-content: center;
+			align-items: center;
+			left: 0;
+			bottom: 0;
+
+			& img {
+				width: 30px;
+				margin-left: 10px;
+			}
+		}
+
+		&.gold {
+			background: linear-gradient(180deg, #ddb950 0%, rgba(141, 107, 33, 0.75) 100%);
+
+			& .Price {
+				background: linear-gradient(180deg, #ddb950 0%, rgba(141, 107, 33, 0.54) 92.01%, rgba(134, 100, 29, 0.5) 100%);
+			}
+		}
+
+		&.platinum {
+			background: linear-gradient(180deg, #a5a5a5 0%, rgba(193, 193, 193, 0.75) 100%);
+
+			& .Price {
+				background: linear-gradient(180deg, #e4e4e4 0%, #7e7e7e 100%);
+			}
+		}
+
+		&.diamond {
+			background: linear-gradient(180deg, #32d4ca 0%, rgba(54, 218, 188, 0.95) 54.17%, rgba(67, 240, 136, 0.75) 100%);
+
+			& .Price {
+				background: linear-gradient(180deg, #53f1e8 0%, #47c28c 97.92%);
+			}
+		}
+	}
+
+	&.buyVCoins {
+		border-radius: 10px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		transition: 0.3s;
+		box-shadow: inset white 0px 2px 3px 0.5px;
+		max-width: 40px !important;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+
+		.Value {
+			position: relative;
+			margin-top: 30px;
+			height: 100%;
+			width: fit-content;
+			color: #fff;
+			font-family: Lato;
+			font-size: 65px;
+			font-style: normal;
+			font-weight: 900;
+			line-height: normal;
+			text-align: center;
+			padding-top: 65px;
+
+			& .Currency {
+				text-align: right;
+			}
+		}
+
+		.Bonus {
+			text-transform: uppercase;
+			font-family: Montserrat;
+			color: white;
+			font-weight: bold;
+			font-size: 16px;
+
+			position: absolute;
+			padding-left: 22px;
+			top: 50px;
+
+			& span:nth-child(2) {
+				background: -webkit-linear-gradient(180deg, #fcdc7f 0%, #fdcb51 48%, #ffb81e 100%);
+				-webkit-background-clip: text !important;
+				background-clip: text !important;
+				-webkit-text-fill-color: transparent !important;
+				font-weight: 900;
+				font-size: 20px;
+			}
+			& span:last-child {
+				font-weight: 300;
+			}
+		}
+
+		.Currency {
+			color: #fff;
+			font-family: Montserrat;
+			font-size: 18px;
+			font-style: bold;
+			font-weight: 500;
+			line-height: normal;
+
+			& img {
+				width: 22px;
+				height: 22px;
+			}
+		}
+
+		.Price {
+			font-family: Montserrat !important;
+			font-size: 26pt;
+			display: flex;
+			font-weight: bold;
+			background: -webkit-linear-gradient(180deg, #fbe9b7 0%, #f4d782 33%, #ffcf43 96%) !important;
+			-webkit-background-clip: text !important;
+			background-clip: text !important;
+			-webkit-text-fill-color: transparent !important;
+
+			// Place at bottom right of parent
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			padding: 5px 15px;
+
+			& .BoutiquePack-currency {
+				font-weight: 900;
+			}
+		}
+
+		/* .Price {
+			position: absolute;
+			width: 100%;
+			margin-top: auto;
+			border-radius: 10.89px;
+			display: flex;
+			height: 80px;
+			color: #fff;
+			text-align: center;
+			font-family: Montserrat;
+			font-size: 43.56px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: normal;
+			justify-content: center;
+			align-items: center;
+			left: 0;
+			bottom: 0;
+			box-shadow: inset white 0px 1px 1px 1px;
+			box-shadow: inset white 0px 2px 1px 0.5px;
+			cursor: pointer;
+
+			& img {
+				width: 30px;
+				margin-left: 10px;
+			}
+		} */
+
+		&.yellow {
+			// background: linear-gradient(#FFB529, #FF8A00);
+			// background-image: url('/https://cdn.sacul.cloud/v2/vision-cdn/ShopPacks/yellow.webp');
+			// background-image: url('https://assets-vision-fa.cdn.purplemaze.net/https://cdn.sacul.cloud/v2/vision-cdn/Boutique/ShopPacks/yellow.webp');
+			background-position: center;
+			background-size: cover;
+		}
+
+		&.orange {
+			// background: linear-gradient(#FF782D, #FF5B15);
+			// background-image: url('/https://cdn.sacul.cloud/v2/vision-cdn/ShopPacks/orange.webp');
+			// background-image: url('https://assets-vision-fa.cdn.purplemaze.net/https://cdn.sacul.cloud/v2/vision-cdn/Boutique/ShopPacks/orange.webp');
+			background-position: center;
+			background-size: cover;
+		}
+
+		&.red {
+			// background: linear-gradient(#E31E11,#F23838);
+			// background-image: url('/https://cdn.sacul.cloud/v2/vision-cdn/ShopPacks/red.webp');
+			// background-image: url('https://assets-vision-fa.cdn.purplemaze.net/https://cdn.sacul.cloud/v2/vision-cdn/Boutique/ShopPacks/red.webp');
+			background-position: center;
+			background-size: cover;
+		}
+
+		&.purple {
+			// background: linear-gradient(#CB2BB2, #FF1F70);
+			// background-image: url('/https://cdn.sacul.cloud/v2/vision-cdn/ShopPacks/purple.webp');
+			// background-image: url('https://assets-vision-fa.cdn.purplemaze.net/https://cdn.sacul.cloud/v2/vision-cdn/Boutique/ShopPacks/purple.webp');
+			background-position: center;
+			background-size: cover;
+		}
+
+		&.diamond {
+			// background: linear-gradient(#07DCB7,#04BFDC);
+			// background-image: url('/https://cdn.sacul.cloud/v2/vision-cdn/ShopPacks/diamond.webp');
+			// background-image: url('https://assets-vision-fa.cdn.purplemaze.net/https://cdn.sacul.cloud/v2/vision-cdn/Boutique/ShopPacks/blue.webp');
+			background-position: center;
+			background-size: cover;
+		}
+
+		&.black {
+			// background: linear-gradient(rgba(0,0,0,1), rgba(0, 0, 0, 0.75));
+			// background-image: url('/https://cdn.sacul.cloud/v2/vision-cdn/ShopPacks/black.webp');
+			// background-image: url('https://assets-vision-fa.cdn.purplemaze.net/https://cdn.sacul.cloud/v2/vision-cdn/Boutique/ShopPacks/black.webp');
+			background-position: center;
+			background-size: cover;
+		}
+
+		&.transparent {
+			mask-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.85));
+		}
+	}
+}
+
+@media (max-height: 920px) {
+	.ShopPacks {
+		scale: 0.9;
+	}
+}
+
+@media (max-height: 770px) {
+	.ShopPacks {
+		scale: 0.8;
+	}
+}
+
+@media (max-height: 600px) {
+	.ShopPacks {
+		scale: 0.6;
+	}
+}

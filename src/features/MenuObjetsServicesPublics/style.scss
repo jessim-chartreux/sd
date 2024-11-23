@@ -1,0 +1,63 @@
+.overrideServices {
+    padding: 0;
+    height: 130px;
+    position: relative;
+
+    & .VisionMenu {
+        &-headerImage {
+            position: absolute;
+            z-index: 1;
+            width: 490px;
+            left: 47px;
+            top: 0
+        }
+
+        &-boutique {
+            display: none;
+        }
+    }
+}
+
+
+.ServicesPublics {
+    position: relative;
+
+    & .VisionMenu {
+        height: 550px !important;
+
+        &-listContainer:not(.main) {
+            max-height: 420px !important;
+            min-height: 420px !important;
+            width: 438px !important;
+            margin-left: 35px !important;
+        }
+
+        &-listContainer.main {
+            max-height: 440px !important;
+            min-height: 440px !important;
+            width: 440px !important;
+            margin-left: 35px !important;
+        }
+
+        &-itemList {
+            gap: 20px;
+        }
+    }
+}
+
+.ServicesPublics-Title {
+    position: absolute;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    left: 115px;
+    top: 102px;
+    z-index: 2;
+
+    color: #FFFFFF;
+}

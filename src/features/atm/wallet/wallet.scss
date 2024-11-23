@@ -1,0 +1,118 @@
+.atm_wallet {
+	&_wallet {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 25px !important;
+		// border: 1px solid red;
+		width: fit-content;
+		height: fit-content;
+	}
+	&_container {
+		width: 640px;
+		height: 490px;
+		background-color: rgba(32, 33, 36, 0.8);
+		box-shadow: 0px 3px 3px #00000029;
+		border-radius: 10px;
+	}
+
+	&_title {
+		& > h1 {
+			margin-top: 45px !important;
+			font: normal normal normal 17px/19px Poppins;
+			color: #ffffff;
+		}
+	}
+
+	&_card {
+		width: 300px;
+		height: 140px;
+		border-radius: 10px;
+		padding: 15px !important;
+		&.green {
+			background: transparent linear-gradient(295deg, #baddaa 0%, #58c158 100%) 0% 0% no-repeat padding-box;
+		}
+		&.red {
+			background: transparent linear-gradient(295deg, #d18585 0%, #c15858 100%) 0% 0% no-repeat padding-box;
+		}
+
+		&_text {
+			&_little {
+				font: normal normal normal 10px/10px Poppins;
+				letter-spacing: -0.4px;
+				color: #202124;
+				opacity: 0.7;
+			}
+			&_bigger {
+				font: normal normal normal 24px/24px Poppins;
+				color: #202124;
+			}
+			&_thin {
+				font: normal normal normal 13px/13px Poppins;
+				color: rgba(32, 33, 36, 0.5);
+			}
+			&_normal {
+				font: normal normal normal 13px/13px Poppins;
+				color: #202124;
+			}
+		}
+
+		&_nfc {
+			width: 20px;
+			height: 20px;
+		}
+		&_puce {
+			width: 44px;
+			height: 44px;
+		}
+	}
+
+	&_next {
+		margin-top: 80px !important;
+		& > button {
+			width: 120px;
+			height: 50px;
+			background-color: rgba(255, 255, 255, 0.2);
+			font: normal normal normal 16px/19px Poppins;
+			color: #fff;
+			border-radius: 15px;
+			outline: none;
+			border: none;
+			box-shadow: none;
+			display: flex;
+			align-items: center;
+			justify-content: space-evenly;
+			align-content: center;
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: rgba(255, 255, 255, 0.3);
+				color: #fff;
+				border-radius: 15px;
+				outline: none;
+				border: none;
+				box-shadow: none;
+			}
+		}
+	}
+}
+
+.atm_swiper {
+	margin-top: 90px;
+	width: 100%;
+}
+.swiper-slide {
+	display: flex;
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: 170px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.btn {
+	cursor: pointer;
+}

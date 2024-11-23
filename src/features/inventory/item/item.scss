@@ -1,0 +1,90 @@
+.inventory-item {
+	display: flex;
+	flex: 1 1;
+	flex-direction: column;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+
+	&.dragged {
+		opacity: 0.2;
+	}
+
+	&:not(.dragging-item):hover,
+	&.inventory-item-selected {
+		background-color: rgba(94, 108, 182, 0.5);
+	}
+
+	&:not(:hover):not(.inventory-item-selected) {
+		.item-label {
+			background-color: rgba(94, 108, 182, 0.5);
+		}
+	}
+
+	.item-quantity {
+		color: #fff;
+		font-size: 12px;
+		position: absolute;
+		top: 8px;
+		left: 8px;
+	}
+
+	.item-label {
+		color: #fff;
+		text-overflow: ellipsis;
+		max-width: 100%;
+		overflow: hidden;
+		text-align: center;
+		font-size: 12px;
+		white-space: nowrap;
+		padding: 0 8px;
+	}
+
+	.item-image-loading-spinner {
+		width: 100%;
+		height: 100%;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 35%;
+			left: 37.5%;
+			width: 20px;
+			height: 20px;
+			border: 2px solid #fff;
+			border-top-color: transparent;
+			border-radius: 50%;
+			animation: spin 1s linear infinite;
+			transform: translate(-50%, -50%);
+		}
+	}
+
+	.item-image {
+		flex: 1;
+		margin: 12px;
+
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+
+		animation: fadeIn 0.3s;
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	100% {
+		transform: translate(-50%, -50%) rotate(360deg);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

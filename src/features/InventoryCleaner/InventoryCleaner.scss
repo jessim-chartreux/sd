@@ -1,0 +1,274 @@
+#InventoryCleaner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	.step-1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+
+		text-align: center;
+
+		h1 {
+			font-size: 2.4rem;
+			margin-bottom: 1rem;
+		}
+
+		p {
+			font-size: 1.2rem;
+			font-weight: 300;
+			margin-bottom: 1rem;
+		}
+
+		.buttons {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			gap: 1rem;
+		}
+
+		button {
+			margin-top: 1rem;
+			font-size: 1.2rem;
+			font-weight: 400;
+			padding: 0.5rem 1rem;
+			border-radius: 0.5rem;
+			background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.58) 100%);
+			color: white;
+			border: none;
+			cursor: pointer;
+			transition: all 0.2s ease-in-out;
+
+			&:hover {
+				background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 1) 100%);
+			}
+
+			&:first-child {
+				background: linear-gradient(180deg, #ff0000 0%, rgba(255, 0, 0, 0.58) 100%);
+				&:hover {
+					background: linear-gradient(180deg, #ff0000 0%, rgba(255, 0, 0, 1) 100%);
+				}
+			}
+		}
+	}
+
+	.step-2 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+
+		text-align: center;
+
+		h1 {
+			font-size: 2.4rem;
+			margin-bottom: 1rem;
+		}
+
+		button {
+			margin-top: 1rem;
+			font-size: 1.2rem;
+			font-weight: 400;
+			padding: 0.5rem 1rem;
+			border-radius: 0.5rem;
+			background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.58) 100%);
+			color: white;
+			border: none;
+			cursor: pointer;
+			transition: all 0.2s ease-in-out;
+
+			&:hover {
+				background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 1) 100%);
+			}
+
+			&.disabled {
+				opacity: 0.5;
+				cursor: not-allowed;
+			}
+		}
+	}
+
+	.step-3 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+
+		text-align: center;
+
+		h1 {
+			font-size: 2.4rem;
+			margin-bottom: 1rem;
+		}
+
+		.buttons {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			gap: 1rem;
+		}
+
+		button {
+			margin-top: 1rem;
+			font-size: 1.2rem;
+			font-weight: 400;
+			padding: 0.5rem 1rem;
+			border-radius: 0.5rem;
+			background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.58) 100%);
+			color: white;
+			border: none;
+			cursor: pointer;
+			transition: all 0.2s ease-in-out;
+
+			&:hover {
+				background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 1) 100%);
+			}
+
+			&.cancel {
+				background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.58) 100%);
+				&:hover {
+					background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 1) 100%);
+				}
+			}
+
+			&.confirm {
+				background: linear-gradient(180deg, #ff0000 0%, rgba(255, 0, 0, 0.58) 100%);
+				&:hover {
+					background: linear-gradient(180deg, #ff0000 0%, rgba(255, 0, 0, 1) 100%);
+				}
+			}
+		}
+	}
+
+	.step-4 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+
+		text-align: center;
+
+		h1 {
+			font-size: 2.4rem;
+			margin-bottom: 1rem;
+		}
+	}
+
+	.spinner {
+		animation: spin 1s linear infinite;
+		margin: 0 auto;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		border: 5px solid rgba(255, 255, 255, 0.2);
+		border-top-color: rgba(255, 255, 255, 0.8);
+	}
+
+	.Inventory {
+		padding: 20px 0;
+
+		&.Inventory-with-target {
+			padding-top: calc(50vh - (492px / 2));
+			align-items: center;
+			padding-left: 0;
+		}
+
+		.player-Inventory,
+		.target-Inventory {
+			width: 492px;
+		}
+
+		.Inventory-main-container {
+			background-color: #00000088;
+			padding: 20px 0;
+			display: flex;
+			flex-direction: column;
+			border-radius: 10px;
+		}
+
+		.Inventory-grids-container {
+			display: flex;
+			width: 441px;
+			height: 421px;
+			margin: 0 auto;
+			padding-left: 20px;
+		}
+
+		.item-container {
+			background-color: rgba(255, 255, 255, 0.2);
+			border-radius: 10px;
+			display: flex;
+
+			&.dragging-item {
+				position: fixed;
+				pointer-events: none;
+			}
+
+			&:not(.disable-hover):hover {
+				background-color: rgba(255, 255, 255, 0.5);
+			}
+		}
+
+		.Inventory-base-container {
+			display: flex;
+			width: min-content;
+		}
+
+		.Inventory-target-header {
+			margin: 0 30px 10px 38px;
+			display: flex;
+			align-items: center;
+
+			.Inventory-target-name {
+				font-size: 16px;
+				font-weight: bold;
+				color: white;
+			}
+
+			.Inventory-target-weight {
+				margin-left: auto;
+				height: 40px;
+				width: 40px;
+				position: relative;
+				background-size: 12px 12px;
+				background-repeat: no-repeat;
+				background-position: center;
+
+				svg {
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					right: 0;
+				}
+			}
+		}
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

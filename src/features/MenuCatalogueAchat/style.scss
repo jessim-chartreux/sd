@@ -1,0 +1,19 @@
+.MenuCatalogueAchat .VisionMenu {
+	height: auto !important;
+	padding-bottom: 30px;
+	
+    &-listContainer {
+        max-height: 440px !important;
+        min-height: 440px !important;
+        width: 425px;
+    }
+
+
+    &-categoryName {
+        margin-bottom: 3px;
+    }
+
+    & .buttonCustom {
+        transform: translateY(10px);
+    }
+}

@@ -1,0 +1,234 @@
+.MenuPostOp {
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 6px;
+    margin: 50px 80px;
+    width: 474px;
+    overflow: hidden;
+    padding: 0 30px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+
+    .Header {
+        width: 100%;
+
+        img {
+            width: 474px;
+            transform: translate(-30px);
+        }
+
+        .Title {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            color: #FFFFFF;
+        }
+
+        .SubTitle {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            margin-top: 5px;
+            color: #AB8E64;
+
+        }
+    }
+
+    & .TabSelection {
+        width: 100%;
+        display: flex;
+        height: 26px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 3px;
+        overflow: hidden;
+        margin: 14px auto;
+    }
+
+    & .Tab {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin: 3px 0;
+
+        &.selected {
+            background-color: white;
+            color: black;
+            margin: 0;
+            font-weight: bold;
+
+            &+.Tab {
+                border: none;
+            }
+        }
+
+        &:not(:first-child) {
+            border-left: 1px solid white;
+        }
+    }
+
+    .TabContent {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        height: 350px;
+        overflow: auto;
+        width: 433px;
+        box-sizing: border-box;
+    }
+
+    .Container {
+        width: 415px;
+        height: 30px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 3.5px;
+        transition: 0.3s;
+        min-height: 30px;
+        position: relative;
+
+        &>* {
+            transition: 0.3s;
+        }
+
+        .Infos {
+            position: absolute;
+            right: 10px;
+            top: 5px;
+
+            .Big {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+
+                color: #FFFFFF;
+            }
+
+            .TotalTitle {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                display: flex;
+                align-items: end;
+                text-align: end;
+                justify-content: end;
+
+                color: #FFFFFF;
+            }
+
+            .Phone {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 9px;
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+                align-items: end;
+                text-align: end;
+                display: flex;
+                justify-content: end;
+            }
+
+            .Total {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 9px;
+                display: flex;
+                align-items: center;
+                color: #38DC66;
+                align-items: end;
+                text-align: end;
+                display: flex;
+                justify-content: end;
+            }
+        }
+
+    }
+
+    .OrderLine {
+        display: flex;
+        height: 30px;
+        min-height: 30px;
+        position: relative;
+
+        &:hover {
+            // background-color: rgba(94, 108, 182, 0.5);
+        }
+
+        .Icon {
+            height: 20px;
+            margin: auto 10px;
+        }
+
+        .Name {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+        }
+
+        .Buttons {
+            display: flex;
+            margin-left: auto;
+            margin-right: 10px;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .Arrow {
+            position: absolute;
+            right: 20px;
+            height: 10px;
+            z-index: 10;
+            pointer-events: none;
+        }
+    }
+
+    .OrderContent {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        width: 404px;
+        margin-top: 7px;
+        padding-left: 10px;
+        max-height: 80px;
+        box-sizing: border-box;
+        overflow: auto;
+
+        .Span {
+            color: #38DC66;
+            margin-right: 5px;
+        }
+
+        .Content {
+            width: 125px;
+            display: flex;
+        }
+
+    }
+
+
+
+
+
+}

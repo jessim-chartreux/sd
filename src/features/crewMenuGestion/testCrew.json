@@ -1,0 +1,193 @@
+{
+    "background": "linear-gradient(180deg, rgba(251, 188, 4, 0.5) 0%, rgba(251, 188, 4, 0.364361) 77.08%, rgba(251, 188, 4, 0.19) 99.99%, rgba(251, 188, 4, 0) 100%)",
+    "color_title": "#FBBC04",
+    "crewDevise": "para la sante muerte",
+    "crewName": "Vagos",
+    "crewOrEnterprise": false,
+    "editMembres": 3,
+    "editPerm": 5,
+    "exclure": 2,
+    "jobLabel": "Stagiere",
+    "membres": 14,
+    "nbrRank": 5,
+    "players": [
+        {
+            "fname": "test1",
+            "license": "EZREERGREERGF1",
+            "lname": "dupond1",
+            "rank": 5
+        },
+        {
+            "fname": "test2",
+            "license": "EZREERGREERGHG2",
+            "lname": "dupond2",
+            "rank": 4
+        },
+        {
+            "fname": "test3",
+            "license": "EZREERGREERGD3",
+            "lname": "dupond3",
+            "rank": 3
+        },
+        {
+            "fname": "test4",
+            "license": "EZREERGREERGFDF4",
+            "lname": "dupond4",
+            "rank": 2
+        },
+        {
+            "fname": "test",
+            "license": "EZREERGREERGFD",
+            "lname": "dupond",
+            "rank": 1
+        },
+        {
+            "fname": "test",
+            "license": "EZREERGREERGF",
+            "lname": "dupond",
+            "rank": 5
+        },
+        {
+            "fname": "test",
+            "license": "EZREERGREERGHG",
+            "lname": "dupond",
+            "rank": 4
+        },
+        {
+            "fname": "test",
+            "license": "EZREERGREERGD",
+            "lname": "dupond",
+            "rank": 3
+        },
+        {
+            "fname": "test",
+            "license": "EZREERGREERGFDF",
+            "lname": "dupond",
+            "rank": 2
+        },
+        {
+            "fname": "test",
+            "license": "EZREERGREERGFD",
+            "lname": "dupond",
+            "rank": 1
+        },
+        {
+            "fname": "test",
+            "license": "EZREERGREERGF",
+            "lname": "dupond",
+            "rank": 5
+        },
+        {
+            "fname": "test",
+            "license": "EZREERGREERGHG",
+            "lname": "dupond",
+            "rank": 4
+        },
+        {
+            "fname": "test",
+            "license": "EZREERGREERGD",
+            "lname": "dupond",
+            "rank": 3
+        },
+        {
+            "fname": "test",
+            "license": "EZREERGREERGFDF",
+            "lname": "dupond",
+            "rank": 2
+        },
+        {
+            "fname": "test",
+            "license": "EZREERGREERGFD",
+            "lname": "dupond",
+            "rank": 1
+        }
+    ],
+    "properties": [
+        {
+            "address": "local de stockage",
+            "id": 1,
+            "type": "local"
+        },
+        {
+            "address": "16 vinewood",
+            "id": 2,
+            "type": "bureau"
+        },
+        {
+            "address": "8 vespucci road",
+            "id": 3,
+            "type": "garage"
+        },
+        {
+            "address": "6 mirror park",
+            "id": 4,
+            "type": "appartement"
+        },
+        {
+            "address": "local de stockage",
+            "id": 5,
+            "type": "local"
+        },
+        {
+            "address": "16 vinewood",
+            "id": 6,
+            "type": "bureau"
+        },
+        {
+            "address": "8 vespucci road",
+            "id": 7,
+            "type": "garage"
+        },
+        {
+            "address": "6 mirror park",
+            "id": 8,
+            "type": "appartement"
+        }
+    ],
+    "rang": 2,
+    "recrute": 1,
+    "sendDm": 4,
+    "territoires": 30,
+    "vehs": [
+        {
+            "plate": "FGFDHF",
+            "pounded": true,
+            "vehName": "jackal"
+        },
+        {
+            "plate": "FGSDHF",
+            "pounded": false,
+            "vehName": "baller"
+        },
+        {
+            "plate": "FGFAHF",
+            "pounded": false,
+            "vehName": "kamatcho"
+        },
+        {
+            "plate": "FGFDHA",
+            "pounded": false,
+            "vehName": "tailgater s"
+        },
+        {
+            "plate": "FGFDHF",
+            "pounded": true,
+            "vehName": "jackal"
+        },
+        {
+            "plate": "FGSDHF",
+            "pounded": false,
+            "vehName": "baller"
+        },
+        {
+            "plate": "FGFAHF",
+            "pounded": false,
+            "vehName": "kamatcho"
+        },
+        {
+            "plate": "FGFDHA",
+            "pounded": false,
+            "vehName": "tailgater s"
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+.Container_casino {
+    position: relative;
+    height: fit-content;
+    width: 445px;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+
+	& .list_jetons {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+	}
+	
+	& .list_access {
+		display: grid;
+		grid-template-rows: 1fr;
+
+		& .access {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 5px 10px;
+			background-color: rgba(0, 0, 0, 0.55);
+			border-radius: 6px;
+			margin: 5px 0;
+
+			& .text {
+				text-transform: uppercase;
+				font-weight: 300;
+				color: white;
+				font-size: 11px;
+			}
+
+			& img {
+				width: 20px;
+				height: 20px;
+			}
+		}
+	}
+
+	& .square-container {
+		width: 100%;
+		display: flex;
+		// Place items at right
+		justify-content: flex-end;
+	}	
+
+	& .MuiSlider-track, & .MuiSlider-thumbColorPrimary {
+		background: linear-gradient(#FDC748, #FFB415)!important;
+	}
+
+	& .MuiSlider-valueLabelLabel {
+		color: transparent;
+	}
+}
+
+
+
+.Container_casino2 {
+    position: absolute;
+    left: 580px;
+    top: 52px;
+    height: 608px;
+    width: 468px;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 6px 6px 0px 0px;
+    display: flex;
+}
+
+
+.text_title {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+.text_adresse {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #BADAFF;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+
+}
+
+.text_input_propriete {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.3) 66.32%, rgba(255, 255, 255, 0) 90.68%);
+    color: white;
+    border: none;
+}
+
+.capacity {
+    margin-right: 9.5px;
+
+	&.selected {
+		background: linear-gradient(180deg, rgba(20, 198, 36, 0.7) 0%, rgba(30, 180, 90, 0.406) 100%) !important;
+	}
+}
+
+.text_btn_habitation1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+
+.text_btn_habitation2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.text_selection {
+    font-family: 'Lato', sans-serif;
+    font-size: 10.5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    align-self: center;
+}
+
+.text_btn_habitation {
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    color: #FFFFFF;
+    font-weight: 700;
+    align-self: center;
+    letter-spacing: 0.5px;
+}
+
+.text_name {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+    align-self: center;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 4px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: #FFFFFF;
+}

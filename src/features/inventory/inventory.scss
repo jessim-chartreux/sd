@@ -1,0 +1,87 @@
+.inventory {
+	display: flex;
+	flex-direction: column;
+	padding-top: calc(50vh - (724px / 2));
+	height: 100%;
+	width: 100%;
+
+	padding-left: 1.4%;
+	flex: 1 1 auto;
+
+	&.inventory-with-target {
+		padding-top: calc(50vh - (492px / 2));
+		align-items: center;
+		padding-left: 0;
+	}
+
+	.player-inventory,
+	.target-inventory {
+		width: 492px;
+	}
+
+	.inventory-main-container {
+		background-color: #00000088;
+		padding: 20px 0;
+		display: flex;
+		flex-direction: column;
+		border-radius: 10px;
+	}
+
+	.inventory-grids-container {
+		display: flex;
+		width: 441px;
+		height: 421px;
+		margin: 0 auto;
+		padding-left: 20px;
+	}
+
+	.item-container {
+		background-color: rgba(255, 255, 255, 0.2);
+		border-radius: 10px;
+		display: flex;
+
+		&.dragging-item {
+			position: fixed;
+			pointer-events: none;
+		}
+
+		&:not(.disable-hover):hover {
+			background-color: rgba(255, 255, 255, 0.5);
+		}
+	}
+
+	.inventory-base-container {
+		display: flex;
+		width: min-content;
+	}
+
+	.inventory-target-header {
+		margin: 0 30px 10px 38px;
+		display: flex;
+		align-items: center;
+
+		.inventory-target-name {
+			font-size: 16px;
+			font-weight: bold;
+			color: white;
+		}
+
+		.inventory-target-weight {
+			margin-left: auto;
+			height: 40px;
+			width: 40px;
+			position: relative;
+			background-size: 12px 12px;
+			background-repeat: no-repeat;
+			background-position: center;
+
+			svg {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
+		}
+	}
+}

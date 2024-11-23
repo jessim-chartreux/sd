@@ -1,0 +1,450 @@
+.TopButtons {
+	display: flex;
+	width: 99vw;
+	justify-content: right;
+	margin-top: 2vh;
+	margin-right: 0;
+	gap: 10px;
+
+	& > span {
+		border-radius: 4px;
+		background: rgba(0, 0, 0, 0.55);
+		display: flex;
+		align-items: center;
+
+		color: #fff;
+		font-family: Lato;
+		font-size: 16px;
+		font-style: normal;
+		line-height: normal;
+		padding-right: 20px;
+		text-transform: uppercase;
+
+		transition: all 0.3s ease-in-out;
+
+		& > p {
+			display: flex;
+			align-items: center;
+
+			background: linear-gradient(180deg, rgba(94, 108, 182, 0.55) 0%, rgba(94, 108, 182, 0.34) 100%);
+			box-shadow: 0px 1.3386px 1.3386px 0px rgba(0, 0, 0, 0.25);
+			margin: 0 20px 0 0;
+			padding: 7px 15px;
+			font-weight: 900;
+			border-radius: 4px;
+
+			img {
+				height: 35px;
+
+				margin-top: -10px;
+				margin-bottom: -10px;
+				margin-left: 5px;
+
+				margin-right: -5px;
+			}
+		}
+
+		&:hover {
+			background: rgba(56, 77, 185, 0.43);
+			cursor: pointer;
+		}
+	}
+}
+
+.TopButtonsError {
+	position: absolute;
+	top: 5rem;
+	right: 1.25rem;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 4px;
+	background: rgba(0, 0, 0, 0.55);
+
+	&__icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		height: 50px;
+		padding: 10px;
+
+		img {
+			height: 35px;
+		}
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		gap: 5px;
+		padding: 10px 10px 10px 0;
+
+		h1 {
+			font-family: Lato;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 900;
+			text-transform: uppercase;
+			color: #fff;
+
+			margin: 0;
+		}
+
+		p {
+			font-family: Lato;
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 400;
+			color: #fff;
+
+			margin: 0;
+		}
+	}
+}
+
+.TurnAroundButton {
+	div {
+		width: fit-content;
+		.Button {
+			font-size: 13px !important;
+			width: 60px !important;
+			margin-left: 10px !important;
+		}
+	}
+}
+
+.SubSubscriber {
+	width: 70%;
+	margin: 0 auto;
+
+	border: 1px solid white;
+	border-radius: 8px;
+
+	background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/SubSubscriber/background.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	scale: 0.8;
+
+	padding: 70px;
+
+	& .divider {
+		flex: 1;
+	}
+
+	& .Header {
+		display: flex;
+		flex-direction: row;
+		color: white;
+		flex-wrap: wrap;
+
+		& :first-child {
+			flex: 1;
+		}
+
+		& * {
+			font-family: Montserrat;
+			text-transform: uppercase;
+		}
+
+		& h1 {
+			margin: 0;
+			font-size: 40px;
+		}
+
+		& p {
+			margin-top: 0;
+			margin-bottom: 30px;
+		}
+
+		& .buttonSubReminder {
+			display: flex;
+			flex-direction: row;
+			transition: 0.3s;
+
+			& :first-child {
+				padding: 10px;
+				border-radius: 6px 0px 0px 6px;
+				background-color: rgba(0, 0, 0, 0.25);
+			}
+
+			& :last-child {
+				padding: 10px;
+				border-radius: 0px 6px 6px 0px;
+				background-color: rgba(0, 0, 0, 0.55);
+			}
+
+			&:hover {
+				scale: 1.05;
+			}
+		}
+	}
+
+	& .Content {
+		display: flex;
+		flex-direction: row;
+
+		& > .features {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+
+			& .feature {
+				display: flex;
+				align-items: center;
+				padding: 10px 20px;
+				max-height: 50px;
+				min-height: 50px;
+				scale: 1;
+				transition: 0.3s ease-in-out;
+
+				background: linear-gradient(
+					90deg,
+					rgba(255, 255, 255, 0) -1.77%,
+					rgba(255, 255, 255, 0.2) 26.42%,
+					rgba(255, 255, 255, 0.2) 51.09%,
+					rgba(255, 255, 255, 0) 93.89%
+				);
+
+				&:hover {
+					scale: 1.05;
+					background: linear-gradient(
+						90deg,
+						rgba(255, 255, 255, 0) -1.77%,
+						rgba(255, 255, 255, 0.2) 26.42%,
+						rgba(255, 255, 255, 0.2) 51.09%,
+						rgba(255, 255, 255, 0) 93.89%
+					);
+				}
+
+				& > .Icon {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+
+					width: 40px;
+					height: 40px;
+					margin-right: 20px;
+					margin-left: 20px;
+				}
+
+				h3 {
+					margin: 0;
+					margin-bottom: 5px;
+					font-family: Montserrat;
+					font-size: 20.592px;
+					font-style: normal;
+					text-transform: uppercase;
+					font-weight: 800;
+					line-height: normal;
+					background: linear-gradient(180deg, #fff 0%, #f3f3f3 100%);
+					background-clip: text;
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+				}
+
+				span {
+					display: flex;
+				}
+
+				p {
+					margin: 0;
+					color: #fff;
+					text-align: center;
+					font-family: Montserrat;
+					font-size: 11.326px;
+					font-style: normal;
+					font-weight: 600;
+					line-height: normal;
+					width: fit-content;
+					border-radius: 2px;
+					padding: 2px 10px;
+					text-transform: none;
+
+					&:last-of-type {
+						font-weight: 400;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+
+		& .vehicle {
+			& .card {
+				height: 300px;
+				display: flex;
+				flex-direction: row;
+
+				border-radius: 8.759px;
+				background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+
+				transition: all 0.3s ease-in-out;
+				cursor: pointer;
+
+				&:hover {
+					scale: 1.05;
+					transition: 0.3s;
+				}
+
+				.icon {
+					img {
+						height: 95%;
+					}
+				}
+
+				.content {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					margin: 10px 10px;
+					width: 220px;
+
+					.features {
+						height: 100%;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						justify-content: center;
+
+						.feature {
+							display: flex;
+							flex-direction: column;
+
+							h3 {
+								margin: 0;
+								font-family: Montserrat;
+								font-size: 20.592px;
+								font-style: normal;
+								font-weight: 600;
+								line-height: normal;
+								background: linear-gradient(180deg, #fff 0%, #f3f3f3 100%);
+								background-clip: text;
+								-webkit-background-clip: text;
+								-webkit-text-fill-color: transparent;
+							}
+
+							p {
+								margin: 0;
+								color: #fff;
+								text-align: center;
+								font-family: Montserrat;
+								font-size: 16px;
+								font-style: normal;
+								font-weight: 600;
+								line-height: normal;
+								width: fit-content;
+								border-radius: 2px;
+								padding: 5px 25px;
+								text-transform: none;
+							}
+						}
+					}
+
+					.footer {
+						display: flex;
+						flex-direction: column;
+						text-align: end;
+
+						& > * {
+							margin: 0;
+							color: white;
+							text-transform: uppercase;
+							font-family: Montserrat;
+						}
+
+						p {
+							font-size: 20px;
+							font-weight: 400;
+						}
+
+						h1 {
+							font-size: 30px;
+							font-weight: bold;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	& .footer {
+		display: flex;
+
+		.retour {
+			color: #fff;
+			font-family: Montserrat;
+			font-size: 14px;
+			font-weight: 400;
+			border-radius: 2px;
+			text-transform: uppercase;
+			transition: all 0.3s ease-in-out;
+
+			&:hover {
+				scale: 1.05;
+				cursor: pointer;
+			}
+		}
+
+		span {
+			display: flex;
+			align-items: center;
+			height: 50px;
+			color: #fff;
+			font-family: Montserrat;
+			font-size: 13.6px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+			margin: 0;
+			gap: 20px;
+
+			& > button {
+				border-radius: 5.174px;
+				background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.58) 100%);
+				text-transform: uppercase;
+				padding: 10px 40px;
+				transition: 0.3s;
+
+				&:hover {
+					background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.78) 100%);
+					scale: 1.05;
+				}
+			}
+
+			& > p {
+				background: linear-gradient(180deg, #f4d782 0%, #e2bd55 100%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+
+				text-align: center;
+				font-family: Lato;
+				font-size: 40px;
+				font-style: normal;
+				font-weight: 800;
+				line-height: normal;
+
+				display: flex;
+				flex-direction: row;
+
+				& > span {
+					background: #fff;
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+					color: #fff;
+					font-family: Montserrat;
+					font-size: 16px;
+					font-style: normal;
+					font-weight: 800;
+					line-height: normal;
+				}
+			}
+		}
+	}
+}

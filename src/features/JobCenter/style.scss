@@ -1,0 +1,207 @@
+body {
+	.JobCenter {
+		.big {
+			width: 194px;
+			height: 251px;
+		}
+
+		.small {
+			width: 403px;
+			height: 85.2px;
+		}
+
+		.VisionMenu-boutique {
+			flex-direction: row-reverse;
+			gap: 3px;
+
+			img {
+				height: 13px;
+				width: auto;
+			}
+		}
+
+		.Name {
+			color: #fff;
+			text-align: center;
+			font-family: Montserrat;
+			font-size: 25px;
+			font-style: normal;
+			font-weight: 900;
+			line-height: normal;
+			height: fit-content;
+			padding-bottom: 0;
+		}
+
+		.SubName {
+			color: #fff;
+			text-align: center;
+			font-family: Montserrat;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			height: fit-content;
+			padding-top: 0px;
+		}
+
+		.info {
+			background-color: rgba(0, 0, 0, 0.5);
+			position: absolute;
+			min-width: 37.5%;
+			max-width: 50%;
+			height: 30%;
+			bottom: 0;
+			right: 0;
+			border-radius: 20px 0 3px 0;
+			padding: 10px 10px 5px 20px;
+			display: none;
+			align-items: center;
+			justify-content: space-between;
+			& > p {
+				margin: 0;
+			}
+		}
+
+		.VisionMenu-buttonElement {
+			flex-direction: column;
+			text-transform: uppercase;
+			&:hover > .info {
+				display: flex;
+			}
+		}
+
+		.VisionMenu-listContainer {
+			overflow: auto;
+		}
+
+		.jobInfo {
+			margin-right: 20px;
+			text-align: center;
+			& > h2 {
+				display: flex;
+				justify-content: space-between;
+				font-family: Montserrat;
+				font-size: 25px;
+				font-style: normal;
+				font-weight: 900;
+				line-height: normal;
+				text-transform: uppercase;
+				color: #fff;
+				margin: 0;
+				& > span {
+					font-weight: 300;
+					font-size: 18px;
+					& > img {
+						margin-left: 5px;
+					}
+				}
+			}
+			& > img {
+				width: 100%;
+				height: auto;
+				margin-bottom: 5px;
+			}
+			& > .infosContainer {
+				display: flex;
+				& > .stats {
+					flex: 0.4;
+					font-size: 18px;
+					margin-right: 35px;
+					text-transform: uppercase;
+					color: #fff;
+					& > p {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						width: 100%;
+						& > span {
+							font-weight: 600;
+							font-size: 24px;
+							margin-left: 5px;
+							& > img {
+								margin-left: 5px;
+							}
+						}
+					}
+				}
+
+				& > .instructions {
+					flex: 0.6;
+					& > ul {
+						// list-style-image: url("https://cdn.sacul.cloud/v2/vision-cdn/icons/info.webp");
+						list-style-image: url("https://cdn.sacul.cloud/v2/vision-cdn/icons/info.webp");
+						text-align: left;
+						& > li {
+							color: #fff;
+							font-weight: 300;
+							margin-bottom: 15px;
+						}
+					}
+				}
+			}
+
+			& > button {
+				border-radius: 5.174px;
+				background: linear-gradient(180deg, rgba(0, 195, 18, 0.78) 0%, rgba(30, 180, 90, 0.39) 100%);
+				padding: 8px 20px;
+				color: #fff;
+				text-align: center;
+				font-family: Lato;
+				font-size: 12px;
+				font-style: normal;
+				font-weight: 600;
+				line-height: 100%; /* 12px */
+				letter-spacing: 0.6px;
+				text-transform: uppercase;
+				&:hover {
+					background: linear-gradient(180deg, rgba(0, 195, 18, 0.78) 0%, rgba(30, 180, 90, 0.59) 100%);
+					scale: 1.05;
+					transition: 0.3s;
+				}
+
+				&.disabled {
+					// grey
+					background: linear-gradient(180deg, rgba(0, 0, 0, 0.78) 0%, rgba(30, 30, 30, 0.39) 100%);
+					pointer-events: none;
+				}
+			}
+		}
+	}
+}
+
+.dollar {
+	&::after {
+		content: " $";
+		color: #38dc66;
+	}
+}
+
+.players {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 3px;
+}
+
+.unavailable {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+	height: 100%;
+
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-align: center;
+
+	color: #ffffff;
+
+	&.premium {
+		color: #e7b100;
+	}
+}

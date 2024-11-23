@@ -1,0 +1,165 @@
+/* Partie top de l'UI */
+.Container_Boombox1 {
+	font-family: "Lato", sans-serif;
+	position: relative;
+	left: 70px;
+	top: 52px;
+	height: fit-content;
+	width: 490px;
+	background-color: rgba(0, 0, 0, 0.55);
+	border-radius: 6px 6px 0px 0px;
+	display: flex;
+	box-shadow: 0px 3px 3px #00000029;
+}
+
+/* Deuxième partie de l'UI (avec les possibilités de porter etc... */
+.Container_Boombox2 {
+	font-family: "Lato", sans-serif;
+	position: relative;
+	left: 70px;
+	top: 52px;
+	height: 145px;
+	width: 490px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 0px 0px 6px 6px;
+	display: flex;
+	box-shadow: 0px 3px 3px #00000029;
+}
+
+/* Titres des éléments */
+.text_title {
+	font-size: 11px;
+	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+
+/* Gestion de la barre youtube avec le focus-visible */
+.text_input {
+	height: auto;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 2px;
+	color: white;
+	border: 1px white;
+	padding-left: 7px;
+}
+
+.text_input:focus-visible {
+	outline: 1px solid white;
+	background: linear-gradient(90deg, rgba(94, 108, 182, 0.3) 0%, rgba(94, 108, 182, 0.3) 100%);
+}
+
+/* Texte des boutons play pause stop */
+.text_btn {
+	font-size: 10.5px;
+	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+
+.BoomBox_Buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+	width: 100%;
+}
+
+.BoomBox_Button {
+	padding-top: 10px;
+}
+
+/* Boutons play pause stop */
+.div_btn_boombox {
+	width: 100%;
+	height: 25px;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+}
+
+.div_btn_boombox:hover {
+	cursor: pointer;
+}
+
+/* Différentes couleurs de fond propre à chaque bouton + hover */
+.play {
+	background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.58) 100%);
+}
+
+.play:hover {
+	background-color: rgba(30, 180, 90, 0.75);
+}
+
+.pause {
+	background: linear-gradient(180deg, #5e6cb6 0%, #422a74 100%);
+}
+
+.pause:hover {
+	background: linear-gradient(180deg, #5e6cb6 0%, rgba(102, 117, 192, 0.75) 75%);
+}
+
+.stop {
+	background: linear-gradient(180deg, #c21a20 0%, #d2383e 0.01%, #c42b31 13.45%, #b31d22 89.82%, #a61116 103.26%);
+}
+
+.stop:hover {
+	background: linear-gradient(180deg, #c21a20 0%, rgba(255, 40, 47, 0.75) 100%);
+}
+
+.text_action {
+	font-family: "Lato", sans-serif;
+	font-size: 8px;
+	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: 0.3px;
+}
+
+/* Classes des options de portage */
+.div_general_boombox {
+	height: 100%;
+	width: 106px;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	border: 1px solid transparent;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.div_img_boombox {
+	height: 90px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px 6px 0 0;
+}
+
+.div_img_boombox:hover {
+	background: linear-gradient(90deg, rgba(94, 108, 182, 0.3) 0%, rgba(94, 108, 182, 0.3) 100%);
+}
+
+.img_boombox {
+	position: relative;
+	object-fit: cover;
+	width: 90%;
+	height: 90%;
+	top: 0px;
+}
+
+.div_valeur_boombox {
+	display: flex;
+	flex: auto;
+	background-color: rgba(94, 108, 182, 0.62);
+	border-radius: 0 0 6px 6px;
+	justify-content: center;
+	align-items: center;
+	height: 10%;
+}

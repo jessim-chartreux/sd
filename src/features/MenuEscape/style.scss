@@ -1,0 +1,257 @@
+.MenuEscape {
+	height: 100%;
+	width: 100%;
+	display: flex;
+
+	.Container {
+		aspect-ratio: 1326 / 602;
+		width: 70%;
+		margin: auto;
+		display: flex;
+		gap: 10px;
+
+		.TurnAroundButton {
+			position: absolute;
+			left: -0px;
+			bottom: 10px;
+
+			div {
+				width: fit-content;
+				flex-direction: row-reverse;
+				height: 25px;
+				padding: 0 2px;
+
+				.Button {
+					height: 30px;
+					width: fit-content !important;
+					font-size: 20px;
+					padding: 0 10px;
+					font-weight: 900;
+					margin-left: 0;
+					transform: translateX(-5px);
+				}
+			}
+		}
+	}
+
+	.Map {
+		width: 30%;
+		height: 100%;
+		background-size: cover;
+		background-position: center;
+		border-radius: 10px;
+		position: relative;
+		transition: 0.2s;
+		// background-image: "https://cdn.sacul.cloud/v2/vision-cdn/MenuEscape/map.webp');
+		background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/MenuEscape/map.webp");
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.02);
+		}
+	}
+
+	.Right {
+		display: flex;
+		flex-direction: column;
+		width: calc(70% - 10px);
+		gap: 10px;
+		position: relative;
+	}
+
+	.Boutique,
+	.BoutiqueBg,
+	.BoutiqueButton {
+		width: 100%;
+		height: 45%;
+		// background-image: "https://cdn.sacul.cloud/v2/vision-cdn/MenuEscape/boutique.webp');
+		background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/MenuEscape/boutique.webp");
+		background-size: cover;
+		background-position: center;
+		border-radius: 10px;
+		position: relative;
+		transition: 0.2s;
+		overflow: hidden;
+
+		& > * {
+			z-index: 1;
+		}
+
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.02);
+		}
+	}
+
+	.BoutiqueButton {
+		position: absolute;
+	}
+
+	.Boutique {
+		opacity: 1;
+	}
+
+	.DaysLeft {
+		color: white;
+		background: #269031;
+		padding: 0.5rem 1rem;
+		display: flex;
+		align-items: center;
+		width: fit-content;
+		position: absolute;
+		right: 0;
+	}
+
+	// .Boutique:hover+.BoutiqueBg {
+	//     transition: 0.6s;
+	//     transform: scale(1.02);
+	//     opacity: 1;
+	// }
+
+	.BoutiqueBg {
+		position: absolute;
+		background: linear-gradient(180deg, #fa8a023b 0%, #fe5a0139 100%);
+		pointer-events: none;
+		opacity: 0;
+		transform: scale(0);
+	}
+
+	.Bottom {
+		height: calc(55% - 10px);
+		width: 100%;
+		display: flex;
+		gap: 10px;
+	}
+
+	.Reglages {
+		height: 100%;
+		width: 60%;
+		background-size: cover;
+		// background-image: "https://cdn.sacul.cloud/v2/vision-cdn/MenuEscape/reglages.webp');
+		background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/MenuEscape/reglages.webp");
+		background-position: center;
+		border-radius: 10px;
+		position: relative;
+		transition: 0.2s;
+
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.02);
+		}
+	}
+
+	.Support {
+		width: calc(40% - 10px);
+		height: 100%;
+		background: linear-gradient(180deg, rgba(255, 83, 83, 0.8) 1.04%, rgba(177, 0, 0, 0.8) 100%);
+		border-radius: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		transition: 0.2s;
+
+		&::after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: radial-gradient(circle, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+			border-radius: 10px;
+			opacity: 1;
+			transition: 0.2s;
+		}
+
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.02);
+		}
+
+		img {
+			width: 70%;
+		}
+	}
+
+	.SupportReport {
+		width: calc(40% - 10px);
+		height: 100%;
+		background: linear-gradient(180deg, rgba(255, 83, 83, 0.8) 1.04%, rgba(177, 0, 0, 0.8) 100%);
+		border-radius: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		transition: 0.2s;
+
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.02);
+		}
+
+		h2 {
+			display: flex;
+			align-items: center;
+			padding-left: 0.5rem;
+			img {
+				width: 20%;
+			}
+		}
+
+		.Error {
+			width: 100%;
+			padding: 0 0 1rem 0;
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			color: white;
+			transition: 0.2s;
+		}
+
+		textarea {
+			flex-grow: 0.8;
+			width: 80%;
+			margin: 0.2rem 0 1rem 0;
+			background-color: rgba($color: #000000, $alpha: 0.6);
+			border: none;
+			resize: none;
+			border-radius: 5px;
+			padding: 0.5rem;
+			color: white;
+			outline: none;
+		}
+
+		div {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			width: 92%;
+			div:not(.Button) {
+				color: white;
+				padding-right: 1rem;
+			}
+			.Button {
+				width: fit-content;
+				font-size: 18px;
+				background-color: white;
+				font-weight: bold;
+				padding: 5px 12px;
+				border-radius: 4px;
+			}
+		}
+	}
+
+	.TopButtons {
+		position: absolute;
+	}
+
+	.Character {
+		position: absolute;
+	}
+}
+
+.upScale {
+	transform: scale(1.02);
+}

@@ -1,0 +1,10 @@
+.MenuCatalogue .VisionMenu {
+	height: auto !important;
+	padding-bottom: 30px;
+	
+    &-listContainer {
+        max-height: 400px !important;
+        min-height: 400px !important;
+    }
+
+}

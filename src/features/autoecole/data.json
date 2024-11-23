@@ -1,0 +1,54 @@
+[
+    {
+        "answer": [
+            {
+                "letter": "A",
+                "name": "Je reprend un rail de cocaïne pour y voir plus clair",
+                "selected": false
+            },
+            {
+                "letter": "B",
+                "name": "Je reprend un rail de cocaïne pour y voir plus clair",
+                "selected": false
+            },
+            {
+                "letter": "C",
+                "name": "Je dois m'arrêter",
+                "selected": false
+            },
+            {
+                "letter": "D",
+                "name": "Je dois accélérer",
+                "selected": false
+            }
+        ],
+        "name": "Dans cette situation :",
+        "picture": "question1.webp"
+    },
+    {
+        "answer": [
+            {
+                "letter": "A",
+                "name": "Je peux pas avancer",
+                "selected": false
+            },
+            {
+                "letter": "B",
+                "name": "Je peux pas tourner",
+                "selected": false
+            },
+            {
+                "letter": "C",
+                "name": "Je dois m'arrêter",
+                "selected": false
+            },
+            {
+                "letter": "D",
+                "name": "Je dois accélérer",
+                "selected": false
+            }
+        ],
+        "name": "Dans cette situation :",
+        "picture": "question2.webp"
+    }
+]

@@ -1,0 +1,20 @@
+.MenuGrosCatalogueColor {
+
+
+    .VisionMenu-listContainer {
+        max-height: 435px !important;
+        min-height: 435px !important;
+        margin-bottom: 5px;
+    }
+
+    & .VisionMenu {
+        height: auto !important;
+    }
+
+    .overrideBinco.VisionMenu-listContainer {
+        max-height: 445px !important;
+        min-height: 445px !important;
+        width: 437px !important;
+        margin-left: 38px !important;
+    }
+}

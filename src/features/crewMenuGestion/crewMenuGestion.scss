@@ -1,0 +1,960 @@
+#bg {
+	position: absolute;
+	width: 492px;
+	height: 543px;
+	left: 100px;
+	top: 238px;
+	background: rgba(0, 0, 0, 0.55);
+	border-radius: 6px;
+}
+
+#crewName {
+	position: absolute;
+	width: 429px;
+	height: 27px;
+	left: 132px;
+	top: 257px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 25px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+}
+
+#devise {
+	position: absolute;
+	width: 429px;
+	height: 27px;
+	left: 134px;
+	top: 284px;
+	font-family: "Lato";
+	font-style: italic;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+#tab {
+	position: absolute;
+	width: 429px;
+	height: 28px;
+	left: 132px;
+	top: 326px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+button {
+	border: none;
+}
+
+button:focus {
+	border: none;
+	outline: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+.Membres {
+	position: absolute;
+	width: 143px;
+	height: 28px;
+	left: 132px;
+	top: 329px;
+	background: #ffffff;
+	border-radius: 6px 0px 0px 6px;
+	color: black;
+}
+
+.Gestion {
+	position: absolute;
+	width: 143px;
+	height: 28px;
+	left: 275px;
+	top: 326px;
+	background: #ffffff;
+	color: black;
+}
+
+.Propriete {
+	background: #ffffff;
+	position: absolute;
+	width: 143px;
+	height: 28px;
+	left: 418px;
+	top: 241px;
+	border-radius: 6px;
+	color: black;
+	border-radius: 0px 6px 6px 0px;
+}
+
+#Membres {
+	position: absolute;
+	width: 142px;
+	height: 28px;
+	left: 133px;
+	top: 326px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 35px;
+}
+
+.button_valider:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#Gestion {
+	position: absolute;
+	width: 142px;
+	height: 28px;
+	left: 275px;
+	top: 326px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+	padding-left: 40px;
+}
+
+#Propriete {
+	position: absolute;
+	width: 142px;
+	height: 28px;
+	left: 419px;
+	top: 326px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 35px;
+}
+
+#info {
+	position: absolute;
+	width: 429px;
+	height: 27px;
+	left: 132px;
+	top: 361px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+#lineInfo {
+	position: absolute;
+	width: 303px;
+	height: 0px;
+	left: 256px;
+	top: 388px;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+#infoBox {
+	position: absolute;
+	width: 429px;
+	height: 80px;
+	left: 131px;
+	top: 403px;
+	border-radius: 2px;
+	opacity: 0.4;
+}
+
+#nbrEmpl {
+	position: absolute;
+	width: 141.33px;
+	height: 44px;
+	left: 131px;
+	top: 408px - 38px;
+	font-family: "Manrope";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 55px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+}
+
+#empl {
+	position: absolute;
+	width: 141.33px;
+	height: 16px;
+	left: 129px;
+	top: 448px - 12px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 35px;
+}
+
+#line1 {
+	position: absolute;
+	width: 52.04px;
+	height: 0px;
+	left: 274px - 30px;
+	top: 466.03px - 23px;
+	border: 1px solid #ffffff;
+	transform: rotate(-90deg);
+}
+
+#nbrRank {
+	position: absolute;
+	width: 143px;
+	height: 44px;
+	left: 274px;
+	top: 408px - 38px;
+	font-family: "Manrope";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 55px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 55px;
+}
+
+#rank {
+	position: absolute;
+	width: 142.33px;
+	height: 16px;
+	left: 277px;
+	top: 448px - 12px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+}
+
+#line2 {
+	position: absolute;
+	width: 52.04px;
+	height: 0px;
+	left: 417px - 30px;
+	top: 466.03px - 23px;
+	border: 1px solid #ffffff;
+	transform: rotate(-90deg);
+}
+
+#nbrProp {
+	position: absolute;
+	width: 143.33px;
+	height: 44px;
+	left: 419px;
+	top: 408px - 37px;
+	font-family: "Manrope";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+}
+
+#prop {
+	position: absolute;
+	width: 142.33px;
+	height: 16px;
+	left: 422px;
+	top: 448px - 12px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 35px;
+}
+
+#permTitle {
+	position: absolute;
+	width: 429px;
+	height: 27px;
+	left: 132px;
+	top: 505px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+#linePerm {
+	position: absolute;
+	width: 318px;
+	height: 0px;
+	left: 241px;
+	top: 517px;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+#one {
+	position: absolute;
+	width: 429px;
+	height: 32px;
+	left: 131px;
+	top: 535px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+}
+
+#one:hover {
+	background: rgba(94, 108, 182, 0.5);
+	cursor: pointer;
+}
+
+#oneText {
+	position: absolute;
+	width: 188px;
+	height: 32px;
+	left: 144px;
+	top: 535px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+#oneNbr {
+	position: absolute;
+	width: 145px;
+	height: 32px;
+	left: 414px;
+	top: 535px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 90%;
+	/* or 20px */
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+	letter-spacing: 0.405em;
+	color: #ffffff;
+}
+
+#two {
+	position: absolute;
+	width: 429px;
+	height: 32px;
+	left: 131px;
+	top: 571px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+}
+
+#two:hover {
+	background: rgba(94, 108, 182, 0.5);
+	cursor: pointer;
+}
+
+#twoText {
+	position: absolute;
+	width: 188px;
+	height: 32px;
+	left: 144px;
+	top: 571px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+#twoNbr {
+	position: absolute;
+	width: 145px;
+	height: 32px;
+	left: 415px;
+	top: 571px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 90%;
+	/* or 20px */
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+	letter-spacing: 0.405em;
+	color: #ffffff;
+}
+
+#three {
+	position: absolute;
+	width: 429px;
+	height: 32px;
+	left: 132px;
+	top: 608px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+}
+
+#three:hover {
+	background: rgba(94, 108, 182, 0.5);
+	cursor: pointer;
+}
+
+#threeText {
+	position: absolute;
+	width: 188px;
+	height: 32px;
+	left: 144px;
+	top: 608px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+#threeNbr {
+	position: absolute;
+	width: 145px;
+	height: 32px;
+	left: 415px;
+	top: 608px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 90%;
+	/* or 20px */
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+	letter-spacing: 0.405em;
+	color: #ffffff;
+}
+
+#four {
+	position: absolute;
+	width: 429px;
+	height: 32px;
+	left: 132px;
+	top: 644px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+}
+
+#four:hover {
+	background: rgba(94, 108, 182, 0.5);
+	cursor: pointer;
+}
+
+#fourText {
+	position: absolute;
+	width: 188px;
+	height: 32px;
+	left: 144px;
+	top: 644px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+#fourNbr {
+	position: absolute;
+	width: 145px;
+	height: 32px;
+	left: 415px;
+	top: 644px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 90%;
+	/* or 20px */
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+	letter-spacing: 0.405em;
+	color: #ffffff;
+}
+
+#five {
+	position: absolute;
+	width: 429px;
+	height: 32px;
+	left: 131px;
+	top: 680px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+}
+
+#five:hover {
+	background: rgba(94, 108, 182, 0.5);
+	cursor: pointer;
+}
+
+#fiveText {
+	position: absolute;
+	width: 188px;
+	height: 32px;
+	left: 144px;
+	top: 680px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+#fiveNbr {
+	position: absolute;
+	width: 145px;
+	height: 32px;
+	left: 414px;
+	top: 680px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 90%;
+	/* or 20px */
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+	letter-spacing: 0.405em;
+	color: #ffffff;
+}
+
+#buttonSave button {
+	position: absolute;
+	width: 266px;
+	height: 28px;
+	left: 213px;
+	top: 730px;
+	background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.58) 100%);
+	border-radius: 4px;
+	color: rgba(255, 255, 255, 1);
+}
+
+#mbr {
+	position: absolute;
+	width: 429px;
+	height: 27px;
+	left: 131px;
+	top: 360px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 12px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+#lineMbr {
+	position: absolute;
+	width: 377px;
+	height: 0px;
+	left: 184px;
+	top: 385px;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+#listeBox {
+	position: absolute;
+	width: 450px;
+	height: 337px;
+	left: 131px;
+	top: 406px;
+	overflow: auto;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 187px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border: 4px solid rgba(0, 0, 0, 0.5);
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+	border: 4px solid rgba(255, 255, 255, 0.8);
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+	background: white;
+}
+
+.playerLine {
+	width: 430px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+	margin-bottom: 6px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.playerLine:hover {
+	background: rgba(94, 108, 182, 0.5);
+	cursor: pointer;
+}
+
+.player {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ffffff;
+	margin-left: 10px;
+}
+
+#buttonList {
+	width: 120px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-right: 10px;
+}
+
+.infoPlayer {
+	width: 20px;
+	height: 20px;
+	padding-top: 1px;
+	transition: transform 200ms ease-in-out;
+	//background: url(/https://cdn.sacul.cloud/v2/vision-cdn/crew/infoPlayer.webp);
+	&:hover:enabled {
+		width: 20px;
+		height: 20px;
+		transform: scale(1.2);
+		//background: url(/https://cdn.sacul.cloud/v2/vision-cdn/crew/infoPlayerHover.webp);
+	}
+	&:disabled {
+		width: 20px;
+		height: 20px;
+		//background: url(/https://cdn.sacul.cloud/v2/vision-cdn/crew/infoPlayer.webp);
+	}
+}
+
+.upPlayer {
+	width: 20px;
+	height: 20px;
+	padding-top: 1px;
+	transition: transform 200ms ease-in-out;
+	//background: url(/https://cdn.sacul.cloud/v2/vision-cdn/crew/upPlayer.webp);
+	&:hover:enabled {
+		width: 20px;
+		height: 20px;
+		transform: scale(1.2);
+		//background: url(/https://cdn.sacul.cloud/v2/vision-cdn/crew/upPlayerHover.webp);
+	}
+	&:disabled {
+		width: 20px;
+		height: 20px;
+		//background: url(/https://cdn.sacul.cloud/v2/vision-cdn/crew/upPlayer.webp);
+	}
+}
+
+.downPlayer {
+	width: 20px;
+	height: 20px;
+	padding-top: 1px;
+	transition: transform 200ms ease-in-out;
+	//background: url(/https://cdn.sacul.cloud/v2/vision-cdn/crew/downPlayer.webp);
+	&:hover:enabled {
+		width: 20px;
+		height: 20px;
+		transform: scale(1.2);
+		//background: url(/https://cdn.sacul.cloud/v2/vision-cdn/crew/downPlayerHover.webp);
+	}
+	&:disabled {
+		width: 20px;
+		height: 20px;
+		//background: url(/https://cdn.sacul.cloud/v2/vision-cdn/crew/downPlayer.webp);
+	}
+}
+
+.kickPlayer {
+	width: 20px;
+	height: 20px;
+	padding-top: 1px;
+	transition: transform 200ms ease-in-out;
+	//background: url(/https://cdn.sacul.cloud/v2/vision-cdn/crew/kickPlayer.webp);
+	&:hover:enabled {
+		width: 20px;
+		height: 20px;
+		transform: scale(1.2);
+		//background: url(/https://cdn.sacul.cloud/v2/vision-cdn/crew/kickPlayerHover.webp);
+	}
+	&:disabled {
+		width: 20px;
+		height: 20px;
+		//background: url(/https://cdn.sacul.cloud/v2/vision-cdn/crew/kickPlayer.webp);
+	}
+}
+
+#veh {
+	position: absolute;
+	width: 429px;
+	height: 27px;
+	left: 131px;
+	top: 363px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+#vehLine {
+	position: absolute;
+	width: 342px;
+	height: 0px;
+	left: 217px;
+	top: 389px;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+#vehBox {
+	position: absolute;
+	width: 450px;
+	height: 144px;
+	left: 131px;
+	top: 406px;
+	overflow: auto;
+}
+
+#hab {
+	position: absolute;
+	width: 429px;
+	height: 27px;
+	left: 131px;
+	top: 550px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+#habLine {
+	position: absolute;
+	width: 328px;
+	height: 0px;
+	left: 230px;
+	top: 574px;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+#habBox {
+	position: absolute;
+	width: 450px;
+	height: 144px;
+	left: 131px;
+	top: 591px;
+	overflow: auto;
+}
+
+.vehLogo {
+	width: 23px;
+	height: 17px;
+	background: url("https://cdn.sacul.cloud/v2/vision-cdn/crew/car.webp");
+}
+
+.vehMap {
+	width: 430px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+	margin-bottom: 6px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.vehMap:hover {
+	border-radius: 4px;
+	background: rgba(94, 108, 182, 0.5);
+	cursor: pointer;
+}
+
+.vehName {
+	width: 188px;
+	height: 28px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	color: #ffffff;
+}
+
+.vehName div {
+	margin-right: 17px;
+	margin-left: 10px;
+}
+
+.pound {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: rgba(255, 101, 101, 0.78);
+	margin-right: 10px;
+}
+
+.propMap {
+	width: 430px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+	margin-bottom: 6px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.propMap:hover {
+	background: rgba(94, 108, 182, 0.5);
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.propName {
+	width: 400px;
+	height: 28px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	color: #ffffff;
+}
+
+.propName div {
+	margin-right: 17px;
+	margin-left: 10px;
+}
+
+.propLogo {
+	width: 19px;
+	height: 19px;
+	background: url("https://cdn.sacul.cloud/v2/vision-cdn/crew/home.webp");
+}

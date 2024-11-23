@@ -1,0 +1,69 @@
+#ascenseur {
+    position: absolute;
+    top: 12%;
+    left: 2%;
+
+    height: 580px;
+    width: 170px;
+    padding: 60px;
+
+    background: url('https://media.discordapp.net/attachments/980005173718040586/1008155949556576297/Image_42x.webp?width=1014&height=676'), #969696;
+    border: 3px solid #85827B;
+
+    .viewer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 125px;
+        width: 100%;
+        margin-bottom: 37.5px;
+
+        background: #21172B 0% 0% no-repeat padding-box;
+        border: 3px solid #85827B;
+        color: #EE190D;
+    }
+
+    .buttons {
+        height: 55%;
+        width: 95%;
+        margin: 0 auto;
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 40px;
+            width: 40px;
+            border-radius: 42.5px;
+            color: #160D19;
+
+            background: #969696 0% 0% no-repeat padding-box;
+            box-shadow: 0px 0px 5px #00000026;
+            border: 2px solid #c9c9c9;
+
+            p {
+                text-align: center;
+                font: normal normal bold 20px/28px Bahnschrift;
+                letter-spacing: 0px;
+                opacity: 1;
+            }
+
+            &:hover {
+                background: #fffdf8 0% 0% no-repeat padding-box;
+                box-shadow: 0px 0px 26px #E0A244BD;
+                border: 2px solid #E0A244;
+                color: #E0A244;
+                cursor: pointer;
+            }
+        }
+
+        .active {
+            background: #fffdf8 0% 0% no-repeat padding-box;
+            box-shadow: 0px 0px 26px #E0A244BD;
+            color: #E0A244;
+            border: 2px solid #E0A244;
+        }
+    }
+}

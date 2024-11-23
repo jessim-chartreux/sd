@@ -1,0 +1,22 @@
+.head_bag_background {
+    position:absolute;
+    cursor: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: #191919;
+    background: -webkit-radial-gradient(center, #111111f9, #000000);
+    background: -moz-radial-gradient(center, #111111f9, #000000);
+    background: radial-gradient(ellipse at center, #111111f9, #000000);
+    transition: ease 0.5s;
+}
+
+.head_bag_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 40vw;
+    font-size: clamp(13px, 1vw, 25px);
+}

@@ -1,0 +1,267 @@
+.Container_habitation {
+	position: relative;
+	height: fit-content;
+	width: 445px;
+	background-color: rgba(0, 0, 0, 0.55);
+	border-radius: 6px 6px 0px 0px;
+	display: flex;
+}
+
+.Container_habitation2 {
+	position: absolute;
+	left: 580px;
+	top: 52px;
+	height: 608px;
+	width: 468px;
+	background-color: rgba(0, 0, 0, 0.55);
+	border-radius: 6px 6px 0px 0px;
+	display: flex;
+}
+
+.text_title {
+	font-family: "Lato", sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+
+.text_adresse {
+	font-family: "Lato", sans-serif;
+	font-size: 24px;
+	color: #badaff;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+}
+
+.text_input_propriete {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.3) 66.32%, rgba(255, 255, 255, 0) 90.68%);
+	color: white;
+	border: none;
+}
+
+.capacity {
+	margin-right: 9.5px;
+}
+
+.habitation {
+	.capacity.selected {
+		background: linear-gradient(180deg, rgba(20, 198, 36, 0.7) 0%, rgba(30, 180, 90, 0.406) 100%) !important;
+	}
+
+	& .MuiSlider-thumb {
+		background: linear-gradient(180deg, rgba(20, 198, 36, 0.7) 0%, rgba(30, 180, 90, 0.406) 100%) !important;
+	}
+
+	& .MuiSlider-track {
+		background: linear-gradient(180deg, rgba(20, 198, 36, 0.7) 0%, rgba(30, 180, 90, 0.406) 100%) !important;
+	}
+}
+
+.garage {
+	.capacity.selected {
+		background: linear-gradient(180deg, rgba(51, 92, 171, 0.9) 0%, rgba(39, 66, 137, 0.558) 100%) !important;
+	}
+
+	& .MuiSlider-thumb {
+		background: linear-gradient(180deg, rgba(51, 92, 171, 0.9) 0%, rgba(39, 66, 137, 0.558) 100%) !important;
+	}
+
+	& .MuiSlider-track {
+		background: linear-gradient(180deg, rgba(51, 92, 171, 0.9) 0%, rgba(39, 66, 137, 0.558) 100%) !important;
+	}
+}
+
+.stockage {
+	.capacity.selected {
+		background: linear-gradient(180deg, rgba(251, 188, 4, 0.9) 0%, rgba(244, 165, 78, 0.504) 100%) !important;
+	}
+
+	& .MuiSlider-thumb {
+		background: linear-gradient(180deg, rgba(251, 188, 4, 0.9) 0%, rgba(244, 165, 78, 0.504) 100%) !important;
+	}
+
+	& .MuiSlider-track {
+		background: linear-gradient(180deg, rgba(251, 188, 4, 0.9) 0%, rgba(244, 165, 78, 0.504) 100%) !important;
+	}
+}
+
+.text_btn_habitation1 {
+	font-family: "Lato", sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+
+.text_btn_habitation2 {
+	font-family: "Lato", sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+
+.text_selection {
+	font-family: "Lato", sans-serif;
+	font-size: 10.5px;
+	color: #ffffff;
+	font-weight: 700;
+	align-self: center;
+}
+
+.text_btn_habitation {
+	font-family: "Lato", sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	font-weight: 700;
+	align-self: center;
+	letter-spacing: 0.5px;
+}
+
+.text_name {
+	font-family: "Lato", sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	font-weight: 700;
+	align-self: center;
+}
+
+.scroll::-webkit-scrollbar {
+	width: 4px;
+}
+
+.scroll::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0.55);
+}
+
+.scroll::-webkit-scrollbar-thumb {
+	background: #ffffff;
+}
+
+.MenuHabitation {
+	margin: 50px 80px;
+	border-radius: 6px;
+	overflow: hidden;
+
+	& input {
+		border-radius: 3px;
+		width: 370px;
+
+		&:focus {
+			background: #5e6cb69e;
+			outline: none;
+		}
+	}
+
+	& .cSlider {
+		background-color: none;
+		width: 380px;
+
+		& .MuiSlider-rail {
+			height: 10px;
+			border-radius: 4px;
+			background: #ffffff3b;
+		}
+
+		& .MuiSlider-track {
+			border: none;
+			height: 10px;
+			border-radius: 4px;
+		}
+
+		& .MuiSlider-thumb {
+			box-shadow: none !important;
+			width: 22px;
+			height: 22px;
+		}
+
+		& .MuiSlider-valueLabelOpen {
+			&:before {
+				display: none;
+			}
+
+			position: absolute;
+			transform: translateY(7px);
+			background-color: transparent;
+		}
+	}
+
+	& .list {
+		height: 500px;
+		background: #0000008c;
+		padding-top: 26px;
+	}
+
+	& .span {
+		font-family: "Lato";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 100%;
+		/* identical to box height, or 12px */
+
+		display: flex;
+		align-items: center;
+		text-align: center;
+
+		color: #ffffff;
+
+		opacity: 0.9;
+	}
+
+	& .listItem {
+		width: 400px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 13px;
+		margin: 10px 0 0 28px;
+		height: 400px;
+		overflow: auto;
+	}
+
+	& .item {
+		width: 117px;
+		height: 117px;
+		display: flex;
+		border-radius: 5px;
+		overflow: hidden;
+		position: relative;
+
+		&.selected:before {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			content: url("https://cdn.sacul.cloud/v2/vision-cdn/icons/selected.webp");
+			justify-content: center;
+			display: flex;
+			align-items: center;
+			background: #5e6cb69e;
+		}
+	}
+
+	& .name {
+		background: #5e6cb69e;
+		background: rgba(94, 108, 182, 0.62);
+		display: flex;
+		height: 15px;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		margin-top: auto;
+		font-family: "Lato";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 11px;
+		line-height: 13px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		white-space: nowrap;
+	}
+}

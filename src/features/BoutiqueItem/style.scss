@@ -1,0 +1,901 @@
+.BoutiqueItem {
+	text-transform: uppercase;
+	border-radius: 12.752px;
+	//background: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/background.webp");
+	background: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/background.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 70vw;
+	height: 57vh;
+	margin: auto;
+	margin-top: 13vh;
+	padding: 20px 40px;
+	scale: 0.9;
+	display: flex;
+
+	& > div {
+		flex: 0.6;
+	}
+
+	& > .Left {
+		display: flex;
+		flex-direction: column;
+		& > h1 {
+			color: #fff;
+			font-family: Lato;
+			font-size: 51.008px;
+			font-style: normal;
+			font-weight: 900;
+			line-height: normal;
+			margin: 0;
+			width: fit-content;
+			&::after {
+				content: "";
+				background: linear-gradient(180deg, #ff7034 0%, #ff2300 100%);
+				width: 60%;
+				height: 0.5vh;
+				display: block;
+			}
+		}
+
+		& > p {
+			color: #fff;
+			font-family: Montserrat;
+			font-size: 25.504px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+			margin: 0;
+			margin-top: 1vh;
+		}
+
+		& > .Variations {
+			margin-top: 2vh;
+			&:first-of-type {
+				margin-top: 5vh;
+			}
+			display: flex;
+			flex-direction: column;
+			& > h3 {
+				color: #fff;
+				font-family: Montserrat;
+				font-size: 21.253px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+				margin: 0;
+			}
+
+			& > input {
+				border-radius: 10px;
+				border: 1px solid rgba(255, 255, 255, 0.5);
+				background: linear-gradient(0deg, rgba(88, 94, 99, 0.35) 0%, rgba(88, 94, 99, 0.35) 100%);
+				color: #fff;
+				font-family: Montserrat;
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 300;
+				line-height: normal;
+				padding: 5px 10px;
+				text-align: center;
+				margin-top: 10px;
+				text-transform: uppercase;
+				width: 50%;
+				&[type="number"] {
+					width: 47px;
+					padding: 5px 0px;
+				}
+				outline: none;
+			}
+
+			& > div {
+				display: flex;
+				flex-wrap: wrap;
+				margin-right: 50px;
+				width: 300px;
+
+				&.scrollable {
+					max-height: 280px;
+					overflow-y: auto;
+				}
+
+				&.custom {
+					width: 250px;
+				}
+				& > .Variation {
+					& > img {
+						width: 80%;
+						margin: auto;
+					}
+
+					display: flex;
+					align-items: center;
+					border-radius: 999px;
+					width: 34px;
+					height: 34px;
+					box-shadow:
+						1px 0px 0px 0px #cfcfcf,
+						0px 1px 0px 0px #cfcfcf,
+						-3px 0px 0px 0px #cfcfcf,
+						0px 0px 0px 3px #cfcfcf;
+					position: relative;
+					filter: drop-shadow(0px 3.4005229473114014px 3.4005229473114014px rgba(0, 0, 0, 0.25));
+					margin: 5px;
+					cursor: pointer;
+					&.Selected,
+					&:hover {
+						transition: 0.1s;
+						box-shadow:
+							1px 0px 0px 0px #6478fe,
+							0px 1px 0px 0px #6478fe,
+							-3px 0px 0px 0px #6478fe,
+							0px 0px 0px 3px #6478fe;
+						scale: 1.1;
+					}
+				}
+			}
+		}
+	}
+
+	& > .Center {
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		& > h3 {
+			color: #fff;
+			font-family: Montserrat;
+			font-size: 21.253px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: normal;
+			text-align: left;
+			max-width: 40vw;
+			&.doubleImage {
+				min-width: 22vw;
+				max-width: 40vw;
+				margin: 75px 0 0 0;
+			}
+			margin: 100px 0 20px 0;
+			& > span {
+				font-weight: 300;
+			}
+		}
+
+		& > .CurrentItem {
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 60%;
+			justify-content: center;
+
+			& > span {
+				margin: 0;
+			}
+			& > div {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				min-width: 15vw;
+				& > img {
+					max-width: 20vw;
+					max-height: 35vh;
+					margin: 10px;
+					&.doubleImage {
+						min-width: 11.7vw;
+						min-height: 24.5vh;
+						&:first-of-type {
+							margin-right: 0;
+						}
+						&:last-of-type {
+							margin-left: 5px;
+						}
+						width: 11.7vw;
+					}
+
+					&.livery {
+						min-width: 22vw;
+						min-height: auto;
+						max-height: 24vh;
+					}
+				}
+			}
+
+			&:not(.livery):not(.doubleImage)::before {
+				content: "";
+				width: 20vw;
+				display: block;
+				z-index: -1;
+				bottom: 5vh;
+				height: 10vh;
+				position: absolute;
+				//background: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/ombre.webp");
+				background: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/ombre.webp");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+			}
+		}
+
+		& > .CustomFields {
+			margin-top: -2vh;
+			width: 70%;
+			display: flex;
+			justify-content: center;
+
+			& > fieldset {
+				display: flex;
+				border: none;
+				align-items: center;
+				max-width: 50%;
+				width: 50%;
+				label {
+					color: #fff;
+					font-family: Montserrat;
+					font-size: 20px;
+					font-style: normal;
+					font-weight: 600;
+					line-height: normal;
+				}
+				input {
+					border-radius: 10px;
+					border: 1px solid rgba(255, 255, 255, 0.5);
+					background: linear-gradient(0deg, rgba(88, 94, 99, 0.35) 0%, rgba(88, 94, 99, 0.35) 100%);
+					color: #fff;
+					font-family: Montserrat;
+					font-size: 20px;
+					font-style: normal;
+					font-weight: 300;
+					line-height: normal;
+					padding: 5px 10px;
+					text-align: center;
+					margin-left: 15px;
+					text-transform: uppercase;
+					width: 100%;
+					&[type="number"] {
+						width: 47px;
+						padding: 5px 0px;
+					}
+					outline: none;
+				}
+			}
+		}
+
+		small {
+			color: #fff;
+			font-family: Montserrat;
+			font-size: 13px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			margin-top: auto;
+			margin-bottom: 25px;
+		}
+
+		& > .bottom {
+			height: 15vh;
+			margin-top: -3vh;
+			width: 100%;
+			text-align: center;
+			position: relative;
+			& > .BuyItem {
+				display: flex;
+				align-items: center;
+				margin-top: auto;
+				justify-content: right;
+				height: 50px;
+				position: absolute;
+				bottom: 0;
+				right: 0;
+
+				& > button {
+					background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.58) 100%);
+					color: #fff;
+					text-align: center;
+					font-family: Montserrat;
+					font-size: 15px;
+					font-style: normal;
+					font-weight: 500;
+					line-height: normal;
+					text-transform: uppercase;
+					padding: 10px 50px;
+					align-items: center;
+					border-radius: 5.174px;
+
+					&:hover {
+						background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.78) 100%);
+						scale: 1.05;
+						transition: 0.3s;
+					}
+				}
+
+				& > p {
+					color: #fff;
+					text-align: center;
+					font-family: Montserrat;
+					font-size: 40px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+					margin-left: 30px;
+					margin-right: 40px;
+					position: relative;
+					// Add a text shadow
+					text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+					&::after {
+						content: "";
+						position: absolute;
+						//background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/icons/logo.webp");
+						background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/vcoin.webp");
+						background-size: contain;
+						background-repeat: no-repeat;
+						width: 55px;
+						height: 55px;
+						top: -3%;
+					}
+				}
+
+				.reduction {
+					.price {
+						color: #fff;
+						text-align: center;
+						font-family: Montserrat;
+						font-size: 30px;
+						font-style: normal;
+						font-weight: 700;
+						line-height: normal;
+						position: relative;
+						margin-left: 60px;
+						margin-bottom: 0px;
+						margin-top: 0px;
+						// Add a text shadow
+						text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+						// line-through text decoration
+						text-decoration-line: line-through;
+					}
+
+					.price2 {
+						background: linear-gradient(180deg, #f4d782 0%, #e2bd55 100%);
+						background-clip: text;
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
+
+						text-align: center;
+						font-family: Montserrat;
+						font-size: 40px;
+						font-style: normal;
+						font-weight: 700;
+						line-height: normal;
+						margin-left: 30px;
+						margin-right: 40px;
+						margin-top: 0px;
+
+						position: relative;
+						// Add a text shadow
+						&::after {
+							content: "";
+							position: absolute;
+							//background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/icons/logo.webp");
+							background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/vcoin.webp");
+							background-size: contain;
+							background-repeat: no-repeat;
+							width: 55px;
+							height: 55px;
+							top: -3%;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	& > .Right {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		& > .CollectionType {
+			display: flex;
+			align-items: center;
+			width: 80%;
+			justify-content: end;
+			& > p {
+				color: #fff;
+				font-family: Montserrat;
+				font-size: 15px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+				margin-right: 10px;
+
+				&:last-of-type {
+					color: #fff;
+					text-align: center;
+					font-family: Montserrat;
+					font-size: 16px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+					padding: 5px 30px;
+					border-radius: 2px;
+				}
+			}
+
+			& > .Premium {
+				background: linear-gradient(180deg, #d850ca 0%, #db6bdd 96.77%);
+			}
+
+			& > .Custom {
+				background: linear-gradient(180deg, #fbdb81 0%, #ffb009 96.77%);
+			}
+		}
+
+		& > .CustomCategories {
+			width: 80%;
+			height: 78%;
+			padding-top: 2px;
+			margin-right: -2vw;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			overflow: auto;
+			// Hide scrollbar for IE, Edge and Firefox
+			-ms-overflow-style: none; /* IE and Edge */
+			scrollbar-width: none; /* Firefox */
+			// Hide scrollbar for Chrome, Safari and Opera
+			&::-webkit-scrollbar {
+				display: none;
+			}
+
+			& > .Category {
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				width: 90%;
+				height: 28%;
+				min-height: 28%;
+				margin: 2px 0;
+				display: flex;
+				align-items: end;
+				justify-content: end;
+				position: relative;
+				cursor: pointer;
+				display: flex;
+				flex-direction: column-reverse;
+
+				& > h4 {
+					color: #fff;
+					text-align: center;
+					font-family: Lato;
+					font-size: 33px;
+					font-style: normal;
+					font-weight: 800;
+					line-height: normal;
+					margin: 0 10px 5px 0;
+				}
+
+				& > p {
+					color: #fff;
+					text-align: center;
+					font-family: Montserrat;
+					font-size: 15px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+					margin: 0 10px -5px 0;
+				}
+
+				&.new {
+					&::before {
+						content: "Nouveaute";
+						position: absolute;
+						top: 2px;
+						left: 2px;
+						border-radius: 8px 0px 5px 0px;
+						background: linear-gradient(180deg, rgba(243, 4, 4, 0.7) 0%, rgba(251, 47, 2, 0.7) 100%);
+						color: #fff;
+						padding: 2px 15px;
+						text-align: center;
+						font-family: Montserrat;
+						font-size: 8px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+				}
+
+				&:hover,
+				&.active {
+					transition: 0.5s;
+					scale: 1.05;
+				}
+			}
+		}
+
+		& > .LiveriesCategories {
+			width: 88%;
+			height: 85%;
+			margin-right: -2vw;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			overflow: auto;
+			// Hide scrollbar for IE, Edge and Firefox
+			-ms-overflow-style: none; /* IE and Edge */
+			scrollbar-width: none; /* Firefox */
+			// Hide scrollbar for Chrome, Safari and Opera
+			&::-webkit-scrollbar {
+				display: none;
+			}
+
+			& > .Category {
+				&::after {
+					//background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/card.webp");
+					background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/card.webp");
+					background-repeat: no-repeat;
+					background-position: center;
+					background-size: cover;
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					z-index: -1;
+					content: "";
+				}
+
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				width: 90%;
+				height: 28%;
+				min-height: 28%;
+				margin: 2px 0;
+				display: flex;
+				align-items: start;
+				justify-content: end;
+				position: relative;
+				cursor: pointer;
+				display: flex;
+				flex-direction: column-reverse;
+
+				& > h4 {
+					color: #fff;
+					text-align: center;
+					font-family: Lato;
+					font-size: 33px;
+					font-style: normal;
+					font-weight: 900;
+					line-height: normal;
+					margin: 0 0 5px 10px;
+				}
+
+				&.new {
+					&::before {
+						content: "Nouveaute";
+						position: absolute;
+						top: 2px;
+						left: 2px;
+						border-radius: 8px 0px 5px 0px;
+						background: linear-gradient(180deg, rgba(243, 4, 4, 0.7) 0%, rgba(251, 47, 2, 0.7) 100%);
+						color: #fff;
+						padding: 2px 15px;
+						text-align: center;
+						font-family: Montserrat;
+						font-size: 8px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+				}
+
+				&:hover,
+				&.active {
+					&::after {
+						transition: 0.3s;
+						scale: 1.05;
+						//background: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/card-hover.webp");
+						background: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/card-hover.webp");
+						background-repeat: no-repeat;
+						background-position: center;
+						background-size: contain;
+					}
+				}
+			}
+		}
+
+		& > .Categories {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 10px;
+			padding-top: 10px;
+			overflow: auto;
+			width: 100%;
+			height: 100%;
+
+			// Hide scrollbar for IE, Edge and Firefox
+			-ms-overflow-style: none; /* IE and Edge */
+			scrollbar-width: none; /* Firefox */
+			// Hide scrollbar for Chrome, Safari and Opera
+			&::-webkit-scrollbar {
+				display: none;
+			}
+
+			& > .Category {
+				//background: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/card.webp");
+				background: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/card.webp");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+				width: 263.452px;
+				min-height: 133.624px;
+				height: 133.624px;
+				margin: 2px 0;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				position: relative;
+				cursor: pointer;
+
+				&::after {
+					content: "";
+					position: absolute;
+					top: auto;
+					right: 1vw;
+					width: 50%;
+					height: 100%;
+					background: radial-gradient(
+						circle,
+						rgba(255, 255, 255, 0.2) 0%,
+						rgba(255, 255, 255, 0) 75%,
+						rgba(255, 255, 255, 0) 100%
+					);
+				}
+
+				&:hover,
+				&.active {
+					transition: 0.3s;
+					scale: 1.05;
+					//background: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/card-hover.webp");
+					background: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/card-hover.webp");
+					background-repeat: no-repeat;
+					background-position: center;
+					background-size: contain;
+					& > img {
+						transition: 0.3s;
+						scale: 1.05;
+					}
+				}
+
+				&.new {
+					&::before {
+						content: "Nouveaute";
+						position: absolute;
+						top: 2px;
+						left: 2px;
+						border-radius: 8px 0px 5px 0px;
+						background: linear-gradient(180deg, rgba(243, 4, 4, 0.7) 0%, rgba(251, 47, 2, 0.7) 100%);
+						color: #fff;
+						padding: 2px 15px;
+						text-align: center;
+						font-family: Montserrat;
+						font-size: 8px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+				}
+
+				& > img {
+					max-width: 4.5vw;
+					max-height: 10.6vh;
+					position: absolute;
+					left: 1.5vw;
+					z-index: 4;
+				}
+
+				& > span {
+					margin-right: 20px;
+					text-align: right;
+					width: 100%;
+					& > h4 {
+						color: #fff;
+						font-family: Lato;
+						font-size: 35px;
+						font-style: normal;
+						font-weight: 800;
+						line-height: normal;
+						margin: 0;
+					}
+					& > p {
+						color: #fff;
+						font-family: Lato;
+						font-size: 21px;
+						font-style: normal;
+						font-weight: 300;
+						line-height: normal;
+						margin: 0;
+					}
+				}
+			}
+		}
+
+		& > .BuyItem {
+			display: flex;
+			align-items: center;
+			margin-top: auto;
+			margin-bottom: 10px;
+			height: 50px;
+
+			& > button {
+				background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.58) 100%);
+				color: #fff;
+				text-align: center;
+				font-family: Montserrat;
+				font-size: 15px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+				text-transform: uppercase;
+				padding: 10px 50px;
+				align-items: center;
+				border-radius: 5.174px;
+
+				&:hover {
+					background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.78) 100%);
+					scale: 1.05;
+					transition: 0.3s;
+				}
+			}
+
+			& > p {
+				color: #fff;
+				text-align: center;
+				font-family: Montserrat;
+				font-size: 40px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				margin-left: 30px;
+				margin-right: 40px;
+				position: relative;
+				// Add a text shadow
+				text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+				&::after {
+					content: "";
+					position: absolute;
+					//background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/icons/logo.webp");
+					background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/vcoin.webp");
+					background-size: contain;
+					background-repeat: no-repeat;
+					width: 55px;
+					height: 55px;
+					top: -3%;
+				}
+			}
+
+			.reduction {
+				.price {
+					color: #fff;
+					text-align: center;
+					font-family: Montserrat;
+					font-size: 30px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+					position: relative;
+					margin-left: 60px;
+					margin-bottom: 0px;
+					margin-top: 0px;
+					// Add a text shadow
+					text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+					// line-through text decoration
+					text-decoration-line: line-through;
+				}
+
+				.price2 {
+					background: linear-gradient(180deg, #f4d782 0%, #e2bd55 100%);
+					background-clip: text;
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+
+					text-align: center;
+					font-family: Montserrat;
+					font-size: 40px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+					margin-left: 30px;
+					margin-right: 40px;
+					margin-top: 0px;
+
+					position: relative;
+					// Add a text shadow
+					&::after {
+						content: "";
+						position: absolute;
+						//background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/icons/logo.webp");
+						background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/vcoin.webp");
+						background-size: contain;
+						background-repeat: no-repeat;
+						width: 55px;
+						height: 55px;
+						top: -3%;
+					}
+				}
+			}
+		}
+	}
+
+	.BackToBoutique {
+		border-radius: 6px;
+		height: 50px;
+		margin: auto 0;
+		width: 90%;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		transition: 0.3s;
+		color: #fff;
+		font-family: Lato;
+		font-size: 15px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+
+		&:hover {
+			transition: 0.3s;
+			font-weight: 700;
+		}
+	}
+
+	.StylizedArrow {
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.753), rgba(71, 71, 71, 0.531));
+		color: white;
+		width: 45px;
+		height: 45px;
+		border-radius: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+
+		&.Rotate {
+			& > svg {
+				transform: rotate(180deg);
+				padding-right: 5px;
+			}
+		}
+
+		svg {
+			height: 25px;
+			width: 25px;
+			margin: auto;
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			inset: 0;
+			border-radius: 50px;
+			padding: 4px;
+			width: 40px;
+			height: 40px;
+			left: 0px;
+			top: -2px;
+			background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(177, 177, 177));
+			-webkit-mask:
+				linear-gradient(#fff 0 0) content-box,
+				linear-gradient(#fff 0 0);
+			-webkit-mask-composite: xor;
+			mask-composite: exclude;
+		}
+
+		&:hover {
+			background: linear-gradient(to bottom, #3d487e, #3d477e);
+		}
+	}
+}

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.ChoixPersonnage {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 100px;
+
+	.menu {
+		background-color: rgba(0, 0, 0, 0.563);
+		width: fit-content;
+		height: 535px;
+		position: relative;
+		width: 450px;
+		border-radius: 5px;
+	}
+
+	.menu__header {
+		overflow: hidden;
+		width: 100%;
+		height: 100px;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+	}
+
+	.menu__header img {
+		width: 100% !important;
+		height: 100px !important;
+		object-fit: cover;
+	}
+
+	.menu__content {
+		display: flex !important;
+		flex-direction: column;
+		padding: 0 20px;
+		height: 435px;
+	}
+
+	.Span {
+		font-family: "Lato";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 12px;
+
+		display: flex;
+		align-items: center;
+		text-align: center;
+
+		color: #ffffff;
+		margin-top: 20px;
+		opacity: 0.9;
+	}
+
+	.List {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		margin-top: 20px;
+	}
+
+	.El {
+		display: flex;
+		background: rgba(255, 255, 255, 0.2);
+		border-radius: 3.21288px;
+		height: 30px;
+		align-items: center;
+		font-family: "Lato";
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+
+				display: flex;
+		align-items: center;
+
+		color: #ffffff;
+
+		opacity: 0.9;
+		text-transform: uppercase;
+		cursor: pointer;
+
+		/* identical to box height, or 19px */
+		& * {
+			display: flex;
+			align-items: center;
+			text-align: center;
+		}
+
+		&:hover {
+			background: rgba(94, 108, 182, 0.5);
+		}
+
+		&.selected {
+			background: rgba(94, 108, 182, 0.5);
+		}
+
+		.Left {
+			width: 30px;
+			height: 60%;
+			display: flex;
+			justify-content: center;
+			margin-right: 10px;
+			border-right: 3px solid rgb(255, 255, 255);
+		}
+	}
+}

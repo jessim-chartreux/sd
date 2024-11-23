@@ -1,0 +1,21 @@
+.fuelstation {
+	position: absolute;
+	left: 1.6%;
+	top: 12%;
+	color: #ffffff;
+
+	&_unit {
+		color: #ffffff33;
+	}
+
+	&_label {
+		font-size: 24px;
+		margin-left: auto !important;
+	}
+
+	&_row {
+		width: 100% !important;
+		display: flex;
+		align-items: center;
+	}
+}

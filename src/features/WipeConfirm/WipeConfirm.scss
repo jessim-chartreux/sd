@@ -1,0 +1,98 @@
+.WipeConfirm {
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.46) 54.69%, rgba(0, 0, 0, 0.19) 100%);
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: #fff;
+	border-radius: 3px 12px;
+	min-width: 30%;
+	max-width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: 0.3s;
+
+	& > h1 {
+		color: #fff;
+		text-transform: uppercase;
+		text-align: center;
+		font-family: Montserrat;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.46) 54.69%, rgba(0, 0, 0, 0.19) 100%);
+		padding: 0.5rem 1.2rem;
+		border-radius: 3px 12px 0px 0px;
+		margin: 0;
+	}
+
+	& > .text {
+		padding: 0.5rem 1.2rem;
+		margin: 0;
+	}
+
+	& > .data {
+		padding: 0.5rem 1.2rem;
+		margin: 0;
+
+		font-family: Montserrat;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		color: #fff;
+	}
+
+	& > .warning {
+		padding: 0.5rem 1.2rem;
+		margin: 0;
+
+		font-family: Montserrat;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		color: #ff8800;
+	}
+
+	& > .buttons {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding: 0.5rem 1.2rem;
+		border-radius: 3px 12px 0px 0px;
+		margin: 0;
+
+		& > button {
+			border: none;
+			color: #fff;
+			padding: 0.5rem 1.2rem;
+			border-radius: 5px;
+			margin: 0;
+			transition: all 0.3s ease-in-out;
+			width: 200px;
+
+			&.confirm {
+				background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.58) 100%);
+
+				&:hover {
+					background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.78) 100%);
+				}
+			}
+
+			&.cancel {
+				background: linear-gradient(180deg, #963c3c 0%, rgba(180, 30, 30, 0.58) 100%);
+
+				&:hover {
+					background: linear-gradient(180deg, #963c3c 0%, rgba(180, 30, 30, 0.78) 100%);
+				}
+			}
+		}
+	}
+}

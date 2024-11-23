@@ -1,0 +1,369 @@
+.OrderConfirmation {
+	width: 70vw;
+	height: 57vh;
+	margin: auto;
+	margin-top: 10vh;
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+	// background: url('/https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/background.webp');
+	background: url("https://cdn.sacul.cloud/v2/vision-cdn/BoutiqueItem/background.webp");
+	background-size: cover;
+	box-sizing: border-box;
+
+	& > * {
+		box-sizing: border-box;
+	}
+
+	& > .Top {
+		width: 100%;
+		flex: 1;
+		padding: 15px 35px;
+		display: flex;
+		justify-content: space-between;
+
+		& > span {
+			& > h1 {
+				margin: 0;
+				color: #fff;
+				text-align: center;
+				width: fit-content;
+				font-family: Lato;
+				font-size: 50px;
+				font-style: normal;
+				font-weight: 900;
+				line-height: normal;
+
+				&::after {
+					content: "";
+					display: block;
+					width: 40%;
+					height: 5px;
+					background: linear-gradient(180deg, #ff7034 0%, #ff2300 100%);
+					margin: 10px;
+				}
+			}
+
+			& > p {
+				color: #fff;
+				font-family: Montserrat;
+				font-size: 15px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				margin-left: 10px;
+			}
+		}
+
+		& > div:not(.orderId) {
+			width: 30%;
+			color: #fff;
+			font-family: Montserrat;
+			font-size: 15.6px;
+			font-style: normal;
+			font-weight: 300;
+			line-height: normal;
+			text-transform: none;
+
+			& > p {
+				font-weight: 600;
+				font-size: 16.9px;
+				display: flex;
+				align-items: center;
+				&::before {
+					content: "";
+					// background: "https://cdn.sacul.cloud/v2/vision-cdn/icons/info.webp');
+					background: url("https://cdn.sacul.cloud/v2/vision-cdn/icons/info.webp");
+					background-size: contain;
+					background-repeat: no-repeat;
+					width: 16px;
+					height: 16px;
+					display: inline-block;
+				}
+			}
+
+			& > ul > li {
+				margin: 20px 0;
+				& > span {
+					font-weight: 600;
+					&::before {
+						content: " ";
+					}
+				}
+			}
+		}
+
+		& > .orderId {
+			display: flex;
+			height: min-content;
+			align-items: center;
+			& > p {
+				color: #fff;
+				font-family: Lato;
+				font-size: 15px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+				&:last-of-type {
+					background: linear-gradient(180deg, #fbdb81 0%, #ffb009 96.77%);
+					font-weight: 800;
+					margin-left: 10px;
+					padding: 5px 60px;
+					border-radius: 5px;
+				}
+			}
+		}
+	}
+
+	& > .Center {
+		width: 100%;
+		flex: 1;
+		text-align: center;
+
+		& > img {
+			width: 20vw;
+			margin: 0 auto;
+			margin-top: -8vh;
+		}
+
+		& > .statusInfo {
+			width: 20vw;
+			height: 20vh;
+			margin: 0 auto;
+			margin-top: -2vh;
+			cursor: pointer;
+
+			&:hover {
+				transform: scale(1.05);
+				transition: 0.3s;
+			}
+
+			&.failed {
+				// background: "https://cdn.sacul.cloud/v2/vision-cdn/OrderConfirmation/failed.webp');
+				background: url("https://cdn.sacul.cloud/v2/vision-cdn/OrderConfirmation/failed.webp");
+				background-size: contain;
+				background-repeat: no-repeat;
+			}
+
+			&.validated {
+				// background: "https://cdn.sacul.cloud/v2/vision-cdn/OrderConfirmation/validated.webp');
+				background: url("https://cdn.sacul.cloud/v2/vision-cdn/OrderConfirmation/validated.webp");
+
+				background-size: contain;
+				background-repeat: no-repeat;
+			}
+		}
+	}
+
+	& > .Bottom {
+		width: 100%;
+		flex: 0.4;
+		display: flex;
+		align-items: center;
+		position: relative;
+
+		& > div {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			margin: 0 auto;
+
+			& > h3 {
+				color: #38dc66;
+				text-align: center;
+				font-family: Montserrat;
+				font-size: 25px;
+				font-style: normal;
+				font-weight: 600;
+				line-height: normal;
+				margin: 0;
+
+				&.failed {
+					color: #ff2929;
+				}
+			}
+
+			& > p {
+				color: #fff;
+				font-family: Montserrat;
+				font-size: 15px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				margin-bottom: 40px;
+			}
+		}
+
+		& > span {
+			flex: 1;
+			color: #fff;
+			font-family: Montserrat;
+			font-size: 15px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			padding: 0 20px;
+
+			&:first-of-type {
+				padding-left: 30px;
+				cursor: pointer;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+
+			&:last-of-type {
+				font-size: 13px;
+				text-transform: none;
+			}
+		}
+
+		& > p {
+			position: absolute;
+			right: 12vh;
+			color: #fff;
+			text-align: center;
+			font-family: Lato;
+			font-size: 40px;
+			font-style: normal;
+			font-weight: 800;
+			line-height: normal;
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			&::after {
+				content: "";
+				// background-image: url('/https://cdn.sacul.cloud/v2/vision-cdn/icons/logo.webp');
+				background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/icons/logo.webp");
+				background-size: 100%;
+				display: inline-block;
+				width: 55px;
+				height: 55px;
+				position: absolute;
+				z-index: 10;
+				top: -2px;
+				right: -50px;
+			}
+		}
+
+		& > button {
+			border-radius: 5.174px;
+			background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.58) 100%);
+			color: #fff;
+			text-align: center;
+			font-family: Montserrat;
+			font-size: 15px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: normal;
+			margin: 20px 0;
+			padding: 10px 0;
+			flex: 0.6;
+			text-transform: uppercase;
+
+			&:hover {
+				background: linear-gradient(180deg, #33963c 0%, rgba(30, 180, 90, 0.78) 100%);
+				scale: 1.05;
+				transition: 0.3s;
+			}
+		}
+	}
+
+	.recapCard {
+		border-radius: 12.51px;
+		background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 77.08%, rgba(255, 255, 255, 0) 100%);
+		width: 20vw;
+		margin: 0 auto;
+		margin-top: -8vh;
+		display: flex;
+
+		& > span {
+			width: 50%;
+			position: relative;
+			& > img {
+				width: 100%;
+				margin: 0;
+			}
+			& > p {
+				margin: 0;
+				margin-top: -4px;
+				padding: 5px;
+				border-radius: 0px 0px 0px 12px;
+				background: linear-gradient(92deg, #ffb518 19.36%, rgba(255, 220, 114, 0.94) 76.76%);
+				color: #fff;
+				text-align: center;
+				font-family: Lato;
+				font-size: 14.4px;
+				font-style: normal;
+				font-weight: 900;
+				line-height: normal;
+			}
+
+			& > h2 {
+				color: #fff;
+				font-family: Montserrat;
+				font-size: 12px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+				text-align: left;
+				padding: 10px;
+				margin-bottom: 1vh;
+			}
+
+			& > fieldset {
+				border: none;
+				display: flex;
+				flex-direction: column;
+				align-items: start;
+				& > p {
+					color: #fff;
+					font-family: Montserrat;
+					font-size: 12px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+					margin: 0;
+				}
+				& > input {
+					width: 50%;
+					border-radius: 1.394px;
+					background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 99.48%);
+					border: none;
+					padding: 3px 5px;
+					color: #fff;
+					text-align: left;
+					font-family: Montserrat;
+					font-size: 10.06px;
+					font-style: normal;
+					font-weight: 600;
+					line-height: normal;
+					text-transform: uppercase;
+				}
+			}
+
+			& > span {
+				display: flex;
+				flex-direction: column;
+				position: absolute;
+				bottom: 10px;
+				right: 10px;
+				& > p {
+					margin: 0;
+					color: #fff;
+					text-align: right;
+					font-family: Lato;
+					font-size: 17.06px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+					&:last-of-type {
+						font-size: 26.59px;
+						font-weight: 800;
+					}
+				}
+			}
+		}
+	}
+}

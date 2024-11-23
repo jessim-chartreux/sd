@@ -1,0 +1,16 @@
+.VisionMenu {
+	max-height: 643px !important;
+	padding-bottom: 22px;
+
+    &-listContainer {
+        min-height: 410px;
+    }
+
+    &-categoryName {
+        margin-bottom: 3px;
+    }
+
+    & .buttonCustom {
+        transform: translateY(10px);
+    }
+}

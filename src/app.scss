@@ -1,0 +1,501 @@
+@use "variables" as *;
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+
+@font-face {
+	font-family: Creattion;
+	src: url("./fonts/creattion.otf") format("opentype");
+}
+
+html,
+body,
+#app,
+#root,
+.main-container {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.hello-i-am-under-the-water {
+	transition: 0.3s;
+	&:hover {
+		rotate: 360deg;
+	}
+}
+
+.main-container.dev-background {
+	// sale con de sacul, c'est moi, tu changes la variabels dans le fichier _variables.scss et ça change le background
+	@if $devMode {
+		background-image: url("https://cdn.sacul.cloud/v2/vision-cdn/background-gameui.webp");
+	}
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 110%;
+}
+
+.dev-route-buttons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: start;
+	flex-wrap: wrap;
+	gap: 10px;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+.dev-route-button {
+	border: 1px solid black;
+	width: 200px;
+	height: 100px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(117, 117, 117, 0.9);
+	color: blue;
+	cursor: pointer;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Regular.ttf");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Rock Salt";
+	src: url("fonts/RockSalt-Regular.ttf");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-Light.ttf") format("truetype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "LuxoraGrotesk";
+	src: url("fonts/LuxoraGrotesk-Regular.woff2") format("woff2");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("fonts/Montserrat-Regular.ttf") format("opentype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Montserrat2";
+	src: url("fonts/Montserrat-Regular.ttf") format("opentype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Rage Italic";
+	src: url("fonts/rage.ttf") format("truetype");
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Southera";
+	src: url("fonts/Southera.ttf") format("truetype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "HavioletaHandwritten";
+	src: url("fonts/HavioletaHandwritten.otf") format("truetype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lexend";
+	src: url("fonts/Lexend-VariableFont_wght.ttf") format("truetype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "ds-digib";
+	src: url("fonts/ds-digib.ttf") format("truetype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Quartz";
+	src: url("fonts/Quartz.ttf") format("truetype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Hacker Argot";
+	src: url("fonts/hacka___.ttf") format("truetype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "OCR-A";
+	text-transform: uppercase;
+	src: url("fonts/OCR-A.ttf") format("truetype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NumberPlate";
+	src: url("fonts/UKNumberPlate.ttf") format("truetype");
+	font-style: normal;
+}
+
+* {
+	user-select: none;
+	font-family: "Poppins", sans-serif;
+}
+
+//for backward compatibility, todo remove this in the future
+.d-flex {
+	display: flex;
+}
+
+.flex-auto {
+	flex: auto;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.justify-content-end {
+	justify-content: flex-end;
+}
+
+.justify-content-evenly {
+	justify-content: space-evenly;
+}
+
+.justify-content-around {
+	justify-content: space-around;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.flex-wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+
+.scaleHover:hover {
+	scale: 1.05;
+}
+
+.scaleHover {
+	transition: 0.3s;
+}
+
+* {
+	font-family: Lato;
+}
+
+.Loading-Container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #00000091;
+
+	.Loading-Text {
+		font-family: Montserrat;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		letter-spacing: 0.05rem;
+		text-transform: uppercase;
+		color: #fff;
+		margin: 0;
+		padding: 5px 15px;
+		width: fit-content;
+	}
+
+	.Loading-Progress {
+		margin-top: 2vh;
+
+		.MuiCircularProgress-root {
+			color: #fff;
+			width: 60px !important;
+			height: 60px !important;
+		}
+	}
+
+	animation: fadein 0.5s;
+	@keyframes fadein {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+}
+
+.Error-Container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #00000091;
+
+	.Error-Text {
+		font-family: Montserrat;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		letter-spacing: 0.05rem;
+		text-transform: uppercase;
+		color: #fff;
+		margin: 0;
+		padding: 5px 15px;
+		width: fit-content;
+	}
+
+	.Error-Buttons {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin-top: 2vh;
+		gap: 2vw;
+
+		.Button {
+			border-radius: 4px;
+			background: rgba(0, 0, 0, 0.55);
+			box-shadow: 0px 2.3711798191070557px 2.3711798191070557px 0px rgba(0, 0, 0, 0.25);
+			font-family: Lato;
+			font-size: 16.598px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			color: white;
+			display: flex;
+			width: 210px;
+			height: 28px;
+			align-items: center;
+			transition: all 0.3s ease-in-out;
+
+			padding: 5px 15px;
+
+			cursor: pointer;
+
+			.Label {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				height: 100%;
+			}
+
+			&:hover {
+				background: rgba(0, 0, 0, 0.8);
+				scale: 1.05;
+			}
+		}
+	}
+
+	animation: fadein 0.5s;
+	@keyframes fadein {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+}
+
+.Maintenance-Container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #00000091;
+
+	.Maintenance-Text {
+		font-family: Montserrat;
+		font-size: 32px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		letter-spacing: 0.05rem;
+		text-transform: uppercase;
+		color: #fff;
+		margin: 0;
+		padding: 5px 15px;
+		width: fit-content;
+	}
+
+	.Maintenance-Subtitle {
+		font-family: Montserrat;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+		letter-spacing: 0.05rem;
+		text-transform: uppercase;
+		color: #fff;
+		margin: 0;
+		padding: 5px 15px;
+		width: fit-content;
+		text-align: center;
+	}
+
+	.Maintenance-Buttons {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin-top: 2vh;
+		gap: 2vw;
+
+		.Button {
+			border-radius: 4px;
+			background: rgba(0, 0, 0, 0.55);
+			box-shadow: 0px 2.3711798191070557px 2.3711798191070557px 0px rgba(0, 0, 0, 0.25);
+			font-family: Lato;
+			font-size: 16.598px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			color: white;
+			display: flex;
+			width: 210px;
+			height: 28px;
+			align-items: center;
+			transition: all 0.3s ease-in-out;
+
+			padding: 5px 15px;
+
+			cursor: pointer;
+
+			.Label {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				height: 100%;
+			}
+
+			&:hover {
+				background: rgba(0, 0, 0, 0.8);
+				scale: 1.05;
+			}
+		}
+	}
+
+	animation: fadein 0.5s;
+	@keyframes fadein {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+}
+
+.ButtonHints {
+	position: fixed;
+	display: flex;
+	right: 20px;
+	bottom: 20px;
+
+	&.Validate {
+		& > div {
+			width: fit-content;
+		}
+
+		.Button {
+			width: fit-content;
+			margin-left: 7px;
+			font-size: 13px;
+			padding: 0px 3px;
+		}
+	}
+
+	& > div {
+		background: rgba(0, 0, 0, 0.55);
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		border-radius: 3px;
+		font-family: "Lato";
+		font-style: normal;
+		font-size: 14px;
+		line-height: 22px;
+		display: flex;
+		align-items: center;
+		height: 22px;
+		color: #ffffff;
+		padding: 0 0 0 10px;
+		margin: 0 10px;
+		opacity: 0.9;
+		justify-content: space-between;
+
+		& .Button {
+			font-family: "Lato";
+			font-style: normal;
+			font-weight: 700;
+			font-size: 16px;
+			display: flex;
+			height: 25px;
+			background: #ffffff;
+			border-radius: 1px;
+			color: #000000;
+			justify-content: center;
+			align-items: center;
+			margin-left: auto;
+
+			padding-left: 10px;
+			padding-right: 10px;
+
+			margin-left: 10px;
+
+			img {
+				width: 15px;
+				height: 15px;
+			}
+		}
+	}
+}

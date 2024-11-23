@@ -1,0 +1,30 @@
+.fuel-container {
+	background-color: #0c2737;
+	margin-top: 26px !important;
+	color: #ffffff;
+	border-radius: 5px;
+	overflow: hidden;
+
+	&_header {
+		background: transparent linear-gradient(180deg, #2d5478 0%, #244059 100%);
+		display: flex;
+		align-items: center;
+		padding: 10px 46px !important;
+
+		&_logo {
+			width: 50px;
+			height: 38px;
+			margin-right: 20px !important;
+		}
+
+		&_title {
+			font-family: Poppins;
+			font-weight: 200;
+			font-size: 16px;
+		}
+	}
+
+	&_content {
+		padding: 30px 46px !important;
+	}
+}

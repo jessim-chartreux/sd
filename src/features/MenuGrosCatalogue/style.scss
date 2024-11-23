@@ -1,0 +1,31 @@
+.MenuGrosCatalogue {
+
+    .VisionMenu-listContainer {
+        max-height: 435px !important;
+        min-height: 435px !important;
+        margin-bottom: 5px;
+    }
+
+    & .VisionMenu {
+        height: auto !important;
+    }
+
+    .overrideBinco.VisionMenu-listContainer {
+        max-height: 445px !important;
+        min-height: 445px !important;
+        width: 442px !important;
+        margin-left: 33px !important;
+    }
+}
+
+.MenuGrosCatalogue.stockEntreprise {
+    & .VisionMenu {
+        height: 752px !important;
+    }
+
+    .VisionMenu-listContainer {
+        max-height: 600px !important;
+        min-height: 400px !important;
+        margin-bottom: 5px;
+    }
+}

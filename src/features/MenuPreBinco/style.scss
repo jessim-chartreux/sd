@@ -1,0 +1,164 @@
+body {
+    .MenuPreBinco {
+        .VisionMenu {
+            height: 572px !important;
+        }
+
+        .big {
+            width: 194px;
+            height: 251px;
+        }
+
+        .small {
+            width: 403px;
+            height: 85.2px;
+        }
+
+        .VisionMenu-boutique {
+            flex-direction: row-reverse;
+            gap: 3px;
+
+            img {
+                height: 13px;
+                width: auto;
+            }
+        }
+
+        .Name {
+            color: #FFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            height: fit-content;
+            padding-bottom: 0;
+        }
+
+        .SubName {
+            color: #FFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            height: fit-content;
+            padding-top: 3px;
+        }
+
+        .VisionMenu-buttonElement {
+            flex-direction: column;
+        }
+
+        .VisionMenu-listContainer {
+            overflow: visible;
+        }
+    }
+
+    .VisionMenu.Premium {
+        .Name {
+            padding-top: 2px;
+        }
+
+        .VisionMenu-listContainer {
+            margin-left: 30px;
+        }
+
+        .VisionMenu-buttonElement {
+            background-position: center;
+        }
+
+        .VisionMenu-boutique span {
+            color: #FFB800;
+        }
+    }
+
+    .VisionMenu.Create {
+        position: relative;
+
+        .CreateContainer {
+            padding: 30px 55px;
+        }
+
+        .Span {
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        input {
+            border-radius: 5px;
+            background: linear-gradient(0deg, rgba(88, 94, 99, 0.24) 0%, rgba(88, 94, 99, 0.24) 100%);
+            outline: none;
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 200;
+            line-height: normal;
+            width: 192px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top: 10px;
+            box-shadow: inset white 0px 1px 1px 0.5px;
+            border: none;
+        }
+
+
+        .Title {
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 200;
+            line-height: normal;
+            margin-top: 40px;
+            position: relative;
+        }
+
+        .Infos {
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 200;
+            line-height: normal;
+            margin-bottom: 170px;
+
+            li {
+                font-family: Montserrat;
+            }
+        }
+
+        .Img {
+            position: absolute;
+            left: -13px;
+            top: 1px;
+        }
+
+        .PremiumText {
+            position: absolute;
+            opacity: 0.9;
+            background: linear-gradient(180deg, #FBBC04 0%, #FBE204 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            font-family: Lato;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            right: 20px;
+            bottom: 20px;
+        }
+    }
+}
+
+.notpremium {
+    background: linear-gradient(180deg, #FBBC04 0%, #FBE204 100%);
+}
